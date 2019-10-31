@@ -22,3 +22,8 @@ AnimationController
 	This waits for new message and add them
 	
 TickerProviderStateMixin	
+
+
+download assets dynamically.
+
+https://medium.com/@danaya/download-assets-dynamically-in-flutter-16c3472a65e5
