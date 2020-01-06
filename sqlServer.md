@@ -14,8 +14,21 @@ https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-editions-and-compone
 Turning on TLS for SQL server.  This provides a bird's eyeview and the terminology used.
 https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/enable-encrypted-connections-to-the-database-engine?view=sql-server-ver15
 
-
 https://docs.microsoft.com/en-us/sql/connect/odbc/using-always-encrypted-with-the-odbc-driver?view=sql-server-ver15
+
+
+Which edition of SQL should you use?  This is a good breakdown.
+localDB is the perfect version for testing and local dev. It even lets you decide which version of SQL server to use, and it is small and fast, with less overhead.  
+Developer edition mimic the enterprise edition, good for non prod.
+And then there are web version, and cloud version for azure.
+
+e.g. sqllocaldb create “instance name” 11.3  
+create version 11.3
+
+Reference:
+https://www.red-gate.com/simple-talk/sql/sql-development/edition-sql-server-best-development-work/
+https://docs.microsoft.com/en-us/sql/tools/sqllocaldb-utility?view=sql-server-ver15  breakdown of the command configuration.
+
 
 
 More SQL tools.
