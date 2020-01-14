@@ -1,0 +1,390 @@
+ExtJS upgrade.
+
+This document provides the daily log I did to upgrade an application that uses ExtJS from version 2.3 to version 3.4
+
+
+
+Files Changed.
+	
+Desktop.jsp
+fix the html syntax to use new syntax
+remove the IE bug
+
+js 
+App.js
+AppColumnModels.js
+AppComponents.js
+AppFunctions.js
+AppObjects.js
+AppStores.js
+AppValidation.js
+
+C:\bin\Tomcat\webapps\ext-3.4.0\examples\desktop\js\
+copied from desktop
+
+Desktop.js  -- from 2.2  use Calvin version. 
+Module.js   -- from 2.2
+StartMenu.js   -- from 2.2
+TaskBar.js   -- from 2.2
+
+C:\bin\Tomcat\webapps\ext-3.4.0\examples\ux
+RowExpander.js  -- from 2.2
+XmlTreeLoader.js   -- from 2.2
+GroupSummary.js  -- from 2.2
+
+
+Ext.ux.plugins.js  -- from 2.2  -- not found in ext3.4
+	This is from an external libraries.  Use existing one.
+
+C:\bin\Tomcat\webapps\ext-2.3.0\examples\form\
+FileUploadField.js  -- from 2.2
+
+change summary: see js directory for files changed to use 3.4 libraries.
+RowExpander.js  -- from 3.4
+XmlTreeLoader.js   -- from 3.4
+GroupSummary.js  -- from 3.4
+Module.js   -- from 3.4
+StartMenu.js   -- from 3.4
+TaskBar.js   -- from 3.4
+
+extjs-
+	copied the adaptor and resources directory.
+	copied the ext-all*.js
+
+Css
+ Directory of C:\bin\Tomcat\webapps\UI\css
+
+17/12/2015  01:49 PM    <DIR>          .
+17/12/2015  01:49 PM    <DIR>          ..
+27/10/2015  01:18 PM               479 custom.css
+20/10/2017  09:32 AM            19,613 desktop.css  -- just copy over.
+27/10/2015  01:18 PM               909 file-upload.css  -- from 2.2
+get it from 
+
+
+17/12/2015  01:49 PM    <DIR>          MUP_Dashboard
+27/10/2015  01:18 PM               534 reports.css
+               4 File(s)         21,535 bytes
+
+ Directory of C:\bin\Tomcat\webapps\UI\css\MUP_Dashboard
+
+17/12/2015  01:49 PM    <DIR>          .
+17/12/2015  01:49 PM    <DIR>          ..
+27/10/2015  01:18 PM            14,278 desktop.css -- from 2.2, is it being used??
+
+
+Errors.
+	
+After the change, a lot of pages do not work. Make them show up first.
+https://www.sencha.com/forum/showthread.php?246181-TypeError-el-is-null-el-el.dom-Ext.getDom(el)-in-ext-all-dev.js-(ligne-19839)
+
+
+--Change the desktop to have Clear desktop only. done.
+-- debug shows the context menu
+	missing js file? or changed the way to call it.
+	-no. need to move the menu declaration within the grid. see menuC_QSW for declaration.
+	
+	files modified to fix context menu.
+	 allocation-win
+	 quota-win
+	 assignment-win
+	 requestbatch-win
+	 event-win
+	 searchcriteria-win
+	 auditlog-win
+	 usage-win
+	 dashboard-win
+	 portfolio-explorer-win
+	 assignable-win
+	 
+	 search other js for similar issues.
+	 allocation-details-win.js
+	 assignable-details-win.js  ?? This have issue. check again.
+	 event-details-win.js 
+	 quota-details-win.js
+	 requestbatch-details-win.js ?? This could have issues. check again. try.  multiple location. might need rework.
+	 searchtmpl-win-basedonAllocation.js 
+	
+-- how to setup windows app in extjs 6.0
+https://www.sencha.com/forum/showthread.php?468671-Anybody-have-an-Extjs-6-0-1-Desktop-example-that-is-just-js
+	
+-- 3.4 added default context menu.
+	disable it somehow.
+	http://anhnguyen.me/2010/02/extjs-how-to-disable-browser-context-menuxt/
+	
+-- running ext 2.3 in IE 9 does not work.
+	err: SCRIPT438: Object doesn't support property or method 'createContextualFragment'
+	
+-- run the code to ext 3.4. rip up the js from ext 2.3, and put it in.
+	
+--remove the old code WebContent\fps??
+
+Nov 2, 2017
+	guid changes.
+	 AppComponents.js, AppStores.js, assignable-win.js, assignment-win.js, usage-win.js
+	Work on merging the change.  assignment-details-win.js for issue, then continue the fix.
+	
+	still point to Desktop.js
+	
+	line in the middle.  
+		causing issue. 
+
+    Updated the desktop.jsp with new header for <DOCTYPE
+	sol: added all the page in Desktop.jsp for testing.
+	test in 
+	
+	IE 7 missing values.
+		portfolio-win.js didn't find the menucontext
+	
+	IE edge. All pages have the lines in the middle.
+	
+		pages are broken.
+			SCRIPT5007: Unable to get property 'dom' of undefined or null reference
+	
+	fix the context menu.
+	// context menu
+    var menuC = new Ext.menu.Menu('mainContext');
+	
+	C:\bin\Tomcat\webapps\ext-3.4.0\examples\ux\gridfilters\menu
+	Context menu causes issues.
+	
+	//remove the tile and cascade.	
+	update desktop.js
+	
+	
+desktop.js
+	fix the context menu.
+	
+	fix the following.
+	Ext.getDoc().on('contextmenu', function(ev) {
+		ev.preventDefault();
+	});
+	
+sample.js
+	init all the modules and pages used.
+	https://stackoverflow.com/questions/17059671/ext-menu-menu-context-menu-is-displayed-only-once-on-right-click-ext-js-4-2
+	
+	var menuC_ASW = new Ext.menu.Menu({
+			name: 'mainContext',
+			scope: this
+			});
+        
+	to limit the scope.
+	--remove the cascade and tile.
+	
+	code to change the Menu.  use replace, regular expression.
+		'mainContext' 
+		{\n\t\t\tname:\'mainContext\',\n\t\t\tscope:this\n\t\t}
+	
+Nov 2, 2017
+	https://en.wikipedia.org/wiki/Quirks_mode
+	<DOCTYPE line determines which browser rendering will be forced to.
+	
+	
+Nov 6, 2017
+
+	extjs using 3.4
+		pages broken.
+		the buttons showing different look and feel.
+
+Nov 7, 2017
+
+		Fix the look and feel of the buttons.
+			Allocation search, test functionality,
+				modify, details, transfer
+				
+				var statusCheckboxGroup__QSW =  gbl_AppStatusCheckboxGroup('Status','status');
+				line 99 in quota-win.js
+				
+		Fix AppComponents.js. Need to add the height of each component.
+		see http://localhost:8090/ext-3.4.0/examples/form/check-radio.html
+		also fix allocation, assignment.
+		
+		need to reorder the page.
+		
+Nov 8, 2017
+		look into modify any issue.
+		clicking search causes the line in the middle. see line in the middle. 
+			tested. might been tied to the btn.gif.
+			showing this cause issue. C:\bin\Tomcat\webapps\ext-3.4.0\resources\images\default\button\btn.gif
+		
+		shadow, modal mode?
+		fake getting data from the backend, and then test the issue.
+		
+		fix clear desktop 
+		css issues in other pages.
+			Fix the clear taskbar issues. See TaskBar.js
+		
+		Search Critera had issues. fix it.
+		
+		Error: Click on Search criteria, do not open.
+		SCRIPT5007: Unable to get property 'dom' of undefined or null reference
+		
+Nov 9, 2017
+		upgrade IE.
+		fix the flex report, and put it together.
+		
+Nov 11, 2017
+		move the flex report into the page.
+		
+Nov 23, 2017
+		The button width does not render well in IE Edge,
+	
+		Need to get rid of the IE bug in the desktop.jsp.
+		if (Ext.isIE) {
+	  Ext.apply(Ext, {
+	    removeNode: function(n){
+	        if (n && n.tagName != 'BODY') {
+	          n.outerHTML = ' ';
+	        }
+	        return;
+	    }
+	  });
+	}
+	
+	none of the choice works.  Need to check the SQL for working criteria.
+	
+Dec 5, 2017
+
+Dashboard: the line in the middle.
+SCRIPT5007: Unable to get property 'style' of undefined or null reference
+
+Dec 8, 2017 
+	dashboard-win.js.  Line show up again.
+	activeTab:0 causes issues
+	reload causes issues.
+	
+	this is a bigger issues for reload the tab. gain perspective causes issue.
+	redesign the dashboard, and fix it. 
+	
+	IE edge uses the Gecko engine. that breaks everything for browser checking.
+	
+	use force IE compatibility to IE9 to make it okay.
+	https://forge.typo3.org/issues/55774
+	https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do
+	https://stackoverflow.com/questions/21881671/ext-isie-return-false-in-ie-11
+	
+	add this in desktop.jsp. This fix it.
+	<meta http-equiv="X-UA-Compatible" content="IE=9" />
+	
+	https://twasink.net/2013/09/08/lessons-learnt-from-a-bug/ check website for upgrading to extjs
+	
+	things a lot slower. 
+	Need to remove the Ext.isIE part.
+	
+	remove the Ext.ie in the desktop.jsp 
+	for the rewrite.
+	
+	Remove Ext.ie section.
+	SCRIPT600: Invalid target element for this operation.
+	File: login.do, Line: 131, Column: 12
+	
+	------------
+	Search Criteria broken.
+	
+	style sheets deprecated for dashboard.
+		can't find the style sheet. investigate and find out.
+		
+	-------
+	update Desktop.jsp to remove unused js file.
+	
+	
+	July 17, 2018.
+		things are broken when I move it to webshpere.
+		
+		IE:
+		uanble to get property 'dom' of undefined or null reference.
+		ext-all-debug-w-comments.js
+		
+		Chrome.
+		Uncaught TypeError: Cannot read property 'dom' of null'
+		ext-all-debug-w-comments.js:17418 Uncaught TypeError: Cannot read property 'dom' of null
+    at sb.applyToMarkup (ext-all-debug-w-comments.js:17418)
+    at sb.Ext.Component [as constructor] (ext-all-debug-w-comments.js:16517)
+    at sb [as constructor] (ext-base-debug.js:247)
+    at sb [as constructor] (ext-base-debug.js:247)
+    at new sb (ext-base-debug.js:247)
+    at sb.createWindow (assignable-win.js:35)
+    at Ext.Element.<anonymous> (Desktop.js:215)
+    at HTMLTableRowElement.h (ext-all-debug-w-comments.js:7254)
+		
+		can't find the parentNode. 
+		Need to add back that code in 
+		
+	The icon each create new Ext.menu.Menu('mainContext');
+	and it blows up on the in the following code.
+	
+	It can't create the menu.
+	
+	applyToMarkup. the el cannot found the dom of its parentNode
+	so, I need to switch back to use it first.
+		
+	They all fail with Ext.menu
+	
+	July 18, 2018 
+		report starts in weird location. Can be opened multiple times.
+		Sync Management are very small for the screen.
+
+	July 19, 2018
+		find my own code to test out the windows layout. http://localhost:8090/parkingUI/Desktop.jsp
+		still running 2.3 and it is faster than 3.4. Not bad, and it is simpler to learn the stuff too.
+		
+		report had issue.
+		items have reloadDataSource with nothing.  messed up closing brackets
+		
+		-- figure out how to add a new icon in the screen.
+			files to be modified. and steps to create it.
+			
+			revisit this to understand the architecture
+			
+			create a new js in window-js
+				make sure the id is identical in multiple place within the file. 
+				id: kicklog-win
+			
+			Desktop.jsp - include the new js as part of the script, and add a link in the bottom as an icon.
+				<dt id="kick-win-shortcut"><a href="#"><img src="./images/s.gif" />	
+			
+			sample.js - add new entry as part of myDesktop.
+			css/desktop.css - add a new icon for the shortcut name or else it wouldn't work.
+			
+			model after applog-win.js
+
+			matched id. but now it won't even appear. adding console.log
+			It did not go to desktop.js at all.
+			Changed it to quota-win-shortcut, and it works fine.  
+			What did I miss? id is missing. it did not go and hit the windows. that's why.
+			I called the id kicklog-win, instead of kick-win, needs to match up with the js filename and the id
+	
+			okay finally got it working. taking longer than I thought.
+	
+	
+		-- Report section.   Billing by Division, or I can't get it to work.
+		   More testing required. Need test cases.
+
+			flex-report might had the same issue in terms of the id.
+		   
+				
+	July 23, 2018 
+		updated all to extjs3.4
+			Add, and checkin modified files first. First batch.
+			Remove old extjs related files.  Second batch.
+			see c:\work\dev\ext34UpgradeImages*.doc
+		done. now 
+			
+--------------------------------------------------
+	extjs 2.3
+			learn the js code, and figure out how things are done.
+			compare to extJS 3.4 library. learn how something are being built.
+	
+			use winmerge or diff on ext-all-debug.js and ext-all-debug-w-comments.js
+			There are multiple changes that I didn't realize.  
+
+	
+	extjs 3.4
+			read the extJS source code, and link to it.
+	
+
+	extjs 6.0
+			figure out the difference and change made. 
+	
+	ext core.
