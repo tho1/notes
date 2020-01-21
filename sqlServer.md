@@ -16,11 +16,36 @@ https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/enable-en
 
 https://docs.microsoft.com/en-us/sql/connect/odbc/using-always-encrypted-with-the-odbc-driver?view=sql-server-ver15
 
-
 Which edition of SQL should you use?  This is a good breakdown.
 localDB is the perfect version for testing and local dev. It even lets you decide which version of SQL server to use, and it is small and fast, with less overhead.  
 Developer edition mimic the enterprise edition, good for non prod.
 And then there are web version, and cloud version for azure.
+
+
+Problems with the TLS setup.
+
+Got connection error:  SSL Provider. The target principal name is incorrect.
+
+
+
+More information about the service accounts.
+SQL server are setup to run on service accounts, and one might been set up to run it on virtual service accounts.
+
+See 
+https://sourcedaddy.com/windows-7/managing-service-accounts.html
+
+https://www.itprotoday.com/security/are-you-using-correct-type-windows-service-account
+
+
+Standalone Managed Service Accounts, Group Managed Service Accounts, Virtual Accounts ( starts with Service or NT Service)
+
+See this on troubleshooting.
+https://blogs.technet.microsoft.com/askds/2009/09/10/managed-service-accounts-understanding-implementing-best-practices-and-troubleshooting/
+
+Also look at this.
+https://developer.ibm.com/answers/questions/343782/why-does-my-odbc-dsn-database-connection-error-wit/
+
+
 
 e.g. sqllocaldb create “instance name” 11.3  
 create version 11.3
