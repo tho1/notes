@@ -65,3 +65,18 @@ https://fishcodelib.com/Database.htm database.net tools.   This also contains lo
 http://www.sqltools.net/ another sql tools. This had the look and feel of PL/SQL developer 
 
 http://squirrel-sql.sourceforge.net/index.php?page=programing This is Java based. 
+
+
+
+Commands.
+
+check whether a user had view and execute right for stored-proc.
+
+select name, 
+    has_perms_by_name(name, 'OBJECT', 'EXECUTE') as has_execute,
+    has_perms_by_name(name, 'OBJECT', 'VIEW DEFINITION') as has_view_definition
+from sys.procedures
+
+Reference: https://stackoverflow.com/questions/13152329/finding-stored-procedures-having-execute-permission
+
+
