@@ -80,3 +80,15 @@ from sys.procedures
 Reference: https://stackoverflow.com/questions/13152329/finding-stored-procedures-having-execute-permission
 
 
+Testing ODBC connection
+There is 32 bit and 64 bit ODBC administrator.
+What I notice is installing the 64 bit version of the data are installed 
+
+Testing an OLE connection.
+Installed the OLE version of Microsoft driver.
+
+It is intalled in C:\windows\SysWow64, and see the attached picture.
+
+In order to test the OLE connection, one can try create an empty file with UDL extension.  and I will open a Data Link properties dialog for one to enter the information.
+
+
