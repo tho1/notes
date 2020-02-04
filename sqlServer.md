@@ -25,6 +25,8 @@ And then there are web version, and cloud version for azure.
 Problems with the TLS setup.
 
 Got connection error:  SSL Provider. The target principal name is incorrect.
+Solution: One needs to enter the fully qualified network name in order to resolve the principal name error.
+
 
 More information about the service accounts.
 SQL server are setup to run on service accounts, and one might been set up to run it on virtual service accounts.
@@ -81,14 +83,14 @@ Reference: https://stackoverflow.com/questions/13152329/finding-stored-procedure
 
 
 Testing ODBC connection
-There is 32 bit and 64 bit ODBC administrator.
-What I notice is installing the 64 bit version of the data are installed 
+There is 32 bit and 64 bit ODBC administrator. 
+What I notice is installing the 64 bit versio will install both 32 and 64 bit drivers.
 
 Testing an OLE connection.
-Installed the OLE version of Microsoft driver.
+Installed the OLE version of Microsoft driver.   See https://www.microsoft.com/en-us/download/details.aspx?id=56730 to download.
 
 It is intalled in C:\windows\SysWow64, and see the attached picture.
 
-In order to test the OLE connection, one can try create an empty file with UDL extension.  and I will open a Data Link properties dialog for one to enter the information.
+In order to test the OLE connection, one can try create an empty file with UDL extension. Click on the file, and it will open a Data Link properties dialog for one to enter the information.
 
 
