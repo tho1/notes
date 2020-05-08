@@ -10,3 +10,8 @@ A fine example is the Winamp desktop audio player that is first release in 1997.
 
 
 What about other UI frameworks that had been in use for a long time?
+
+
+
+Understanding the basics of UI framework. 
+[GET or POST? 11 interview questions that most devs get wrong.] (https://medium.com/javascript-in-plain-english/get-vs-post-are-you-confident-about-the-differences-189562fac0a7)
