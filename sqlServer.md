@@ -94,3 +94,10 @@ It is intalled in C:\windows\SysWow64, and see the attached picture.
 In order to test the OLE connection, one can try create an empty file with UDL extension. Click on the file, and it will open a Data Link properties dialog for one to enter the information.
 
 
+
+#### Check whether a datbase in a SQL server is still in use.
+
+[https://www.mssqltips.com/sqlservertip/3171/identify-sql-server-databases-that-are-no-longer-in-use/](Identify SQL Server databases that are no longer in use)
+
+[https://dba.stackexchange.com/questions/2050/how-can-i-tell-if-a-sql-server-database-is-still-being-used](How can I tell if a SQL Server database is still being used?)
+
