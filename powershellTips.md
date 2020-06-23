@@ -126,6 +126,10 @@ $firstFolder | ForEach-Object {
     }
 }
 
+##Rename multiple files extension in a directory
+
+Get-ChildItem -Path C:\temp\bsarWork\checkCode  -Filter *.inc | Rename-Item -NewName {[System.IO.Path]::ChangeExtension($_.Name, ".dev")}
+
 $secondFolder = Get-ChildItem -Recurse $folder2 | Where-Object { -not $_.PsIsContainer }
 
 $i = 0
