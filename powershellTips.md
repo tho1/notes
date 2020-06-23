@@ -126,7 +126,7 @@ $firstFolder | ForEach-Object {
     }
 }
 
-##Rename multiple files extension in a directory
+# Rename multiple files extension in a directory
 
 Get-ChildItem -Path C:\temp\bsarWork\checkCode  -Filter *.inc | Rename-Item -NewName {[System.IO.Path]::ChangeExtension($_.Name, ".dev")}
 
