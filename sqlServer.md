@@ -23,7 +23,6 @@ And then there are web version, and cloud version for azure.
 
 
 Problems with the TLS setup.
-
 Got connection error:  SSL Provider. The target principal name is incorrect.
 Solution: One needs to enter the fully qualified network name in order to resolve the principal name error.
 
@@ -56,8 +55,7 @@ https://docs.microsoft.com/en-us/sql/tools/sqllocaldb-utility?view=sql-server-ve
 
 
 More SQL tools.
-
-https://www.heidisql.com/  a small SQL tools.
+[a small SQL tool](https://www.heidisql.com)
 
 It mentions connecting to TLS 1.2 in sql server requires MS OLE DBSQL driver.
 https://www.microsoft.com/en-us/download/confirmation.aspx?id=56730
@@ -86,8 +84,8 @@ Testing ODBC connection
 There is 32 bit and 64 bit ODBC administrator. 
 What I notice is installing the 64 bit versio will install both 32 and 64 bit drivers.
 
-Testing an OLE connection.
-Installed the OLE version of Microsoft driver.   See https://www.microsoft.com/en-us/download/details.aspx?id=56730 to download.
+#### iTesting an OLE connection.
+[Installed the OLE version of Microsoft driver](https://www.microsoft.com/en-us/download/details.aspx?id=56730)
 
 It is intalled in C:\windows\SysWow64, and see the attached picture.
 
@@ -101,3 +99,6 @@ In order to test the OLE connection, one can try create an empty file with UDL e
 
 [How can I tell if a SQL Server database is still being used?](https://dba.stackexchange.com/questions/2050/how-can-i-tell-if-a-sql-server-database-is-still-being-used)
 
+
+#### Upsize from Access Database to SQL server
+[When and How to Upsize Microsoft Access Databases to SQL Server](https://www.fmsinc.com/MicrosoftAccess/SQLServerUpsizing/how/index.htm)
