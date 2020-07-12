@@ -7,3 +7,7 @@ https://www.techrepublic.com/article/how-to-use-god-mode-in-windows-10/
 get the windows hardware info.
 
 wmic computersystem get model,name,manufacturer,systemtype
+
+locate system service tag
+
+ wmic bios get serialnumber 
