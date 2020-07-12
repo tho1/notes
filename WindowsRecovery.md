@@ -11,3 +11,6 @@ https://www.howtogeek.com/132428/everything-you-need-to-know-about-refreshing-an
 https://www.pcmag.com/how-to/how-to-revive-windows-10-with-a-recovery-drive
 
 https://www.ubackup.com/windows-10/create-windows-10-recovery-disk-4348.html
+
+
+https://www.youtube.com/watch?v=TpkLNYcpJPM&feature=emb_rel_end Dell reset youtube
