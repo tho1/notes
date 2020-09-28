@@ -9,6 +9,8 @@ https://www.reddit.com/r/archlinux/comments/68jvew/installing_archlinux_in_a_qem
 Running FreeBSD in QEMU 
 https://stackoverflow.com/questions/49656395/how-to-boot-freebsd-image-under-qemu/64027161#64027161
 
+Some notes why people like FreeBSD, compare to linux.
+https://www.over-yonder.net/~fullermd/rants/bsd4linux/01
 
 
 
