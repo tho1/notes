@@ -24,4 +24,6 @@ Cross compiling tutorial
 http://www.kaizou.org/2016/09/boot-minimal-linux-qemu.html  build cross compiler and ARM
 https://www.pierrox.net/cmsms/open-source/clfs.html  
 
-
+Compiling flags related
+http://www.murga-linux.com/puppy/viewtopic.php?search_id=559926887&t=109602  
+Did you know? Toolchain stuff
