@@ -7,9 +7,10 @@ https://sites.google.com/site/4utils/articles/minimal_linux_system/minimal-linux
 https://bl.ocks.org/gdamjan/1f260b58eb9fb1ba62d2234958582405    run a minimal alpine based initramfs in VM machine
 in 5 easy steps
 
+https://gist.github.com/chrisdone/02e165a0004be33734ac2334f215380e  Build and run minimal Linux / Busybox systems in Qemu using initramfs and a kernel
+
 https://medium.com/@clem.boin/creating-a-minimal-kernel-development-setup-using-qemu-and-archlinux-987896954d84  Using QEMU and Arch Linux in QEMU
 http://www.cs.fsu.edu/~langley/CNT5605/2018-Fall/LinuxFromScratch-8.3.html  Using QEMU and Arch Linux
-
 
 https://blog.csdn.net/NOStandby/article/details/103751581  in Chinese, and notes on gdb
 https://blog.csdn.net/h549570564/article/details/102941692/?utm_medium=distribute.pc_relevant.none-task-blog-title-2&spm=1001.2101.3001.4242
@@ -20,7 +21,6 @@ https://www.linuxjournal.com/content/build-custom-minimal-linux-distribution-sou
 https://www.linuxjournal.com/content/what-does-it-take-make-kernel-0
 
 Cross compiling tutorial
-
 http://www.kaizou.org/2016/09/boot-minimal-linux-qemu.html  build cross compiler and ARM
 https://www.pierrox.net/cmsms/open-source/clfs.html  
 
