@@ -11,3 +11,7 @@ https://www.youtube.com/watch?v=jebMZpEmQlQ   LinuxFest Northwest 2016: Why Pupp
 
 Accessing the NTFS aka Windows partition with read write access.
 Needs to turn off the hiberante during shutdown and reboot, in order for the Linux to have write access to the Windows system.
+
+
+http://murga-linux.com/puppy/viewtopic.php?p=794748#794748   Fatdog contributed SFS
+http://murga-linux.com/puppy/viewtopic.php?t=105329          Fatdog ISO builder
