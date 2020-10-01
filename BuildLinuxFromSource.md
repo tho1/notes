@@ -27,3 +27,6 @@ https://www.pierrox.net/cmsms/open-source/clfs.html
 Compiling flags related
 http://www.murga-linux.com/puppy/viewtopic.php?search_id=559926887&t=109602  
 Did you know? Toolchain stuff
+
+
+http://murga-linux.com/puppy/viewtopic.php?t=105964 Which C library is the kernel compiled against?  Compile Kernel and the C library
