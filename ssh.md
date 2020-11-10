@@ -26,3 +26,6 @@ https://www.liberiangeek.net/2014/07/enable-ssh-key-logon-disable-password-passw
 https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html
 
 https://linuxconfig.org/how-to-install-and-configure-dropbear-on-linux
+
+setting up dropbear
+https://linuxconfig.org/how-to-install-and-configure-dropbear-on-linux
