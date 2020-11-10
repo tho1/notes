@@ -29,3 +29,6 @@ https://linuxconfig.org/how-to-install-and-configure-dropbear-on-linux
 
 setting up dropbear
 https://linuxconfig.org/how-to-install-and-configure-dropbear-on-linux
+
+wireguard. 
+alternative to openvpn
