@@ -25,10 +25,23 @@ https://www.liberiangeek.net/2014/07/enable-ssh-key-logon-disable-password-passw
 
 https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html
 
-https://linuxconfig.org/how-to-install-and-configure-dropbear-on-linux
-
-setting up dropbear
-https://linuxconfig.org/how-to-install-and-configure-dropbear-on-linux
 
 wireguard. 
 alternative to openvpn
+
+
+setting up dropbear server and client
+https://linuxconfig.org/how-to-install-and-configure-dropbear-on-linux
+
+dropbear had its own client called dbclient
+
+To generate the private key
+$ dropbearkey -t rsa -s 4096 -f key
+
+To genrate the public key
+$ dropbearkey -y -f key | grep ^ssh-rsa > key_public
+
+https://developer.ridgerun.com/wiki/index.php?title=Dropbear#How_to_get_Dropbear_public_and_private_keys_in_target_manually
+
+Putty setup
+https://devops.ionos.com/tutorials/use-ssh-keys-with-putty-on-windows/
