@@ -45,3 +45,5 @@ https://developer.ridgerun.com/wiki/index.php?title=Dropbear#How_to_get_Dropbear
 
 Putty setup
 https://devops.ionos.com/tutorials/use-ssh-keys-with-putty-on-windows/
+
+https://superuser.com/questions/8077/how-do-i-set-up-ssh-so-i-dont-have-to-type-my-password
