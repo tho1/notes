@@ -47,3 +47,29 @@ Putty setup
 https://devops.ionos.com/tutorials/use-ssh-keys-with-putty-on-windows/
 
 https://superuser.com/questions/8077/how-do-i-set-up-ssh-so-i-dont-have-to-type-my-password
+
+
+
+OPENSSL for windows platform.
+Go to https://curl.se/windows/ and get the windows binary.
+
+
+https://stackoverflow.com/questions/19441155/how-to-create-a-self-signed-certificate-for-a-domain-name-for-development?noredirect=1&lq=1   create self signed certificate in IIS
+
+
+
+Tomcat related.
+
+https://superuser.com/questions/747377/enable-tls-1-1-and-1-2-for-clients-on-java-7
+https://stackoverflow.com/questions/9749339/does-tomcat-support-tls-v1-2
+
+openssl s_client -connect localhost:8443 -tls1_1
+openssl s_client -connect localhost:8443 -tls1_2
+
+
+https://medium.com/the-new-control-plane/generating-self-signed-certificates-on-windows-7812a600c2d8
+https://stackoverflow.com/questions/19441155/how-to-create-a-self-signed-certificate-for-a-domain-name-for-development?noredirect=1&lq=1  good example on multiple wildcard domain.
+
+https://stackoverflow.com/questions/7580508/getting-chrome-to-accept-self-signed-localhost-certificate?noredirect=1&lq=1
+
+become your own CA. another good example.
