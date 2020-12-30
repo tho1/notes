@@ -9,6 +9,6 @@ Step 1
 [url-rewrite download](https://www.iis.net/downloads/microsoft/url-rewrite)
 
 Step 2 see
-1.[IIS Redirect HTTP to HTTPS](https://www.namecheap.com/support/knowledgebase/article.aspx/9953/38/iis-redirect-http-to-https/) 
-2.[mod rewrite](https://hostadvice.com/how-to/how-to-enable-mod_rewrite-on-iis/)
-3.[URL rewrite](https://www.cyotek.com/blog/installing-the-url-rewrite-module-into-internet-information-services)
+1. [IIS Redirect HTTP to HTTPS](https://www.namecheap.com/support/knowledgebase/article.aspx/9953/38/iis-redirect-http-to-https/) 
+2. [mod rewrite](https://hostadvice.com/how-to/how-to-enable-mod_rewrite-on-iis/)
+3. [URL rewrite](https://www.cyotek.com/blog/installing-the-url-rewrite-module-into-internet-information-services)
