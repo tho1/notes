@@ -52,18 +52,23 @@ This setup worked for me.
 18. go to C:\bin\apache-tomcat-9.0.41\logs\isapi_redirect.log to debug for issue. 
 
     
-```    
+    
 snippet of server.xml
+```
 <Connector protocol="AJP/1.3" port="9009"
            redirectPort="8443" secretRequired="false" />
+```
 
 
 setclasspath.bat
+```
 #Java 1.8
 set JAVA_HOME=C:\bin\Java\jdk1.8.0_221
 exit /b 0
+```
 
 isapi_redirect.properties
+```
 # needs to use 32 bit isapi_redirect.dll as tomcat is 32 bit, and JDK is 32 bit.
 extension_uri=/jakarta/isapi_redirect.dll
 
@@ -78,24 +83,27 @@ worker_file=C:\bin\apache-tomcat-9.0.41\conf\workers.properties
 
 # Full path to the uriworkermap.properties file
 worker_mount_file=C:\bin\apache-tomcat-9.0.41\conf\uriworkermap.properties
+```
 
 worker.properties
-
+```
 worker.list=tomcat01
 worker.tomcat01.type=ajp13
 worker.tomcat01.host=127.0.0.1
 worker.tomcat01.port=9009
+```
 
 uriworkermap.properties
+```
 /*=tomcat01
 /examples/*=tomcat01
 /admin/*=tomcat01
 /manager/*=tomcat01
 /host-manager/*=tomcat01
-
+```
 
 web.config in C:\bin\apache-tomcat-9.0.41\isapi
-
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <system.webServer>
