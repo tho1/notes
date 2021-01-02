@@ -45,7 +45,7 @@ This setup worked for me.
 12. Click on the handler mapping at "virtual directory" level, and click "edit feature permission" on right hand side. Enable "execute" bit.
 13. Look for ISAPI-dll, if not there, click Add Script Map. Request Path: *.jsp Executable: C:\bin\apache-tomcat-9.0.41\isapi\isapi_redirect.dll, and Name: JSP.
 14. Add Script Map. Request Path: *.dll Executable: C:\bin\apache-tomcat-9.0.41\isapi\isapi_redirect.dll, and Name: ISAPI-dll.
-14. Go to application of your website. Enable 32-bit applications to true, and set .NET CLR version to v2.0
+14. Go to application pool of your website. Enable 32-bit applications to true, and set .NET CLR version to v2.0
 15. IIS might complain it cannot access the dll file. Go to the directory C:\bin\apache-tomcat-9.0.41\isapi, and right click properties, security tab. grant full control to Authenticated Users, IUSR, DefaultAppPool
 16. Go to servers.xml of tomcat and update the AJP connector with the following entry.  port had the match the value in worker.properties, and the  secretRequired="false" for this tomcat version
 17. restart tomcat and IIS.
