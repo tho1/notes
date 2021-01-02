@@ -52,7 +52,7 @@ This setup worked for me.
 18 go to C:\bin\apache-tomcat-9.0.41\logs\isapi_redirect.log to debug.
 
     
-    
+```    
 snippet of server.xml
 <Connector protocol="AJP/1.3" port="9009"
            redirectPort="8443" secretRequired="false" />
@@ -105,3 +105,4 @@ web.config in C:\bin\apache-tomcat-9.0.41\isapi
         </handlers>
     </system.webServer>
 </configuration>
+```
