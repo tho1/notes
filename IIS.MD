@@ -49,7 +49,7 @@ This setup worked for me.
 15. IIS might complain it cannot access the dll file. Go to the directory C:\bin\apache-tomcat-9.0.41\isapi, and right click properties, security tab. grant full control to Authenticated Users, IUSR, DefaultAppPool
 16. Go to servers.xml of tomcat and update the AJP connector with the following entry.  port had the match the value in worker.properties, and the  secretRequired="false" for this tomcat version
 17. restart tomcat and IIS.
-18 go to C:\bin\apache-tomcat-9.0.41\logs\isapi_redirect.log to debug.
+18. go to C:\bin\apache-tomcat-9.0.41\logs\isapi_redirect.log to debug for issue. 
 
     
 ```    
