@@ -2,7 +2,7 @@
 busybox topics
 
 ```
-# crate the symlinks for the busybox tools
+# create the symlinks for the busybox tools
 ./busybox --list|./busybox xargs -n1 ./busybox ln -s busybox
 ```
 
