@@ -60,7 +60,7 @@ https://superuser.com/questions/8077/how-do-i-set-up-ssh-so-i-dont-have-to-type-
 ### Windows binary
 
 OPENSSL for windows platform.
-Go to https://curl.se/windows/ and get the windows binary. look for openssl binary.
+Go to https://curl.se/windows/ and get the windows binary. look for openssl binary. Make sur to match the 32 or 64 bit with your OS. 64 bit can use 32 bit binary
 
 
 ### IIS related
@@ -73,6 +73,8 @@ https://stackoverflow.com/questions/19441155/how-to-create-a-self-signed-certifi
 
 https://superuser.com/questions/747377/enable-tls-1-1-and-1-2-for-clients-on-java-7
 https://stackoverflow.com/questions/9749339/does-tomcat-support-tls-v1-2
+
+
 
 ```
 openssl s_client -connect localhost:8443 -tls1_1
@@ -88,8 +90,8 @@ become your own CA. another good example.
 
 ### httpd related
 
-1. (authentication failed)[https://serverfault.com/questions/578336/authentication-failed-user-not-found-in-active-directory]
-2. (Authentication failed user not found in active directory)[https://serverfault.com/questions/431290/svn-authentication-with-ldap-and-active-directory]
+1. [authentication failed](https://serverfault.com/questions/578336/authentication-failed-user-not-found-in-active-directory)
+2. [Authentication failed user not found in active directory])https://serverfault.com/questions/431290/svn-authentication-with-ldap-and-active-directory)
 
 Extract the certificate from the site
 ```
