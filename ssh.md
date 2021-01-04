@@ -33,6 +33,8 @@ alternative to openvpn
 setting up dropbear server and client
 https://linuxconfig.org/how-to-install-and-configure-dropbear-on-linux
 
+
+
 dropbear had its own client called dbclient
 
 To generate the private key
@@ -58,14 +60,15 @@ https://stackoverflow.com/questions/19441155/how-to-create-a-self-signed-certifi
 
 
 
-Tomcat related.
+### Tomcat related.
 
 https://superuser.com/questions/747377/enable-tls-1-1-and-1-2-for-clients-on-java-7
 https://stackoverflow.com/questions/9749339/does-tomcat-support-tls-v1-2
 
+```
 openssl s_client -connect localhost:8443 -tls1_1
 openssl s_client -connect localhost:8443 -tls1_2
-
+```
 
 https://medium.com/the-new-control-plane/generating-self-signed-certificates-on-windows-7812a600c2d8
 https://stackoverflow.com/questions/19441155/how-to-create-a-self-signed-certificate-for-a-domain-name-for-development?noredirect=1&lq=1  good example on multiple wildcard domain.
@@ -73,3 +76,14 @@ https://stackoverflow.com/questions/19441155/how-to-create-a-self-signed-certifi
 https://stackoverflow.com/questions/7580508/getting-chrome-to-accept-self-signed-localhost-certificate?noredirect=1&lq=1
 
 become your own CA. another good example.
+
+### httpd related
+
+1. (authentication failed)[https://serverfault.com/questions/578336/authentication-failed-user-not-found-in-active-directory]
+2. (Authentication failed user not found in active directory)[https://serverfault.com/questions/431290/svn-authentication-with-ldap-and-active-directory]
+
+Extract the certificate from the site
+```
+openssl s_client -connect your.ldap.host:636 2>&1 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p'
+```
+
