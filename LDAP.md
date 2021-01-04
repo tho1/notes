@@ -7,6 +7,12 @@ LDAP notes.
 4. [Check AD is up](https://docs.microsoft.com/en-us/troubleshoot/windows-server/identity/enable-ldap-over-ssl-3rd-certification-authority)
 
 
+### general stuff
+
+1. [Find name of Active Directory domain controller](https://serverfault.com/questions/78089/find-name-of-active-directory-domain-controller?rq=1)
+2. [How to authenticate Linux accounts against an Active Directory and mount a Windows share on login?](https://serverfault.com/questions/135396/how-to-authenticate-linux-accounts-against-an-active-directory-and-mount-a-windo?noredirect=1&lq=1)
+3. [How can I find out what AD groups I'm a member of?](https://serverfault.com/questions/111650/how-can-i-find-out-what-ad-groups-im-a-member-of?rq=1)
+
 
 ### apache httpd related
 
