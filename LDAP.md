@@ -22,3 +22,34 @@ LDAP notes.
 4. [SVN Authentication with LDAP and Active Directory](https://serverfault.com/questions/431290/svn-authentication-with-ldap-and-active-directory)
 5. [Authentication failed user not found in active directory](https://serverfault.com/questions/578336/authentication-failed-user-not-found-in-active-directory)
 6. [https://serverfault.com/questions/735347/svn-edge-not-authenticating-correctly-with-domain-controller](SVN Edge not authenticating correctly with domain controller)
+
+
+### AD related
+Binding With GetObject and ADsGetObject
+
+https://docs.microsoft.com/en-us/windows/win32/adsi/binding-with-getobject-and-adsgetobject
+https://docs.microsoft.com/en-us/windows/win32/api/iads/ne-iads-ads_authentication_enum
+
+Recipe 14.2 Encrypting LDAP Traffic with SSL, TLS, or Signing
+http://etutorials.org/Server+Administration/Active+Directory.+Windows+server+2003+Windows+2000/Chapter+14.+Security+and+Authentication/Recipe+14.2+Encrypting+LDAP+Traffic+with+SSL+TLS+or+Signing/
+
+LDAP URLS
+https://ldap.com/ldap-urls/
+
+How can i format an LDAP Filter that includes special characters? ('Classic' ASP)
+https://stackoverflow.com/questions/20094875/how-can-i-format-an-ldap-filter-that-includes-special-characters-classic-asp
+
+OpenDSObject("LDAP://domain",u,p,...) and get employeeID attribute
+https://www.tek-tips.com/viewthread.cfm?qid=1512832
+
+http://www.rlmueller.net/ADOAltCredentials.htm alternate credentials good example
+
+
+
+Handling ADODB connections in classic ASP
+https://stackoverflow.com/questions/3770017/handling-adodb-connections-in-classic-asp
+
+User Page: Richard Mueller
+https://social.technet.microsoft.com/wiki/contents/articles/31616.user-page-richard-mueller.aspx
+
+https://gallery.technet.microsoft.com/PowerShell-Script-to-b7c247db  powershell 
