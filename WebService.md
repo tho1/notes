@@ -50,7 +50,10 @@
 * Mockito
 
 
+
 * [discuss the technology with the programming languages](https://www.clariontech.com/blog/5-best-technologies-to-build-microservices-architecture) 
+* https://github.com/mfornos/awesome-microservices
+
 
 ### .NET based
 * [Creating a simple data-driven CRUD microservice](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/data-driven-crud-microservice)
@@ -62,7 +65,7 @@
 * [Micronaut](https://docs.micronaut.io/latest/guide/index.html)  
 * [Dropwizard](https://www.dropwizard.io/en/stable/getting-started.html) use Jetty, Jackson , Jersey and other common 
 * [Eclipse MicroProfile](https://wiki.eclipse.org/MicroProfile/Implementation) CDI, JAX-RS, JSON-P, Config, Metrics
-* [Spring Boot ]() 
+* [Spring Boot ](https://spring.io/blog/2015/07/14/microservices-with-spring) 
 
 ### Python based 
 * [Building a Microservice in Python](https://sonusharma-mnnit.medium.com/building-a-microservice-in-python-ff009da83dac)
