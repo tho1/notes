@@ -14,7 +14,6 @@
 ### Salesforce
 * http://www.proquestit.com/techies/salesforce-soap-vs-restful-web-services/
 
-
 ### 
 * https://en.wikipedia.org/wiki/Overview_of_RESTful_API_Description_Languages
 
@@ -34,12 +33,24 @@
 * [microservices vs soa](https://www.jrebel.com/blog/microservices-vs-soa) keyword: loose coupling
 
 
+* https://www.jrebel.com/blog/performance-problems-with-microservices
+* https://www.overops.com/blog/5-ways-to-not-f-up-your-microservices-in-production/
+* https://dzone.com/articles/challenges-in-implementing-microservices
+* https://www.datacenters.com/news/challenges-in-transitioning-to-microservices
+
 * https://www.guru99.com/microservices-interview-questions.html
 * https://hackr.io/blog/microservices-interview-questions
 * https://www.knowledgehut.com/interview-questions/microservices
 * https://www.fullstack.cafe/blog/microservices-interview-questions
 
+### testing tools
+* [Pact] (docs.pacts.io) testing tool
+* Wiremock
+* Hysrix 
+* Mockito
 
+
+* [discuss the technology with the programming languages](https://www.clariontech.com/blog/5-best-technologies-to-build-microservices-architecture) 
 
 ### .NET based
 * [Creating a simple data-driven CRUD microservice](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/data-driven-crud-microservice)
@@ -52,6 +63,19 @@
 * [Dropwizard](https://www.dropwizard.io/en/stable/getting-started.html) use Jetty, Jackson , Jersey and other common 
 * [Eclipse MicroProfile](https://wiki.eclipse.org/MicroProfile/Implementation) CDI, JAX-RS, JSON-P, Config, Metrics
 * [Spring Boot ]() 
+
+### Python based 
+* [Building a Microservice in Python](https://sonusharma-mnnit.medium.com/building-a-microservice-in-python-ff009da83dac)
+
+### Ocaml based
+https://github.com/inhabitedtype/ocaml-webmachine
+https://ocsigen.org/home/intro.html  web framework
+
+### Go based
+
+
+### Apache
+Spark, CXF, Camel, Thrift, Ignite
 
 ## Service Mesh
 ### What is Service Mesh?  An infrastructure layer which handles the inter-service communication in a microservice architecture. Service mesh reduces the complexity associated with a microservice architecture and provides lot of the functionalities like: Load balancing. Service discovery.
