@@ -68,10 +68,13 @@
 * [Building a Microservice in Python](https://sonusharma-mnnit.medium.com/building-a-microservice-in-python-ff009da83dac)
 
 ### Ocaml based
-https://github.com/inhabitedtype/ocaml-webmachine
-https://ocsigen.org/home/intro.html  web framework
+* https://github.com/inhabitedtype/ocaml-webmachine
+* https://ocsigen.org/home/intro.html  web framework
 
 ### Go based
+
+### C based
+https://developers.redhat.com/blog/2020/08/27/developing-micro-microservices-in-c-on-red-hat-openshift/
 
 
 ### Apache
