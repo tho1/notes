@@ -50,3 +50,4 @@ https://www.codeproject.com/Articles/8488/Accessing-LDAP-User-list-using-VB-NET
 https://www.codeproject.com/Questions/439810/authenticate-user-in-LDAP
 https://www.codeproject.com/Questions/526055/LDAPplususerplusAuthenticationplususingplusDirecto
 https://www.codeproject.com/Articles/5011/Apply-Single-Sign-On-to-your-application
+https://stackoverflow.com/questions/34600846/ldap-vb-net-simple-query
