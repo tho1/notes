@@ -43,3 +43,10 @@ How can i format an LDAP Filter that includes special characters? ('Classic' ASP
 
 * [Handling ADODB connections in classic ASP
 ](https://stackoverflow.com/questions/3770017/handling-adodb-connections-in-classic-asp)
+
+
+### VB.NET connect
+https://www.codeproject.com/Articles/8488/Accessing-LDAP-User-list-using-VB-NET
+https://www.codeproject.com/Questions/439810/authenticate-user-in-LDAP
+https://www.codeproject.com/Questions/526055/LDAPplususerplusAuthenticationplususingplusDirecto
+https://www.codeproject.com/Articles/5011/Apply-Single-Sign-On-to-your-application
