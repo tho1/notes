@@ -102,9 +102,25 @@ openssl s_client -connect your.ldap.host:636 2>&1 | sed -ne '/-BEGIN CERTIFICATE
 ### Add certificate in Windows
 Self signed certificate might run into the problem saying 
 
+In IE
 ```
 Your PC doesn’t trust this website’s security certificate. 
 Error Code: DLG_FLAGS_INVALID_CA
+```
+
+In Chrome
+```
+NET::ERR_CERT_AUTHORITY_INVALID
+```
+
+Microsoft Edge.  Same error as Chrome.  They use the same framework or code. :-)
+```
+Error Code: DLG_FLAGS_INVALID_CA
+```
+
+Firefox
+``` 
+Error code: MOZILLA_PKIX_ERROR_SELF_SIGNED_CERT
 ```
 
 Most people would click on install certificate by clicking on the install certificate button.  Could be the user don't hav enought right to add the certificate.
