@@ -98,3 +98,18 @@ Extract the certificate from the site
 openssl s_client -connect your.ldap.host:636 2>&1 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p'
 ```
 
+
+### Add certificate in Windows
+Self signed certificate might run into the problem saying 
+
+```
+Your PC doesn’t trust this website’s security certificate. 
+Error Code: DLG_FLAGS_INVALID_CA
+```
+
+Most people would click on install certificate by clicking on the install certificate button.  Could be the user don't hav enought right to add the certificate.
+
+1. Login in as administrator, and cmd as adminstrator
+2. start mmc
+3. click add Snap in, certificates, and select whole machine.
+4. Right click, All Tasks, import and add the certificate to trusted certificate store
