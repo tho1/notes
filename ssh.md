@@ -113,7 +113,7 @@ In Chrome
 NET::ERR_CERT_AUTHORITY_INVALID
 ```
 
-Microsoft Edge.  Same error as Chrome.  They use the same framework or code. :-)
+Microsoft Edge.  Same error as IE.  They are built by the same company. :-)
 ```
 Error Code: DLG_FLAGS_INVALID_CA
 ```
