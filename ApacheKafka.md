@@ -7,3 +7,9 @@ https://blog.csdn.net/ddonking/article/details/81912250?ops_request_misc=&reques
 * ```kafka-server-start.sh config/server.properties``` - start kafka
 * ```gps | grep Kafka``` check the Kafka process is running
 
+
+### Kafka heat sheets
+* https://github.com/naveen1512/apache-kafka-commands-cheat-sheet
+* https://github.com/lensesio/kafka-cheat-sheet
+* https://gist.github.com/alexnoz/5aaa7446374a2aca4302968fc69e08fd
+* https://gist.github.com/sahilsk/d2a6ec384f5f2333e3fef40a581a97e1
