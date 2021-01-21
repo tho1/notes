@@ -11,9 +11,14 @@ https://blog.csdn.net/ddonking/article/details/81912250?ops_request_misc=&reques
 * ```gps | grep Kafka``` check the Kafka process is running
 
 ### terminology 
-* topics
-* 
-
+* cluster - contain multiple topics
+* topics - contain multiple partition
+* batch - collecteion of messages produced for the same partition and topic. Sometimes  compressed together
+* message - contain key and body
+* producer
+* consumer
+* brokers - part of a cluster, and one of the broker acts as cluster controller
+* stream - a single topic store certain class of data.
 
 
 ### Kafka cheat sheets
