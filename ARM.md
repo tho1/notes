@@ -1,4 +1,7 @@
 
+###
+* [ARM architecture](https://en.wikipedia.org/wiki/ARM_architecture)
+* [MicroArchitecture](https://en.wikipedia.org/wiki/List_of_ARM_microarchitectures)
 
 ### Another company building server motherboard using ARM cpu.  Wonder how it competes with AWS graviton processors
 
@@ -10,8 +13,9 @@
 ### Opinion on WinTel with respect to ARM
 * [Good analysis of wintel to Apple Silicon](https://mondaynote.com/apple-silicon-the-passing-of-wintel-79a5ef66ad2b)
 * [Apple Silicon](https://mondaynote.com/apple-silicon-at-wwdc-b37264343971)
+* [Windows 10 on ARM](https://docs.microsoft.com/en-us/windows/uwp/porting/apps-on-arm)
+
 
 ### amazon version of ARM
 * [64-bit Arm Neoverse core](https://aws.amazon.com/ec2/graviton/)    
 * [Amazon's Arm-based Graviton2 Against AMD and Intel: Comparing Cloud Compute](https://www.anandtech.com/show/15578/cloud-clash-amazon-graviton2-arm-against-intel-and-amd)
-
