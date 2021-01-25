@@ -15,3 +15,5 @@ There are so many javascript libraries.  Doesn't mean to be a know it all.  Here
 
 * https://jstutorial.medium.com/how-i-designed-an-animated-book-store-with-javascript-jquery-and-css-86251724ae91
 * https://beforesemicolon.medium.com/50-javascript-best-practice-rules-to-write-better-code-86ce731311d7
+* https://github.com/Sathish2905/javascript_interview_questions
+
