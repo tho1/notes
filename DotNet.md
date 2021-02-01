@@ -19,5 +19,5 @@ https://www.accuwebhosting.com/web-hosting/asp-net-hosting
 #### DotNet Core
 
 #### Command Line
-csc.exe -- compiler csc.exe /platform:x86 /nologo /out:"~0.exe" %0
-ilasm.exe -- ilasm.exe /out yourexe.exe
+* csc.exe -- compiler ```csc.exe /platform:x86 /nologo /out:"~0.exe" %0```
+* ilasm.exe -- ```ilasm.exe /out yourexe.exe```
