@@ -21,3 +21,10 @@ https://www.accuwebhosting.com/web-hosting/asp-net-hosting
 #### Command Line
 * csc.exe -- compiler ```csc.exe /platform:x86 /nologo /out:"~0.exe" %0```
 * ilasm.exe -- ```ilasm.exe /out yourexe.exe```
+
+#### asp.net empty template.
+asp.net empty template. Keeping things simple.
+
+https://www.c-sharpcorner.com/article/setting-up-mvc-core-3-0-application-with-empty-template/
+https://dzone.com/articles/setting-up-an-mvc-core-31-application-with-an-empt
+https://docs.servicestack.net/templates-aspnet-empty
