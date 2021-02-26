@@ -30,6 +30,12 @@ LDAP notes.
 
 * [Recipe 14.2 Encrypting LDAP Traffic with SSL, TLS, or Signing]http://etutorials.org/Server+Administration/Active+Directory.+Windows+server+2003+Windows+2000/Chapter+14.+Security+and+Authentication/Recipe+14.2+Encrypting+LDAP+Traffic+with+SSL+TLS+or+Signing/)
 
+* [Install DSQuery software for Windows Server 2016](http://portal.sivarajan.com/2016/10/windows-server-2016active-directorypart1.html)
+* [DSQuery Example](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc725702(v=ws.11))
+* [Windows 7 dsquery](https://stackoverflow.com/questions/8514599/windows-7-powershell-cannot-find-dsquery-and-dsget)
+* [LDAP Search with PowerShell – Find-LdapObject](https://activedirectoryfaq.com/2015/02/ldap-search-powershell-find-ldapobject/) useful search examples
+
+
 LDAP URLS
 * [LDAP URLS](https://ldap.com/ldap-urls/)  General LDAP info.
 
