@@ -34,6 +34,10 @@ LDAP notes.
 * [DSQuery Example](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc725702(v=ws.11))
 * [Windows 7 dsquery](https://stackoverflow.com/questions/8514599/windows-7-powershell-cannot-find-dsquery-and-dsget)
 * [LDAP Search with PowerShell – Find-LdapObject](https://activedirectoryfaq.com/2015/02/ldap-search-powershell-find-ldapobject/) useful search examples
+* [LDAP search with good examples](https://theitbros.com/ldapsearch/)
+* [Querying Windows Active Directory server using ldapsearch from command line](https://stackoverflow.com/questions/22224465/querying-windows-active-directory-server-using-ldapsearch-from-command-line)
+* [Search Active Directory with Ldapsearch](https://tylersguides.com/guides/search-active-directory-ldapsearch/#:~:text=It%20is%20fairly%20common%20to,search%20Active%20Directory%20with%20ldapsearch.)
+* [How To Search LDAP using ldapsearch (With Examples)](https://devconnected.com/how-to-search-ldap-using-ldapsearch-examples/)
 
 
 LDAP URLS
