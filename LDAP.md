@@ -38,7 +38,7 @@ LDAP notes.
 * [Querying Windows Active Directory server using ldapsearch from command line](https://stackoverflow.com/questions/22224465/querying-windows-active-directory-server-using-ldapsearch-from-command-line)
 * [Search Active Directory with Ldapsearch](https://tylersguides.com/guides/search-active-directory-ldapsearch/#:~:text=It%20is%20fairly%20common%20to,search%20Active%20Directory%20with%20ldapsearch.)
 * [How To Search LDAP using ldapsearch (With Examples)](https://devconnected.com/how-to-search-ldap-using-ldapsearch-examples/)
-
+* [Powershell example](http://www.jaapbrasser.com/wp-content/uploads/2012/11/Adsisearcher-Examples.txt)
 
 LDAP URLS
 * [LDAP URLS](https://ldap.com/ldap-urls/)  General LDAP info.
