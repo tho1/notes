@@ -14,6 +14,8 @@ The following are the list of books to get started.
 * Professional Linux Kernel Architecture
 * User Mode Linux
 * Intel V3 Intel 64 and IA-32 Architectures Software Developer’s Manual Volume 3
+* [Linux insides](https://github.com/0xAX/linux-insides) This is an education site of the Linux kernel 
+
 
 Caveat.  When one is reading the books mentioned above, one need to keep in mind the Linux kernel version it is written against.  Linux kernel are always been updated to support new hardware, fixing bugs, or new way to control and administer the underlying hardware.  Therefore, use the book as an introduction to the underlying concepts, and read the code for understanding.
 
