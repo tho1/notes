@@ -61,3 +61,12 @@ https://www.codeproject.com/Questions/439810/authenticate-user-in-LDAP
 https://www.codeproject.com/Questions/526055/LDAPplususerplusAuthenticationplususingplusDirecto
 https://www.codeproject.com/Articles/5011/Apply-Single-Sign-On-to-your-application
 https://stackoverflow.com/questions/34600846/ldap-vb-net-simple-query
+
+### C# connect
+* [LDAP Search utility](https://www.codeproject.com/Articles/1212134/LDAP-Search-Utility)
+* [query ldap using ](https://stackoverflow.com/questions/6452531/querying-an-ldap)]
+* [manage objects](https://docs.microsoft.com/en-us/troubleshoot/windows-server/identity/directory-service-manage-objects)
+
+### commandline using dsquery
+* [list users](https://serverfault.com/questions/49405/command-line-to-list-users-in-a-windows-active-directory-group)
+* [search using dsquery](https://serverfault.com/questions/27223/command-line-active-directory-query-email-address-for-username)
