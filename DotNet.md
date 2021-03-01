@@ -2,9 +2,10 @@ Dot Net notes.
 
 
 [.Net core](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)  is a rework of .Net version 4, with leaner libraries.
+[.NET Core vs ASP.NET Core](https://stackoverflow.com/questions/44136118/net-core-vs-asp-net-core)   Note: ASP.NET Core 3 and higher now depend on .NET Core and can no longer be used on .NET Framework. 
 
-Version history.
 
+Version history of .NET
 1. Version 1.0 - the initial version of ASP.NET, contemporaneously released alongside Visual Studio.NET.
 2. Version 1.1 - As the next significant version, 1.1 was released alongside Windows server 2003 and Visual Studio.NET 2003. Various supplemental features were added, such as the automatic validation of input as well as important mobile controls.
 3. Version 2.0 was released in tandem with Visual Web Developer Express, Visual Studio 2005 and SQL Server 2005. As a major release, it contained a plethora of additional features, such as GridView, FormView, and DetailsView data controls, alongside navigation and login controls, master pages, and a vast quantity of other additions. Notably, this version was the first to include the now crucial 64-bit processor support.
@@ -28,3 +29,11 @@ asp.net empty template. Keeping things simple.
 https://www.c-sharpcorner.com/article/setting-up-mvc-core-3-0-application-with-empty-template/
 https://dzone.com/articles/setting-up-an-mvc-core-31-application-with-an-empt
 https://docs.servicestack.net/templates-aspnet-empty
+
+### excel 
+* [Call dll from Excel](https://docs.microsoft.com/en-us/office/client-developer/excel/how-to-access-dlls-in-excel)
+
+
+### ASP code analyzer
+* [ASP Code Analyzer](https://www.codeproject.com/Articles/11010/ASP-Code-Analyzer)
+* [Classic Asp Web Service Problem](https://stackoverflow.com/questions/618621/classic-asp-web-service-problem?rq=1)
