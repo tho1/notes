@@ -37,3 +37,6 @@ https://docs.servicestack.net/templates-aspnet-empty
 ### ASP code analyzer
 * [ASP Code Analyzer](https://www.codeproject.com/Articles/11010/ASP-Code-Analyzer)
 * [Classic Asp Web Service Problem](https://stackoverflow.com/questions/618621/classic-asp-web-service-problem?rq=1)
+
+### ASHx handler
+* [web or file handler](https://www.c-sharpcorner.com/uploadfile/prathore/what-is-an-ashx-file-handler-or-web-handler/)
