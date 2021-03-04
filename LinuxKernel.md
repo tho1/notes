@@ -24,3 +24,11 @@ Another good place for information is the doc directory in the Linux kernel.  It
 
 Comparison to other operating systems
 Linux Kernel is different from Windows Kernel, Apple MacOS, and the FreeBSD, as all of them had different designs.
+
+
+
+### Kernel parameters
+This provides some notes on passing the video modes. 
+
+* https://www.systutorials.com/configuration-of-linux-kernel-video-mode/
+* https://linuxhint.com/set_screen_resolution_linux_kernel_boot/
