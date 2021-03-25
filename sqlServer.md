@@ -102,3 +102,19 @@ In order to test the OLE connection, one can try create an empty file with UDL e
 
 #### Upsize from Access Database to SQL server
 [When and How to Upsize Microsoft Access Databases to SQL Server](https://www.fmsinc.com/MicrosoftAccess/SQLServerUpsizing/how/index.htm)
+
+#### Check which service account is the SQL server running in.
+[How to find out the account(s) under which the sql server is running?
+](https://dba.stackexchange.com/questions/110900/how-to-find-out-the-accounts-under-which-the-sql-server-is-running/110901)
+SELECT  DSS.servicename,
+        DSS.startup_type_desc,
+        DSS.status_desc,
+        DSS.last_startup_time,
+        DSS.service_account,
+        DSS.is_clustered,
+        DSS.cluster_nodename,
+        DSS.filename,
+        DSS.startup_type,
+        DSS.status,
+        DSS.process_id
+FROM    sys.dm_server_services AS DSS;
