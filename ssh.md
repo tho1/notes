@@ -74,8 +74,6 @@ https://stackoverflow.com/questions/19441155/how-to-create-a-self-signed-certifi
 https://superuser.com/questions/747377/enable-tls-1-1-and-1-2-for-clients-on-java-7
 https://stackoverflow.com/questions/9749339/does-tomcat-support-tls-v1-2
 
-
-
 ```
 openssl s_client -connect localhost:8443 -tls1_1
 openssl s_client -connect localhost:8443 -tls1_2
@@ -129,3 +127,12 @@ Most people would click on install certificate by clicking on the install certif
 2. start mmc
 3. click add Snap in, certificates, and select whole machine.
 4. Right click, All Tasks, import and add the certificate to trusted certificate store
+
+
+### SVN Authentication with LDAP and Active Directory
+https://serverfault.com/questions/431290/svn-authentication-with-ldap-and-active-directory
+
+### Tomcat related.
+https://stackoverflow.com/questions/21833732/configure-truststore-in-tomcat
+https://stackoverflow.com/questions/7885785/using-openssl-to-get-the-certificate-from-a-server
+
