@@ -70,3 +70,7 @@ https://stackoverflow.com/questions/34600846/ldap-vb-net-simple-query
 ### commandline using dsquery
 * [list users](https://serverfault.com/questions/49405/command-line-to-list-users-in-a-windows-active-directory-group)
 * [search using dsquery](https://serverfault.com/questions/27223/command-line-active-directory-query-email-address-for-username)
+
+
+### LDAP connection via Java.
+* [LDAP: error code 49 - 80090308: LdapErr: DSID-0C0903A9, comment: AcceptSecurityContext error, data 52e, v1db1](https://stackoverflow.com/questions/31411665/ldap-error-code-49-80090308-ldaperr-dsid-0c0903a9-comment-acceptsecurityc)
