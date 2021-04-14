@@ -5,7 +5,7 @@ LDAP notes.
 2. ldp ldap connection tool that comes with window
 3. AD Explorer, part of sysinternals
 4. [Check AD is up](https://docs.microsoft.com/en-us/troubleshoot/windows-server/identity/enable-ldap-over-ssl-3rd-certification-authority)
-
+5. [LDAP Bind errors listing](https://ldapwiki.com/wiki/Common%20Active%20Directory%20Bind%20Errors)
 
 ### general stuff
 
@@ -21,14 +21,14 @@ LDAP notes.
 3. Password mismatch. Check whether you need the LDAP bind to get it to work.
 4. [SVN Authentication with LDAP and Active Directory](https://serverfault.com/questions/431290/svn-authentication-with-ldap-and-active-directory)
 5. [Authentication failed user not found in active directory](https://serverfault.com/questions/578336/authentication-failed-user-not-found-in-active-directory)
-6. [https://serverfault.com/questions/735347/svn-edge-not-authenticating-correctly-with-domain-controller](SVN Edge not authenticating correctly with domain controller)
+6. [SVN Edge not authenticating correctly with domain controller](https://serverfault.com/questions/735347/svn-edge-not-authenticating-correctly-with-domain-controller)
 
 
 ### AD related
 * [binding with getobject and adsgetobject](https://docs.microsoft.com/en-us/windows/win32/adsi/binding-with-getobject-and-adsgetobject)
 * [ne iads ads_authentication_enum](https://docs.microsoft.com/en-us/windows/win32/api/iads/ne-iads-ads_authentication_enum)
 
-* [Recipe 14.2 Encrypting LDAP Traffic with SSL, TLS, or Signing]http://etutorials.org/Server+Administration/Active+Directory.+Windows+server+2003+Windows+2000/Chapter+14.+Security+and+Authentication/Recipe+14.2+Encrypting+LDAP+Traffic+with+SSL+TLS+or+Signing/)
+* [Recipe 14.2 Encrypting LDAP Traffic with SSL, TLS, or Signing](http://etutorials.org/Server+Administration/Active+Directory.+Windows+server+2003+Windows+2000/Chapter+14.+Security+and+Authentication/Recipe+14.2+Encrypting+LDAP+Traffic+with+SSL+TLS+or+Signing/)
 
 * [Install DSQuery software for Windows Server 2016](http://portal.sivarajan.com/2016/10/windows-server-2016active-directorypart1.html)
 * [DSQuery Example](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc725702(v=ws.11))
