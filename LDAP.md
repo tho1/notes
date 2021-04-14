@@ -43,8 +43,7 @@ LDAP notes.
 LDAP URLS
 * [LDAP URLS](https://ldap.com/ldap-urls/)  General LDAP info.
 
-* [
-How can i format an LDAP Filter that includes special characters? ('Classic' ASP)](https://stackoverflow.com/questions/20094875/how-can-i-format-an-ldap-filter-that-includes-special-characters-classic-asp\)
+* [How can i format an LDAP Filter that includes special characters? ('Classic' ASP)](https://stackoverflow.com/questions/20094875/how-can-i-format-an-ldap-filter-that-includes-special-characters-classic-asp)
 
 * [OpenDSObject("LDAP://domain",u,p,...) and get employeeID attribute
 ](https://www.tek-tips.com/viewthread.cfm?qid=1512832)
