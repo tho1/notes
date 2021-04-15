@@ -19,3 +19,11 @@ Here are some common registry values added to registry.  See
 ### ODBC clients setup
 * Oracle also provide a driver for Windows application. see https://docs.oracle.com/database/121/ADFNS/adfns_odbc.htm#ADFNS1118
 
+
+### sqlplus
+* sqlplus username@instance
+* To turn on logging in sqlplus
+* spool spoolfile.log
+* SQL> set echo on
+* SQL> set serveroutput on form word_wrapped;
+
