@@ -40,3 +40,7 @@ https://docs.servicestack.net/templates-aspnet-empty
 
 ### ASHx handler
 * [web or file handler](https://www.c-sharpcorner.com/uploadfile/prathore/what-is-an-ashx-file-handler-or-web-handler/)
+
+
+### DLL
+[Embedding DLLs in a compiled executable](https://stackoverflow.com/questions/189549/embedding-dlls-in-a-compiled-executable?rq=1)
