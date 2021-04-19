@@ -14,7 +14,7 @@ Assembly for DOS
 Software optimization
 * [Software optimization](https://www.agner.org/optimize/?e=0#testp)
 
-Assembly syntax.
+###Assembly syntax.
 
 There are 2 major one. Intel and AT&T syntax.  Most of the assembler use the Intel syntax for Windows based system,  AT&T syntax used in UNIX environment 
 See https://stackoverflow.com/questions/972602/limitations-of-intel-assembly-syntax-compared-to-att 
@@ -24,9 +24,13 @@ Good explanation of AT&T syntax https://stackoverflow.com/questions/4193827/ques
 
 A lot of application had dependency in C library.  https://stackoverflow.com/questions/21290997/is-it-possible-to-convert-c-to-asm-without-link-libc-on-linux?noredirect=1&lq=1  One can ask the compiler to generate the assembly equivalent of the code for educational purpose.
 
-NASM
+###NASM
 https://cs.lmu.edu/~ray/notes/nasmtutorial/
 https://liberoscarcelli.net/courses/reverse-engineering/beginners/reverse-engineering-for-beginners/
+[NASM x86 assembly language](https://asmtutor.com/) 
+[NASM examples](http://libra.cs.virginia.edu/~aaron/08-nasm/nasmexamples.html)
+[Another one](https://www.tutorialspoint.com/assembly_programming/index.htm)
+
 
 
 ### fasm
