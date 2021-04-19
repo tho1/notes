@@ -11,3 +11,7 @@ This page contains some of the useful links about Java technology that I had col
 [Configuring Spring and JTA without full Java EE] (https://spring.io/blog/2011/08/15/configuring-spring-and-jta-without-full-java-ee/)
 
 [Chapter 6. Transactions and concurrency control] (https://docs.jboss.org/hibernate/orm/5.0/userguide/en-US/html/ch06.html)
+
+### Java Streams
+
+[How to Use Java Streams, Explained](https://medium.com/capital-one-tech/how-to-use-java-streams-explained-a2836e3a75f2)
