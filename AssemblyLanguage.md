@@ -23,3 +23,6 @@ Some real life optimization. https://stackoverflow.com/questions/25078285/replac
 Good explanation of AT&T syntax https://stackoverflow.com/questions/4193827/questions-about-att-x86-syntax-design?rq=1
 
 A lot of application had dependency in C library.  https://stackoverflow.com/questions/21290997/is-it-possible-to-convert-c-to-asm-without-link-libc-on-linux?noredirect=1&lq=1  One can ask the compiler to generate the assembly equivalent of the code for educational purpose.
+
+NASM
+https://cs.lmu.edu/~ray/notes/nasmtutorial/
