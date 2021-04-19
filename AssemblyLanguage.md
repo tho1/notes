@@ -26,3 +26,8 @@ A lot of application had dependency in C library.  https://stackoverflow.com/que
 
 NASM
 https://cs.lmu.edu/~ray/notes/nasmtutorial/
+https://liberoscarcelli.net/courses/reverse-engineering/beginners/reverse-engineering-for-beginners/
+
+
+### 
+[FASM/C++ VS2015 Linking static library](https://www.reddit.com/r/learnprogramming/comments/4zjyrt/fasmc_vs2015_linking_static_library/)
