@@ -76,3 +76,7 @@ https://stackoverflow.com/questions/34600846/ldap-vb-net-simple-query
 
 ### Turn on LDAP debugging in Windows to trace the issue.  This is for Windows only.
 * [https://docs.microsoft.com/en-us/troubleshoot/windows-server/identity/turn-on-debug-logging-ldap-client](https://docs.microsoft.com/en-us/troubleshoot/windows-server/identity/turn-on-debug-logging-ldap-client)
+
+It needs to use logman a command line tool to capture the log, and also update the registry entry to get the value.
+```HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\ldap\Tracing\<ProcessName>```
+Also see this link https://docs.microsoft.com/en-us/dynamics-nav/how-to--use-logman-to-collect-event-trace-data to use logman to collect data.
