@@ -32,3 +32,7 @@ This provides some notes on passing the video modes.
 
 * https://www.systutorials.com/configuration-of-linux-kernel-video-mode/
 * https://linuxhint.com/set_screen_resolution_linux_kernel_boot/
+
+
+### Profiling source code in Linux
+* https://stackoverflow.com/questions/375913/how-can-i-profile-c-code-running-on-linux
