@@ -72,4 +72,7 @@ https://stackoverflow.com/questions/34600846/ldap-vb-net-simple-query
 
 
 ### LDAP connection via Java.
-* [LDAP: error code 49 - 80090308: LdapErr: DSID-0C0903A9, comment: AcceptSecurityContext error, data 52e, v1db1](https://stackoverflow.com/questions/31411665/ldap-error-code-49-80090308-ldaperr-dsid-0c0903a9-comment-acceptsecurityc)
+* [LDAP: error code 49 - 80090308: LdapErr: DSID-0C0903A9, comment: AcceptSecurityContext error, data 52e, v1db1](https://stackoverflow.com/questions/31411665/ldap-error-code-49-80090308-ldaperr-dsid-0c0903a9-comment-acceptsecurityc)  The issue I ran into is there is binding error.  Check the LDAP URL for possible issues.
+
+### Turn on LDAP debugging in Windows to trace the issue.  This is for Windows only.
+* [https://docs.microsoft.com/en-us/troubleshoot/windows-server/identity/turn-on-debug-logging-ldap-client](https://docs.microsoft.com/en-us/troubleshoot/windows-server/identity/turn-on-debug-logging-ldap-client)
