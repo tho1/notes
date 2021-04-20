@@ -2,7 +2,10 @@ This file is an endeavour to look at some company that goes out of certain indus
 Looking back at history is an interesting way to study how certain technology mature, and turn into something no one expected.
 
 
-Apple Printers
+### Apple Printers
 
 * [Why doesn't Apple build a printer?](https://www.quora.com/Why-doesnt-Apple-build-a-printer) 
 * [Why Apple got out of the laser printer business](https://talk.tidbits.com/t/why-apple-got-out-of-the-laser-printer-business/4707)
+
+### Apple Bandai Pippin
+* [Apple Bandai Pippin](https://en.wikipedia.org/wiki/Apple_Bandai_Pippin)
