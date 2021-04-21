@@ -9,3 +9,6 @@ Looking back at history is an interesting way to study how certain technology ma
 
 ### Apple Bandai Pippin
 * [Apple Bandai Pippin](https://en.wikipedia.org/wiki/Apple_Bandai_Pippin)
+
+### Mac Pro upgrade
+* [Mac Pro Upgrade guide](http://blog.greggant.com/posts/2018/05/07/definitive-mac-pro-upgrade-guide.html)
