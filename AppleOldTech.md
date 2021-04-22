@@ -12,3 +12,9 @@ Looking back at history is an interesting way to study how certain technology ma
 
 ### Mac Pro upgrade
 * [Mac Pro Upgrade guide](http://blog.greggant.com/posts/2018/05/07/definitive-mac-pro-upgrade-guide.html)
+
+
+### 32 bit apps
+```mdfind "kMDItemExecutableArchitectures == '*i386*' && kMDItemExecutableArchitectures != '*x86*'"```
+
+from https://apple.stackexchange.com/questions/314460/how-to-identify-32bit-applications-on-macos-without-running-each-one
