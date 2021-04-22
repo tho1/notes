@@ -22,3 +22,9 @@ Android code search
 ### Understanding build layer and other concepts.
 * https://source.android.com/setup/develop/new-device#build-layers
 * https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds
+
+
+### Oneplus related
+* https://forum.xda-developers.com/f/oneplus-6t-roms-kernels-recoveries-other-dev.8261/
+* https://github.com/0ctobot/neutrino_kernel_oneplus_sdm845
+* https://androidfilehost.com/?w=files&flid=287218
