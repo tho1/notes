@@ -34,7 +34,9 @@ https://liberoscarcelli.net/courses/reverse-engineering/beginners/reverse-engine
 
 
 ### fasm
-[FASM/C++ VS2015 Linking static library](https://www.reddit.com/r/learnprogramming/comments/4zjyrt/fasmc_vs2015_linking_static_library/)
-https://github.com/gwoplock/ExOS
-https://www.github.com/RinkuruAi/XBASIC
+* [FASM/C++ VS2015 Linking static library](https://www.reddit.com/r/learnprogramming/comments/4zjyrt/fasmc_vs2015_linking_static_library/)
+* [eXos](https://github.com/gwoplock/ExOS)
+* [XBasic](https://www.github.com/RinkuruAi/XBASIC)
+* [Manual](https://flatassembler.net/docs.php?article=manual)
+* [FAQ](https://board.flatassembler.net/topic.php?t=2530)
 
