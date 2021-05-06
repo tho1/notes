@@ -39,4 +39,5 @@ https://liberoscarcelli.net/courses/reverse-engineering/beginners/reverse-engine
 * [XBasic](https://www.github.com/RinkuruAi/XBASIC)
 * [Manual](https://flatassembler.net/docs.php?article=manual)
 * [FAQ](https://board.flatassembler.net/topic.php?t=2530)
+* [tutorial](https://gpfault.net/posts/asm-tut-0.txt.html)
 
