@@ -118,3 +118,7 @@ SELECT  DSS.servicename,
         DSS.status,
         DSS.process_id
 FROM    sys.dm_server_services AS DSS;
+
+### Cleaning up the VLF
+
+https://sqlespresso.com/2017/08/23/vlfs-the-forgotten-foe/
