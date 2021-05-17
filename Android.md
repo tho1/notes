@@ -19,6 +19,9 @@ Android code search
 * https://cs.android.com/
 
 
+### Android development
+* [Top 10 Most Common Mistakes That Android Developers Make: A Programming Tutorial](https://www.toptal.com/android/top-10-most-common-android-development-mistakes)
+
 ### Understanding build layer and other concepts.
 * https://source.android.com/setup/develop/new-device#build-layers
 * https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds
@@ -28,3 +31,4 @@ Android code search
 * https://forum.xda-developers.com/f/oneplus-6t-roms-kernels-recoveries-other-dev.8261/
 * https://github.com/0ctobot/neutrino_kernel_oneplus_sdm845
 * https://androidfilehost.com/?w=files&flid=287218
+
