@@ -11,3 +11,9 @@ compiler and libraries in general
 ### TCC
 * [Building SDL2 applications with TCC, The Tiny C Compiler, on Windows](https://www.youtube.com/watch?v=HIV62ato9iA)
 * [tcc and dietlibc](https://www.monperrus.net/martin/compiling-c-code-with-dietlibc-and-tcc) 
+
+
+### musl 
+* https://superuser.com/questions/1219609/why-is-the-alpine-docker-image-over-50-slower-than-the-ubuntu-image
+* https://developers.home-assistant.io/blog/2020/07/13/alpine-python/
+* https://www.reddit.com/r/rust/comments/gdycv8/why_does_musl_make_my_code_so_slow/ jemalloc is the solution
