@@ -18,7 +18,6 @@ Notes on building AOSP
 Android code search
 * https://cs.android.com/
 
-
 ### Android development
 * [Top 10 Most Common Mistakes That Android Developers Make: A Programming Tutorial](https://www.toptal.com/android/top-10-most-common-android-development-mistakes)
 
@@ -26,6 +25,10 @@ Android code search
 * https://source.android.com/setup/develop/new-device#build-layers
 * https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds
 
+
+### apk related
+* [apk studio](https://github.com/vaibhavpandeyvpz/apkstudio)
+* [apk sites] (https://helpdeskgeek.com/free-tools-review/5-best-safe-apk-download-sites-for-android-apps/)
 
 ### Oneplus related
 * https://forum.xda-developers.com/f/oneplus-6t-roms-kernels-recoveries-other-dev.8261/
