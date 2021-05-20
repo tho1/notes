@@ -23,3 +23,6 @@ compiler and libraries in general
 
 ### code checker
 https://www.frama-c.com/
+
+### performance
+http://www.brendangregg.com/blog/index.html
