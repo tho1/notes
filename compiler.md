@@ -17,3 +17,4 @@ compiler and libraries in general
 * https://superuser.com/questions/1219609/why-is-the-alpine-docker-image-over-50-slower-than-the-ubuntu-image
 * https://developers.home-assistant.io/blog/2020/07/13/alpine-python/
 * https://www.reddit.com/r/rust/comments/gdycv8/why_does_musl_make_my_code_so_slow/ jemalloc is the solution
+* https://github.com/flamegraph-rs/flamegraph use flamegraph to monitor
