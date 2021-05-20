@@ -25,13 +25,21 @@ Android code search
 * https://source.android.com/setup/develop/new-device#build-layers
 * https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds
 
+### Android logging
+* https://android.stackexchange.com/questions/14430/how-can-i-view-and-examine-the-android-log
+* https://android.stackexchange.com/questions/14430/how-can-i-view-and-examine-the-android-log
+
 
 ### apk related
 * [apk studio](https://github.com/vaibhavpandeyvpz/apkstudio)
 * [apk sites] (https://helpdeskgeek.com/free-tools-review/5-best-safe-apk-download-sites-for-android-apps/)
 
-### Oneplus related
+### Oneplus 6t related
 * https://forum.xda-developers.com/f/oneplus-6t-roms-kernels-recoveries-other-dev.8261/
 * https://github.com/0ctobot/neutrino_kernel_oneplus_sdm845
 * https://androidfilehost.com/?w=files&flid=287218
 
+### Asus zenfone 2 zoom
+
+### ASUS zenfone 4 max
+https://www.androidinfotech.com/root-asus-zenfone-4-max-oreo/
