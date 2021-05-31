@@ -30,3 +30,12 @@ http://www.brendangregg.com/blog/index.html
 
 ### GCC vs CLang
 https://alibabatech.medium.com/gcc-vs-clang-llvm-an-in-depth-comparison-of-c-c-compilers-899ede2be378
+
+### LLVM 
+
+### Simple C compiler
+[simple C, use QBE](http://www.simple-cc.org/)
+
+
+### QBE
+* compiler backend [https://c9x.me/compile/]  
