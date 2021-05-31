@@ -8,12 +8,16 @@ Android platform is based on Linux kernel, but it does not use glibc library due
 * https://github.com/krisk0/pc-linux-android
 
 
+
 Notes on building AOSP
 * https://www.raywenderlich.com/10197539-building-the-android-open-source-project
 * https://www.android-x86.org/source.html
 * https://stackoverflow.com/questions/57863059/aosp-build-both-x86-and-x64-for-aosp-x86-64-eng
 * https://stackoverflow.com/questions/35838183/compiling-ndk-library?rq=1
 *
+
+Android tools in Ubuntu
+* [Android development tools for Debian] (https://wiki.debian.org/AndroidTools)
 
 Android code search
 * https://cs.android.com/
