@@ -17,7 +17,18 @@ Version history of .NET
 Reference:
 https://www.accuwebhosting.com/web-hosting/asp-net-hosting
 
+### DotNet
+[Source code of .NET]https://referencesource.microsoft.com/ 
+[.NET API directory]https://apisof.net/
+
 #### DotNet Core
+The writing is kind of on the wall already.  Microsoft wants user to migrate tool from .NET to .NET core, and it is the future. 
+
+https://gorillalogic.com/blog/what-why-and-how-to-migrate-to-net-core/
+https://www.taithienbo.com/target-net-standard-when-building-shared-project-or-library-in-net/
+[.NET core source code](https://source.dot.net/)
+
+
 
 #### Command Line
 * csc.exe -- compiler ```csc.exe /platform:x86 /nologo /out:"~0.exe" %0```
