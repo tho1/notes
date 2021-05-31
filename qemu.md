@@ -12,6 +12,8 @@ https://stackoverflow.com/questions/49656395/how-to-boot-freebsd-image-under-qem
 Some notes why people like FreeBSD, compare to linux.
 https://www.over-yonder.net/~fullermd/rants/bsd4linux/01
 
+Running openwrt in QEMU
+https://openwrt.org/docs/guide-user/virtualization/qemu
 
 
 Questions and Answers.
