@@ -33,10 +33,12 @@ Android code search
 * https://android.stackexchange.com/questions/14430/how-can-i-view-and-examine-the-android-log
 * https://android.stackexchange.com/questions/14430/how-can-i-view-and-examine-the-android-log
 
-
 ### apk related
 * [apk studio](https://github.com/vaibhavpandeyvpz/apkstudio)
 * [apk sites] (https://helpdeskgeek.com/free-tools-review/5-best-safe-apk-download-sites-for-android-apps/)
+
+### building Marshmallow for Nexus S
+* [How to build Android Marshmallow on Nexus S](http://dmitry.gr/?r=06.%20Thoughts&proj=05.%20Android%20M%20on%20Nexus%20S)
 
 ### Oneplus 6t related
 * https://forum.xda-developers.com/f/oneplus-6t-roms-kernels-recoveries-other-dev.8261/
