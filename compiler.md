@@ -9,6 +9,7 @@ compiler and libraries in general
 * http://www.etalabs.net/compare_libcs.html
 * https://softwareengineering.stackexchange.com/questions/273698/why-are-there-so-few-c-compilers/273711#273711
 * [C Is Not a Low-level Language](https://queue.acm.org/detail.cfm?id=3212479)
+* https://wiki.archlinux.org/title/C
 
 ### TCC
 * [Building SDL2 applications with TCC, The Tiny C Compiler, on Windows](https://www.youtube.com/watch?v=HIV62ato9iA)
