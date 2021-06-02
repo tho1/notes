@@ -30,6 +30,7 @@ Here are some examples:
 * https://stackoverflow.com/questions/21082738/why-use-a-different-c-library
 * https://www.reddit.com/r/linux/comments/678be3/which_c_library_is_used_by_the_bsd_systems/
 * https://stackoverflow.com/questions/59019932/what-standard-c-library-does-clang-use-glibc-its-own-or-some-other-one
+* https://www.linux.org/threads/a-variety-of-c-standard-libraries.11419/
 
 There are also other requirement when porting applications due to system differences.
 * Windows scatter/gather IO vs Linux vectored IO
