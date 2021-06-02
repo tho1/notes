@@ -31,6 +31,8 @@ Here are some examples:
 * https://www.reddit.com/r/linux/comments/678be3/which_c_library_is_used_by_the_bsd_systems/
 * https://stackoverflow.com/questions/59019932/what-standard-c-library-does-clang-use-glibc-its-own-or-some-other-one
 * https://www.linux.org/threads/a-variety-of-c-standard-libraries.11419/
+* https://eerielinux.wordpress.com/2014/04/01/arche5-ditches-eglibc-and-goes-for-musl-libc/
+* https://blogs.oracle.com/solaris/weakfilters-v2
 
 There are also other requirement when porting applications due to system differences.
 * Windows scatter/gather IO vs Linux vectored IO
