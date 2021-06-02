@@ -24,9 +24,14 @@ Here are some examples:
 * https://unix.stackexchange.com/questions/34650/is-the-solaris-libc-based-on-the-gnu-libc
 * https://forum.openwrt.org/t/how-to-use-the-musl-c-library-instead-of-uclibc/29658
 * https://unix.stackexchange.com/questions/36267/can-i-build-a-linux-distro-with-libc-instead-of-glibc
-* 
+* https://lists.debian.org/debian-bsd/2003/01/msg00013.html  good comparison of glibc and freebsd libc
+* https://arstechnica.com/civis/viewtopic.php?f=20&t=198967
+* https://docs.oracle.com/cd/E36784_01/html/E36873/libc-3lib.html Solaris libc
+* https://stackoverflow.com/questions/21082738/why-use-a-different-c-library
+* https://www.reddit.com/r/linux/comments/678be3/which_c_library_is_used_by_the_bsd_systems/
+* https://stackoverflow.com/questions/59019932/what-standard-c-library-does-clang-use-glibc-its-own-or-some-other-one
 
-There are also other requirement when porting applications.
+There are also other requirement when porting applications due to system differences.
 * Windows scatter/gather IO vs Linux vectored IO
 
 
