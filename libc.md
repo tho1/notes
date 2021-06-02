@@ -40,3 +40,6 @@ There are also other requirement when porting applications due to system differe
 
 The other approach is to run the applications in emulated mode. There are many tools for virtualization (e.g. wine, qemu, kvm, wsl and many others.  and one can read the notes on virtualizations
 
+
+### C++ library
+http://stdcxx.apache.org/download.html
