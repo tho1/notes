@@ -33,6 +33,18 @@ Here are some examples:
 * https://www.linux.org/threads/a-variety-of-c-standard-libraries.11419/
 * https://eerielinux.wordpress.com/2014/04/01/arche5-ditches-eglibc-and-goes-for-musl-libc/
 * https://blogs.oracle.com/solaris/weakfilters-v2
+* https://www.reddit.com/r/C_Programming/comments/cx55zr/where_to_start_with_writing_my_own_libc/
+* https://www.gnu.org/software/libc/sources.html
+* https://github.com/Biolunar/liblinux
+
+Some comparisons of the libraries
+* https://wiki.osdev.org/C_Library
+* https://elinux.org/images/8/8b/Room_For_Cooperation-_Bionic_and_musl.pdf
+* https://events.static.linuxfound.org/sites/events/files/slides/libc-talk.pdf
+
+
+ToolChain
+* https://fosdem.org/2021/schedule/event/toolchains_choice/
 
 There are also other requirement when porting applications due to system differences.
 * Windows scatter/gather IO vs Linux vectored IO
