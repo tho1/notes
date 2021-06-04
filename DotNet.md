@@ -53,6 +53,10 @@ https://docs.servicestack.net/templates-aspnet-empty
 
 ### VB related
 * [Walkthrough: Calling Windows APIs (Visual Basic)](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/com-interop/walkthrough-calling-windows-apis)
+* [Consuming Unmanaged DLL Functions](https://docs.microsoft.com/en-us/dotnet/framework/interop/consuming-unmanaged-dll-functions)
+
+
+.NET based code is managed code, while windows API are unmanaged code. use PInvoke to call them
 
 
 ### DLL
