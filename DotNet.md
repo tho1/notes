@@ -28,13 +28,10 @@ https://gorillalogic.com/blog/what-why-and-how-to-migrate-to-net-core/
 https://www.taithienbo.com/target-net-standard-when-building-shared-project-or-library-in-net/
 [.NET core source code](https://source.dot.net/)
 
-
-
 #### Command Line
 * csc.exe -- compiler ```csc.exe /platform:x86 /nologo /out:"~0.exe" %0```
 * ilasm.exe -- ```ilasm.exe /out yourexe.exe```
 * csc.exe is inside the C:\Windows\Microsoft.NET\Framework, and look for the specific version.
-
 
 #### asp.net empty template.
 asp.net empty template. Keeping things simple.
@@ -43,7 +40,7 @@ https://www.c-sharpcorner.com/article/setting-up-mvc-core-3-0-application-with-e
 https://dzone.com/articles/setting-up-an-mvc-core-31-application-with-an-empt
 https://docs.servicestack.net/templates-aspnet-empty
 
-### excel 
+### Excel 
 * [Call dll from Excel](https://docs.microsoft.com/en-us/office/client-developer/excel/how-to-access-dlls-in-excel)
 
 
@@ -53,6 +50,9 @@ https://docs.servicestack.net/templates-aspnet-empty
 
 ### ASHx handler
 * [web or file handler](https://www.c-sharpcorner.com/uploadfile/prathore/what-is-an-ashx-file-handler-or-web-handler/)
+
+### VB related
+* [Walkthrough: Calling Windows APIs (Visual Basic)](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/com-interop/walkthrough-calling-windows-apis)
 
 
 ### DLL
