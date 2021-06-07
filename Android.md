@@ -49,3 +49,10 @@ Android code search
 
 ### ASUS zenfone 4 max
 https://www.androidinfotech.com/root-asus-zenfone-4-max-oreo/
+
+### camera related
+* https://www.jianshu.com/p/bb048e5d8aa3
+* https://www.jianshu.com/p/1f7da4a05b4e
+* https://blog.csdn.net/liwei16611/article/details/53955711
+* open camera Mark Harman
+* camera test https://www.apk20.com/apk/1827662/
