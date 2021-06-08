@@ -149,3 +149,8 @@ SELECT
 FROM
   INFORMATION_SCHEMA.TABLES;
 ```
+
+### check the disk spaces used by a particular table
+```sp_spaceused '[HumanResources].[Department]'```
+
+see mssqltips.com/sqlservertip/1177/determining-space-used-for-all-tables-in-a-sql-server-database/
