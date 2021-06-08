@@ -154,3 +154,5 @@ FROM
 ```sp_spaceused '[HumanResources].[Department]'```
 
 see mssqltips.com/sqlservertip/1177/determining-space-used-for-all-tables-in-a-sql-server-database/
+
+### https://www.mssqltips.com/sqlservertip/1476/how-to-read-log-file-in-sql-server-using-tsql/
