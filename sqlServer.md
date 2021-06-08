@@ -129,3 +129,23 @@ SELECT
 FROM
   	INFORMATION_SCHEMA.COLUMNS
  ```
+ 
+### check the tables inside a sql server
+
+#### SQL server 2000
+```
+SELECT
+  *
+FROM
+  SYSOBJECTS
+WHERE
+  xtype = 'U';
+```
+
+#### SQL server 2005 and after
+```
+SELECT
+  *
+FROM
+  INFORMATION_SCHEMA.TABLES;
+```
