@@ -45,6 +45,11 @@ Android code search
 * https://github.com/0ctobot/neutrino_kernel_oneplus_sdm845
 * https://androidfilehost.com/?w=files&flid=287218
 
+### Oneplus 7
+* https://forums.oneplus.com/threads/how-to-roll-back-to-android-10-on-oneplus-7-pro-from-oos11-open-beta-4.1413325/
+* https://www.reddit.com/r/oneplus/comments/nkp4g2/oneplus_7_oxygen_os_11011gm57aa_update/
+* https://www.reddit.com/r/oneplus/comments/niy17q/oxygen_os_11011_update_bug/
+
 ### Asus zenfone 2 zoom
 
 ### ASUS zenfone 4 max
