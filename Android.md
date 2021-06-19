@@ -44,6 +44,7 @@ Android code search
 * https://forum.xda-developers.com/f/oneplus-6t-roms-kernels-recoveries-other-dev.8261/
 * https://github.com/0ctobot/neutrino_kernel_oneplus_sdm845
 * https://androidfilehost.com/?w=files&flid=287218
+* https://www.xiaomidriversdownload.com/oneplus-adb-drivers-for-windows/  oneplus adb driver
 
 ### Oneplus 7
 * https://forums.oneplus.com/threads/how-to-roll-back-to-android-10-on-oneplus-7-pro-from-oos11-open-beta-4.1413325/
