@@ -49,6 +49,8 @@ Android code search
 * https://forums.oneplus.com/threads/how-to-roll-back-to-android-10-on-oneplus-7-pro-from-oos11-open-beta-4.1413325/
 * https://www.reddit.com/r/oneplus/comments/nkp4g2/oneplus_7_oxygen_os_11011gm57aa_update/
 * https://www.reddit.com/r/oneplus/comments/niy17q/oxygen_os_11011_update_bug/
+* https://forums.oneplus.com/threads/rollback-from-stable-android-11-to-stable-android-10.1415135/
+* https://www.droidwin.com/rollback-oneplus-7-7t-pro-android-10-oxygenos-10/ downgrade
 
 ### Asus zenfone 2 zoom
 
