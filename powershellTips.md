@@ -121,3 +121,6 @@ $secondFolder | ForEach-Object {
 ](https://social.technet.microsoft.com/wiki/contents/articles/31616.user-page-richard-mueller.aspx)
 
 * [powershell](https://gallery.technet.microsoft.com/PowerShell-Script-to-b7c247db)    sample to call winform from powershell
+* [GUI for powershell](https://theitbros.com/powershell-gui-for-scripts/)
+* [powershell winform](https://adamtheautomator.com/powershell-form/)
+* [sqlcmd](https://www.sqlshack.com/working-with-powershells-invoke-sqlcmd/)
