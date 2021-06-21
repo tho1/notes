@@ -45,6 +45,9 @@ Android code search
 * https://github.com/0ctobot/neutrino_kernel_oneplus_sdm845
 * https://androidfilehost.com/?w=files&flid=287218
 * https://www.xiaomidriversdownload.com/oneplus-adb-drivers-for-windows/  oneplus adb driver
+* https://forum.xda-developers.com/c/oneplus-6t.8257/
+
+
 
 ### Oneplus 7
 * https://forums.oneplus.com/threads/how-to-roll-back-to-android-10-on-oneplus-7-pro-from-oos11-open-beta-4.1413325/
@@ -56,7 +59,10 @@ Android code search
 ### Asus zenfone 2 zoom
 
 ### ASUS zenfone 4 max
-https://www.androidinfotech.com/root-asus-zenfone-4-max-oreo/
+* https://www.androidinfotech.com/root-asus-zenfone-4-max-oreo/
+* https://forum.xda-developers.com/c/asus-zenfone-4-max.6884/\
+* https://www.getdroidtips.com/lineage-os-17-1-asus-zenfone-4-max/  install LineageOS 17.1
+* https://forum.xda-developers.com/t/rom-unofficial-lineageos-17-1-for-asus-zenfone-4-max-q-zc520kl-zc554kl.4089735/
 
 ### camera related
 * https://www.jianshu.com/p/bb048e5d8aa3
