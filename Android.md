@@ -64,6 +64,7 @@ Android code search
 * https://www.getdroidtips.com/lineage-os-17-1-asus-zenfone-4-max/  install LineageOS 17.1
 * https://forum.xda-developers.com/t/rom-unofficial-lineageos-17-1-for-asus-zenfone-4-max-q-zc520kl-zc554kl.4089735/
 * https://zentalk.asus.com/en/discussion/40087/solved-zenfone-4-max-zc554kl-camera-not-working-dark take it apart!?
+* https://www.youtube.com/watch?v=4Uh8Ecw9i_A
 
 
 ### camera related
