@@ -14,7 +14,7 @@ Notes on building AOSP
 * https://www.android-x86.org/source.html
 * https://stackoverflow.com/questions/57863059/aosp-build-both-x86-and-x64-for-aosp-x86-64-eng
 * https://stackoverflow.com/questions/35838183/compiling-ndk-library?rq=1
-*
+
 
 Android tools in Ubuntu
 * [Android development tools for Debian] (https://wiki.debian.org/AndroidTools)
@@ -42,12 +42,14 @@ Android code search
 
 ### Oneplus 6t related
 * https://forum.xda-developers.com/f/oneplus-6t-roms-kernels-recoveries-other-dev.8261/
-* https://github.com/0ctobot/neutrino_kernel_oneplus_sdm845
+* [oneplus 6T kernel QualComm SDM845 SOC](https://github.com/0ctobot/neutrino_kernel_oneplus_sdm845)
 * https://androidfilehost.com/?w=files&flid=287218
 * https://www.xiaomidriversdownload.com/oneplus-adb-drivers-for-windows/  oneplus adb driver
 * https://forum.xda-developers.com/c/oneplus-6t.8257/
-
-
+* [Customize the 6T kernel](https://forum.xda-developers.com/t/how-to-customize-the-kernel-of-oneplus-6t.3930896/)
+* [Restore Bricked OnePlus 6T on Linux](https://forums.ubports.com/topic/5715/restore-bricked-oneplus-6t-on-linux)
+* [fajita factory flash](https://github.com/Intrinsically-Sublime/fajita-factory-flash-bash-scripts)
+* [list of phones using same 845 SOC](https://www.techwalls.com/qualcomm-snapdragon-845-smartphones/)
 
 ### Oneplus 7
 * https://forums.oneplus.com/threads/how-to-roll-back-to-android-10-on-oneplus-7-pro-from-oos11-open-beta-4.1413325/
