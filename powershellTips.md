@@ -124,3 +124,7 @@ $secondFolder | ForEach-Object {
 * [GUI for powershell](https://theitbros.com/powershell-gui-for-scripts/)
 * [powershell winform](https://adamtheautomator.com/powershell-form/)
 * [sqlcmd](https://www.sqlshack.com/working-with-powershells-invoke-sqlcmd/)
+
+* [Lots of good powershell tutorials!](https://adamtheautomator.com/author/adam-bertram/)
+* [Christopher Bisset](https://adamtheautomator.com/author/christopher-b/)
+* [Useful .NET classes for PowerShell](https://4sysops.com/wiki/useful-net-classes-for-powershell/)
