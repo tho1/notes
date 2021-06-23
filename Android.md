@@ -7,8 +7,6 @@ Android platform is based on Linux kernel, but it does not use glibc library due
 * https://stackoverflow.com/questions/36331048/compiling-gentoo-bionic-on-a-x86-64-linux-machine
 * https://github.com/krisk0/pc-linux-android
 
-
-
 Notes on building AOSP
 * https://www.raywenderlich.com/10197539-building-the-android-open-source-project
 * https://www.android-x86.org/source.html
@@ -32,6 +30,11 @@ Android code search
 ### Android logging
 * https://android.stackexchange.com/questions/14430/how-can-i-view-and-examine-the-android-log
 * https://android.stackexchange.com/questions/14430/how-can-i-view-and-examine-the-android-log
+
+### battery health
+* ```cat /sys/class/power_supply/battery/charge_full```
+* ```cat /sys/class/power_supply/battery/battery_cycle``` 
+
 
 ### apk related
 * [apk studio](https://github.com/vaibhavpandeyvpz/apkstudio)
