@@ -35,6 +35,15 @@ Android code search
 * ```cat /sys/class/power_supply/battery/charge_full```
 * ```cat /sys/class/power_supply/battery/battery_cycle``` 
 
+### double tap
+* https://www.android-examples.com/detect-double-tap-click-on-screen-in-android-programmatically/
+* https://www.androidauthority.com/android-11-double-tap-tap-1143186/
+* https://stackoverflow.com/questions/2217670/android-how-to-detect-double-tap
+* https://www.makeuseof.com/tag/lock-unlock-android-device-power-button-broken/
+* https://android.googlesource.com/platform/frameworks/base/+/master/core/java/android/view/GestureDetector.java
+* https://nexus5.gadgethacks.com/how-to/enable-hidden-double-tap-wake-feature-your-nexus-6-0158746/
+
+
 
 ### apk related
 * [apk studio](https://github.com/vaibhavpandeyvpz/apkstudio)
