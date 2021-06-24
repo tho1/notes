@@ -27,6 +27,9 @@ Android code search
 * https://source.android.com/setup/develop/new-device#build-layers
 * https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds
 
+###
+* https://www.reddit.com/r/Android/comments/ngphyi/some_useful_adb_commands_and_oneliners_for/ adb onliner
+
 ### Android logging
 * https://android.stackexchange.com/questions/14430/how-can-i-view-and-examine-the-android-log
 * https://android.stackexchange.com/questions/14430/how-can-i-view-and-examine-the-android-log
@@ -78,8 +81,13 @@ Android code search
 * https://www.getdroidtips.com/lineage-os-17-1-asus-zenfone-4-max/  install LineageOS 17.1
 * https://forum.xda-developers.com/t/rom-unofficial-lineageos-17-1-for-asus-zenfone-4-max-q-zc520kl-zc554kl.4089735/
 * https://zentalk.asus.com/en/discussion/40087/solved-zenfone-4-max-zc554kl-camera-not-working-dark take it apart!?
-* https://www.youtube.com/watch?v=4Uh8Ecw9i_A
-
+* https://www.youtube.com/watch?v=4Uh8Ecw9i_A replace LCD
+* https://www.youtube.com/watch?v=iOIZTq4YRDc zenfone 4 max disassembly
+* https://www.youtube.com/watch?v=DkYHgubOhqs root
+* https://www.asus.com/ca-en/supportonly/ZenFone4%20Max%20(ZC554KL)/HelpDesk_BIOS/ official support link
+* https://forum.xda-developers.com/t/guide-how-to-unlock-bootloader-zc554kl-do-with-your-own-risk.3677270/
+* Android AOSP version Version WW-AOSP-16.0200.1907.28 Android 9 Pie.  Build Number: PKQ1.181203.001.WW_Phone-16.0200.1907.28-20190708
+* https://zenfonekit.weebly.com/zenfone-4-max-zc554kl.html list of ASUS ROMS releases 
 
 ### camera related
 * https://www.jianshu.com/p/bb048e5d8aa3
