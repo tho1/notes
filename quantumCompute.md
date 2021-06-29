@@ -3,4 +3,6 @@
 * [Quora topic](https://www.quora.com/topic/Quantum-Computing-4) Quora quantum computing
 
 * [Azure Quantum](https://azure.microsoft.com/en-ca/services/quantum) - Microsoft take on the topic
+
+* [Amazon Braket](https://aws.amazon.com/braket/)
 * [AWS](https://www.networkworld.com/article/3487421/amazon-joins-the-quantum-computing-crowd-with-braket-testbed.html) - Amazon take on the topic
