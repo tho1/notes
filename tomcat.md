@@ -7,3 +7,8 @@ Tomcat topics.
 
 ### Struts 
 * [Apache Struts](https://www.jrebel.com/blog/apache-struts)  Provide high level history of Apache struts
+
+
+### How to add SSL certificate to a JVM
+* https://connect2id.com/blog/importing-ca-root-cert-into-jvm-trust-store
+* ```java -Djavax.net.debug=ssl SSLPoke orgdc04.ad.toronto.ca 636``` This is used to test the SSL connection is all right as expected.
