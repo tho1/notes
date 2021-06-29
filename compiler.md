@@ -32,6 +32,9 @@ http://www.brendangregg.com/blog/index.html
 ### GCC vs CLang
 https://alibabatech.medium.com/gcc-vs-clang-llvm-an-in-depth-comparison-of-c-c-compilers-899ede2be378
 
+### GCC supported features.
+```gcc -v --help 2> /dev/null | sed -n '/^ *-std=\([^<][^ ]\+\).*/ {s//\1/p}'```
+
 ### LLVM 
 
 ### Simple C compiler
