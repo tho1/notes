@@ -18,3 +18,8 @@ Looking back at history is an interesting way to study how certain technology ma
 ```mdfind "kMDItemExecutableArchitectures == '*i386*' && kMDItemExecutableArchitectures != '*x86*'"```
 
 from https://apple.stackexchange.com/questions/314460/how-to-identify-32bit-applications-on-macos-without-running-each-one
+
+### Ipad air ghost type issue
+https://www.ifixit.com/Answers/View/192265/solution+to+phantom-ghost+touches+ipad+air
+https://www.ifixit.com/Answers/View/137418/Digitizer+freaks+out+when+laid+flat+on+the+frame
+
