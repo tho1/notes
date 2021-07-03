@@ -22,4 +22,5 @@ from https://apple.stackexchange.com/questions/314460/how-to-identify-32bit-appl
 ### Ipad air ghost type issue
 https://www.ifixit.com/Answers/View/192265/solution+to+phantom-ghost+touches+ipad+air
 https://www.ifixit.com/Answers/View/137418/Digitizer+freaks+out+when+laid+flat+on+the+frame
+https://imgur.com/a/mwTJa
 
