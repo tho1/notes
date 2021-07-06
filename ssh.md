@@ -96,6 +96,18 @@ Extract the certificate from the site
 openssl s_client -connect your.ldap.host:636 2>&1 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p'
 ```
 
+How to check the connection of a site.
+
+The following use openssl to thes stackoverflow.com SSL features.
+```
+openssl s_client -connect stackoverflow.com:443
+```
+
+The following use the SSLPoke Java Class to check the SSL connection is okay.
+```
+java -Djavax.net.debug=ssl SSLPoke orgdc04.ad.toronto.ca 636
+```
+
 
 ### Add certificate in Windows
 Self signed certificate might run into the problem saying 
