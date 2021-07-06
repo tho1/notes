@@ -96,6 +96,8 @@ Extract the certificate from the site
 openssl s_client -connect your.ldap.host:636 2>&1 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p'
 ```
 
+Reference:https://stackoverflow.com/questions/7885785/using-openssl-to-get-the-certificate-from-a-server
+
 How to check the connection of a site.
 
 The following use openssl to thes stackoverflow.com SSL features.
