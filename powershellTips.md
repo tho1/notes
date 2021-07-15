@@ -117,6 +117,20 @@ $secondFolder | ForEach-Object {
 }
 ```
 
+
+* email test via power shell Reference:https://stackoverflow.com/questions/47083252/send-mail-via-powershell-without-authentication
+```
+$smtpServer = "ho-ex2010-caht1.exchangeserverpro.net"
+$smtpFrom = "reports@exchangeserverpro.net"
+$smtpTo = $to
+$messageSubject = $subject
+$messageBody = $body
+
+$smtp = New-Object Net.Mail.SmtpClient($smtpServer)
+$smtp.Send($smtpFrom,$smtpTo,$messagesubject,$messagebody)
+```
+
+
 * [User Page: Richard Mueller
 ](https://social.technet.microsoft.com/wiki/contents/articles/31616.user-page-richard-mueller.aspx)
 
