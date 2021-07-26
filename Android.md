@@ -96,3 +96,9 @@ Android code search
 * https://blog.csdn.net/liwei16611/article/details/53955711
 * open camera Mark Harman
 * camera test https://www.apk20.com/apk/1827662/
+
+### Android on x86
+* [Phoneix OS source code](https://github.com/PhoenixOS/kernel)
+* [Phoneix OS download. last android version Nougat Android 9](http://www.phoenixos.com/en/download_x86)
+* [Open THOS](https://openthos.github.io/join.html)
+* [Open THOS release](https://mirrors.tuna.tsinghua.edu.cn/openthos/Release/8.1/unstable/)
