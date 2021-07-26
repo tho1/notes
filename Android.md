@@ -99,6 +99,6 @@ Android code search
 
 ### Android on x86
 * [Phoneix OS source code](https://github.com/PhoenixOS/kernel)
-* [Phoneix OS download. last android version Nougat Android 9](http://www.phoenixos.com/en/download_x86)
+* [Phoneix OS download. last android version 7.1](http://www.phoenixos.com/en/download_x86)
 * [Open THOS](https://openthos.github.io/join.html)
 * [Open THOS release](https://mirrors.tuna.tsinghua.edu.cn/openthos/Release/8.1/unstable/)
