@@ -15,6 +15,7 @@ compiler and libraries in general
 * [Building SDL2 applications with TCC, The Tiny C Compiler, on Windows](https://www.youtube.com/watch?v=HIV62ato9iA)
 * [tcc and dietlibc](https://www.monperrus.net/martin/compiling-c-code-with-dietlibc-and-tcc) 
 * [where is function "_start"?](https://www.monperrus.net/martin/compiling-where-is-_start)
+* [tcc with uClibc](https://github.com/pts/pts-tcc)
 
 
 ### musl 
