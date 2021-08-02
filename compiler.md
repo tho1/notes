@@ -18,6 +18,13 @@ compiler and libraries in general
 * [tcc with uClibc](https://github.com/pts/pts-tcc)
 
 
+#### TCC and the libraries
+TCC excels at compiling speed,  as it does not perform as much compiler optimization as GCC.  It would be interesting to see the libraries that work with the TCC.  GCC had a lot of include files that are specific to the Linux kernel, which explains the high correlation between GCC and Linux kernel.  Therefore, TCC would be a good candidate for testing the other size optimized libraries.  It is always interesting to see that one can compile C source code with a size optimized compiler.  The only downside is binary generated might not be speed optimized as other C compiler.
+
+It is still a good compiler for educational purpose.  One can read the source code of TCC, as it include the work preprocessor, compiler, linker all in one binary.
+
+Links above provide TCC with ulibC and TCC with dietlibc
+
 ### musl 
 * https://superuser.com/questions/1219609/why-is-the-alpine-docker-image-over-50-slower-than-the-ubuntu-image
 * https://developers.home-assistant.io/blog/2020/07/13/alpine-python/
