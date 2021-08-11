@@ -8,6 +8,9 @@ non-standard port
 connection rate limiting (1 new connection per minute per IP)
 fail2ban
 
+### common commands
+https://www.sslshopper.com/article-most-common-openssl-commands.html
+
 ### shellinabox
 
 multiple advices.
