@@ -29,6 +29,10 @@ https://unix.stackexchange.com/questions/13590/really-light-weight-linux-for-vm-
 https://unix.stackexchange.com/questions/156816/emulate-raspberrypi-using-qemu
 
 
+###LXC related
+https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addresses-for-lxc-guests
+
+
 Books.
 https://www.packtpub.com/product/kvm-virtualization-cookbook/9781788294676  
 KVM Virtualization Cookbook
