@@ -20,6 +20,8 @@ Questions and Answers.
 
 https://stackoverflow.com/questions/6710555/how-to-use-qemu-to-run-a-non-gui-os-on-the-terminal
 https://stackoverflow.com/questions/19565116/redirect-qemu-window-output-to-terminal-running-qemu
+https://unix.stackexchange.com/questions/250938/qemu-usb-passthrough-windows-guest
+https://unix.stackexchange.com/questions/131942/qemu-2-0-windows-guest-mouse-stops-working-vnc-when-using-usb-passthrough?rq=1
 
 Books.
 https://www.packtpub.com/product/kvm-virtualization-cookbook/9781788294676  
