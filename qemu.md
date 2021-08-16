@@ -43,6 +43,9 @@ https://www.packtpub.com/product/mastering-kvm-virtualization-second-edition/978
 https://www.ics.uci.edu/~aburtsev/238P/
 https://pdos.csail.mit.edu/6.828/2020/schedule.html
 
+### publication
+https://pdos.csail.mit.edu/publications/
+
 
 ### xv6
 https://pdos.csail.mit.edu/6.828/2020/xv6.html
