@@ -38,3 +38,16 @@ https://www.packtpub.com/product/kvm-virtualization-cookbook/9781788294676
 KVM Virtualization Cookbook
 
 https://www.packtpub.com/product/mastering-kvm-virtualization-second-edition/9781838828714
+
+### OS
+https://www.ics.uci.edu/~aburtsev/238P/
+https://pdos.csail.mit.edu/6.828/2020/schedule.html
+
+
+### xv6
+https://pdos.csail.mit.edu/6.828/2020/xv6.html
+
+### qemu monitor
+https://kashyapc.wordpress.com/tag/qemu/
+https://en.wikibooks.org/wiki/QEMU/Monitor#:~:text=The%20monitor%20is%20accessed%20from,back%20to%20the%20guest%20OS.
+https://qemu.readthedocs.io/en/latest/system/monitor.html
