@@ -10,6 +10,13 @@ https://medium.com/linux-gossip/openbsd-6-4-installing-a-seriously-underrated-os
 https://framagit.org/3hg/isotop/-/blob/master/README.md
 
 
+### Other BSD variant.
+Most are not getting a lot of updates.  Not enough users?
+
+https://en.wikipedia.org/wiki/PacBSD
+https://www.debian.org/ports/kfreebsd-gnu/
+https://www.reddit.com/r/UbuntuBSD/comments/65dzat/is_ubuntubsd_dead/
+
 
 
 ### Conversion between Unix and Dos format
