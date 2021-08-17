@@ -1,8 +1,10 @@
 ### Installing openbsd
 
 https://sohcahtoa.org.uk/openbsd.html
-https://news.ycombinator.com/item?id=20344766 some thoughts on using openbsd as a workstation.
+https://news.ycombinator.com/item?id=20344766 some thoughts on using openbsd as a workstation
 https://medium.com/linux-gossip/openbsd-6-4-installing-a-seriously-underrated-os-in-a-virtual-machine-f5848ee5a25a
+
+
 
 ### Make openbsd a desktop system with GUI
 https://framagit.org/3hg/isotop/-/blob/master/README.md
