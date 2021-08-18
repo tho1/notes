@@ -32,3 +32,6 @@ Did you know? Toolchain stuff
 http://murga-linux.com/puppy/viewtopic.php?t=105964 Which C library is the kernel compiled against?  Compile Kernel and the C library
 
 * http://www.muppetlabs.com/~breadbox/software/tiny/ Tiny Linux binaries
+
+
+https://ericdraken.com/embedded-linux/ tutorial for ARM based linux
