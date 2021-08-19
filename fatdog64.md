@@ -6,6 +6,36 @@ This file contains tips and lessons running Fatdog64.
 
 * [LinuxFest Northwest 2016: Why Puppylinux is awesome and why you should use it](https://www.youtube.com/watch?v=jebMZpEmQlQ)  NorthWest video that talks about the sfs and frugal install
 
+#### executable format
+* https://unix.stackexchange.com/questions/23535/understanding-linux-executable-formats-and-software-distribution-packages?rq=1
+
+
+#### multilib 
+Fatdog64 supports multilib.  
+* https://lightofdawn.org/wiki/wiki.cgi/RunSlackoInFatdog
+* https://wiki.gentoo.org/wiki/Multilib
+* https://unix.stackexchange.com/questions/425422/how-to-run-old-32-bit-linux-software-in-a-container-inside-a-modern-64-bit-distr
+
+#### virtualization.
+There is the usermode linux, lxc,  and also qemu. See
+* 
+* [rw-sandbox.sh](http://www.lightofdawn.org/blog/?viewDetailed=00022)
+* see https://oldforum.puppylinux.com/viewtopic.php?p=903665#903665
+* ```lxc-create -t download -n ubuntu1604 -- --dist ubuntu --release xenial --arch amd64
+
+To login you'll have to change the root password of the ubuntu container with:
+
+chroot /var/lib/lxc/ubuntu1604/rootfs/
+passwd
+exit
+```
+
+Then you can start it and login with:
+lxc-start -n ubuntu1604
+
+
+
+#### To mount the NTFS with write access.
 Accessing the NTFS aka Windows partition with read write access.
 This turns off the hiberante during shutdown and reboot, in order for the Linux to have write access to the Windows system.  Or else Windows system is read only.
 
