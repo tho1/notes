@@ -26,6 +26,11 @@ export LDFLAGS='-m32'
 make
 ```
 
+#### 64 bit compiling.
+```
+./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var --libdir=/usr/lib64 --enable-gui
+```
+
 #### multilib 
 Fatdog64 supports multilib.  
 * [Running 32 bit OS in Fatdog](https://lightofdawn.org/wiki/wiki.cgi/RunSlackoInFatdog)
