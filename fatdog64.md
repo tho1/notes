@@ -15,13 +15,16 @@ This file contains tips and lessons running Fatdog64.
 
 #### compiling 32 bit
 * pass the flag -m32 to gcc
-* ```
+* 
+* https://stackoverflow.com/questions/2726993/how-to-specify-preference-of-library-path
+
+example:
+```
 export CFLAGS='-m32'
 export CXXFLAGS='-m32'
 export LDFLAGS='-m32'
 make
 ```
-
 
 #### multilib 
 Fatdog64 supports multilib.  
