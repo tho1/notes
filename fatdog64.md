@@ -9,12 +9,26 @@ This file contains tips and lessons running Fatdog64.
 #### executable format
 * https://unix.stackexchange.com/questions/23535/understanding-linux-executable-formats-and-software-distribution-packages?rq=1
 
+#### compiling
+* [Configure,autoconf,etc](https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install)
+
+
+#### compiling 32 bit
+* pass the flag -m32 to gcc
+* ```
+export CFLAGS='-m32'
+export CXXFLAGS='-m32'
+export LDFLAGS='-m32'
+make
+```
+
 
 #### multilib 
 Fatdog64 supports multilib.  
-* https://lightofdawn.org/wiki/wiki.cgi/RunSlackoInFatdog
+* [Running 32 bit OS in Fatdog](https://lightofdawn.org/wiki/wiki.cgi/RunSlackoInFatdog)
 * https://wiki.gentoo.org/wiki/Multilib
 * https://unix.stackexchange.com/questions/425422/how-to-run-old-32-bit-linux-software-in-a-container-inside-a-modern-64-bit-distr
+* [How 64bit + 32bit Linux works?](https://oldforum.puppylinux.com/viewtopic.php?t=102072)
 
 #### virtualization.
 There is the usermode linux, lxc,  and also qemu. See
