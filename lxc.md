@@ -35,6 +35,9 @@ lxc file delete
 
 
 lxc launch mycontainer alias
+
+lxc profile copy
+lxc profile set
 ```
 
 ### Site with lxc info
