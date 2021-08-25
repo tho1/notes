@@ -15,3 +15,10 @@ lxc file edit
 lxc file push
 lxc file delete
 ```
+
+### Site with lxc info
+* https://techoverflow.net/category/container/lxc/
+* https://wiki.gentoo.org/wiki/LXC
+* https://wiki.archlinux.org/title/Linux_Containers
+* https://wiki.archlinux.org/title/Linux_Containers
+* 
