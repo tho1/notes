@@ -26,6 +26,13 @@ Dependencies
 ### Git
 * [SourceTree](https://www.sourcetreeapp.com/) 
 * GitLab 
+* Gitea 
+
+
+#### git tips
+```
+git log -1 --pretty="format:%ci" /path/to/repo/anyfile.any)
+```
 
 ### Fossil
  
