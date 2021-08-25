@@ -6,7 +6,7 @@ https://ubuntu.com/blog/lxd-client-on-windows-and-macos
 
 https://blog.simos.info/how-to-run-a-windows-virtual-machine-on-lxd-on-linux/
 
-### 1.0 commands
+### lxc commands
 ```
  lxc-create -n centos_lxc -t centos
  lxc-start -d -n myContainer
@@ -18,7 +18,13 @@ https://blog.simos.info/how-to-run-a-windows-virtual-machine-on-lxd-on-linux/
 config files location /var/lib/lxc
 
 
-### Tips and tricks.
+### LXD monitor tools.
+
+LXD consists of two parts:
+* the daemon (the lxd binary)
+* the client (the lxc binary)
+
+
 This edit and push files into the container.  Is it using ftp like mechanisms below?
 
 ```
