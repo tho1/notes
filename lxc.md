@@ -6,6 +6,18 @@ https://ubuntu.com/blog/lxd-client-on-windows-and-macos
 
 https://blog.simos.info/how-to-run-a-windows-virtual-machine-on-lxd-on-linux/
 
+### 1.0 commands
+```
+ lxc-create -n centos_lxc -t centos
+ lxc-start -d -n myContainer
+ lxc-ls --fancy
+ lxc-attach -n myContainer
+ 
+```
+
+config files location /var/lib/lxc
+
+
 ### Tips and tricks.
 This edit and push files into the container.  Is it using ftp like mechanisms below?
 
@@ -14,6 +26,9 @@ lxc file pull
 lxc file edit
 lxc file push
 lxc file delete
+
+
+lxc launch mycontainer alias
 ```
 
 ### Site with lxc info
