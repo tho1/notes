@@ -66,3 +66,7 @@ blockcommit commits the change to the backing file
 blockpull commits the backing file.
 
 blockcommit is faster than blockpull
+
+
+### AutoInstall openbsd.
+* https://www.skreutz.com/posts/autoinstall-openbsd-on-qemu/  This is cool!
