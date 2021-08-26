@@ -40,6 +40,9 @@ lxc profile copy
 lxc profile set
 ```
 
+### sample yaml files for images
+distrobuilder/master/doc/samples
+
 ### Site with lxc info
 * https://techoverflow.net/category/container/lxc/
 * https://wiki.gentoo.org/wiki/LXC
