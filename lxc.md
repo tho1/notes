@@ -54,8 +54,10 @@ sudo distrobuilder build-lxd your.yaml
 * https://techoverflow.net/category/container/lxc/
 * https://wiki.gentoo.org/wiki/LXC
 * https://wiki.archlinux.org/title/Linux_Containers
-* https://wiki.archlinux.org/title/Linux_Containers
+* https://stgraber.org/2016/03/19/lxd-2-0-your-first-lxd-container-312/
 
+### IP guest
+https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addresses-for-lxc-guests
 
 ### cheatsheat
 https://gist.github.com/berndbausch/a6835150c7a26c88048763c0bd739be6
