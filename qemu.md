@@ -16,6 +16,8 @@ Running openwrt in QEMU
 https://openwrt.org/docs/guide-user/virtualization/qemu
 
 
+https://discuss.linuxcontainers.org/t/can-you-use-a-qemu-disk-image-to-boot-an-lxd-vm/8030
+
 Questions and Answers.
 
 https://stackoverflow.com/questions/6710555/how-to-use-qemu-to-run-a-non-gui-os-on-the-terminal
