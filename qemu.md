@@ -58,3 +58,11 @@ https://pdos.csail.mit.edu/6.828/2020/xv6.html
 https://kashyapc.wordpress.com/tag/qemu/
 https://en.wikibooks.org/wiki/QEMU/Monitor#:~:text=The%20monitor%20is%20accessed%20from,back%20to%20the%20guest%20OS.
 https://qemu.readthedocs.io/en/latest/system/monitor.html
+
+
+### virsh
+### provide blockpull and blockcommit.
+blockcommit commits the change to the backing file
+blockpull commits the backing file.
+
+blockcommit is faster than blockpull
