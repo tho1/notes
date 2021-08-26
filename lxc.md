@@ -55,4 +55,7 @@ sudo distrobuilder build-lxd your.yaml
 * https://wiki.gentoo.org/wiki/LXC
 * https://wiki.archlinux.org/title/Linux_Containers
 * https://wiki.archlinux.org/title/Linux_Containers
-* 
+
+
+### cheatsheat
+https://gist.github.com/berndbausch/a6835150c7a26c88048763c0bd739be6
