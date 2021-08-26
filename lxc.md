@@ -38,10 +38,17 @@ lxc launch mycontainer alias
 
 lxc profile copy
 lxc profile set
+
+lxc image import lxd.tar.gz rootfs.squashfs --alias myimagealias
+lxc snapshot
 ```
 
 ### sample yaml files for images
 distrobuilder/master/doc/samples
+
+```
+sudo distrobuilder build-lxd your.yaml
+```
 
 ### Site with lxc info
 * https://techoverflow.net/category/container/lxc/
