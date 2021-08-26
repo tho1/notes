@@ -14,9 +14,11 @@ https://www.over-yonder.net/~fullermd/rants/bsd4linux/01
 
 Running openwrt in QEMU
 https://openwrt.org/docs/guide-user/virtualization/qemu
-
-
 https://discuss.linuxcontainers.org/t/can-you-use-a-qemu-disk-image-to-boot-an-lxd-vm/8030
+
+qemu-img
+https://dustymabe.com/2015/01/11/qemu-img-backing-files-a-poor-mans-snapshotrollback/
+
 
 Questions and Answers.
 
