@@ -1,10 +1,7 @@
 ### Installing openbsd
-
 https://sohcahtoa.org.uk/openbsd.html
 https://news.ycombinator.com/item?id=20344766 some thoughts on using openbsd as a workstation
 https://medium.com/linux-gossip/openbsd-6-4-installing-a-seriously-underrated-os-in-a-virtual-machine-f5848ee5a25a
-
-
 
 ### Make openbsd a desktop system with GUI
 https://framagit.org/3hg/isotop/-/blob/master/README.md
@@ -17,6 +14,8 @@ https://en.wikipedia.org/wiki/PacBSD
 https://www.debian.org/ports/kfreebsd-gnu/
 https://www.reddit.com/r/UbuntuBSD/comments/65dzat/is_ubuntubsd_dead/
 
+### migrate openbsd userland to Linux
+https://github.com/leahneukirchen/outils interesting to study the commands and the tools source code.  the coding style.
 
 
 ### Conversion between Unix and Dos format
