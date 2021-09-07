@@ -91,11 +91,17 @@ It is intalled in C:\windows\SysWow64, and see the attached picture.
 
 In order to test the OLE connection, one can try create an empty file with UDL extension. Click on the file, and it will open a Data Link properties dialog for one to enter the information.
 
-#### Check whether a datbase in a SQL server is still in use.
+#### Check whether a database in a SQL server is still in use.
 
 [Identify SQL Server databases that are no longer in use](https://www.mssqltips.com/sqlservertip/3171/identify-sql-server-databases-that-are-no-longer-in-use)
 
 [How can I tell if a SQL Server database is still being used?](https://dba.stackexchange.com/questions/2050/how-can-i-tell-if-a-sql-server-database-is-still-being-used)
+
+#### Resolve SQL server connections 
+    [SQL Server Always On Listeners] (https://www.sqlshack.com/sql-server-always-on-listeners/)
+    [TROUBLESHOOTING SQL SERVER LISTENER CONNECTIVITY](https://www.eraofdata.com/sql-server/troubleshooting-sql-server-listener-connectivity/)
+    [Resolve Error 40: Could Not Open a Connection to SQL Server](https://www.c-sharpcorner.com/article/resolve-error-40-could-not-open-a-connection-to-sql-server/)
+    [Resolving could not open a connection to SQL Server errors](https://www.mssqltips.com/sqlservertip/2340/resolving-could-not-open-a-connection-to-sql-server-errors/)
 
 
 #### Upsize from Access Database to SQL server
