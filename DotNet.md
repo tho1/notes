@@ -1,6 +1,5 @@
 Dot Net notes.
 
-
 [.Net core](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)  is a rework of .Net version 4, with leaner libraries.
 [.NET Core vs ASP.NET Core](https://stackoverflow.com/questions/44136118/net-core-vs-asp-net-core)   Note: ASP.NET Core 3 and higher now depend on .NET Core and can no longer be used on .NET Framework. 
 
@@ -55,9 +54,12 @@ https://docs.servicestack.net/templates-aspnet-empty
 * [Walkthrough: Calling Windows APIs (Visual Basic)](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/com-interop/walkthrough-calling-windows-apis)
 * [Consuming Unmanaged DLL Functions](https://docs.microsoft.com/en-us/dotnet/framework/interop/consuming-unmanaged-dll-functions)
 
-
 .NET based code is managed code, while windows API are unmanaged code. use PInvoke to call them
-
 
 ### DLL
 [Embedding DLLs in a compiled executable](https://stackoverflow.com/questions/189549/embedding-dlls-in-a-compiled-executable?rq=1)
+
+#### code converter
+* [Convert code from VB.NET to C# and vice versa using Roslyn](https://github.com/icsharpcode/CodeConverter)
+* https://corgibytes.com/blog/2018/09/11/converting-large-vb-to-csharp/
+* softwaremeadows.com/posts/vbnet-windows-project-to-c-conversion/
