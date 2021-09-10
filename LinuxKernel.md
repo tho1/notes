@@ -36,3 +36,7 @@ This provides some notes on passing the video modes.
 
 ### Profiling source code in Linux
 * https://stackoverflow.com/questions/375913/how-can-i-profile-c-code-running-on-linux
+
+
+#### OS lectures
+https://courses.cs.washington.edu/courses/cse451/12sp/lectures.html
