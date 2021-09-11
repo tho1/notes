@@ -39,7 +39,7 @@ cscope
 ### Derivative
 * https://github.com/SpaceVim/SpaceVim
 * https://github.com/neovim/neovim
-
+* https://github.com/onivim/oni2
 
 ### Reference
 https://github.com/mhinz/vim-galore
