@@ -2,9 +2,17 @@ vim tips and tricks.
 
 https://stackoverflow.com/questions/53664/how-to-effectively-work-with-multiple-files-in-vim?rq=1
 
-ctags
-https://kulkarniamit.github.io/whatwhyhow/howto/use-vim-ctags.html
+### vim tutorial
+https://github.com/mhinz/vim-galore 
 
+
+### vim plugins
+* [for sysadmin](https://www.redhat.com/sysadmin/five-vim-plugins)
+* [for dev](https://opensource.com/article/19/1/vim-plugins-developers)
+
+
+### ctags
+https://kulkarniamit.github.io/whatwhyhow/howto/use-vim-ctags.html
 
 add the following to ~/.ctags
 ```
