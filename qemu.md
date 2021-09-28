@@ -81,6 +81,6 @@ blockcommit is faster than blockpull
 * [QEMU arch wiki](https://wiki.archlinux.org/title/QEMU#Creating_a_hard_disk_image)
 
 ### Books
-* [KVM Virtualization Cookbook] (https://www.packtpub.com/product/kvm-virtualization-cookbook/9781788294676)
-* [Mastering KVM virtualization] (https://www.packtpub.com/product/mastering-kvm-virtualization-second-edition/9781838828714)
+* [KVM Virtualization Cookbook](https://www.packtpub.com/product/kvm-virtualization-cookbook/9781788294676)
+* [Mastering KVM virtualization](https://www.packtpub.com/product/mastering-kvm-virtualization-second-edition/9781838828714)
 
