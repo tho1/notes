@@ -37,22 +37,17 @@ https://unix.stackexchange.com/questions/156816/emulate-raspberrypi-using-qemu
 https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addresses-for-lxc-guests
 
 ### Comparision to docker
-[Containers in Redhat](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/building_running_and_managing_containers/index) This also provide the scenarios where container put into usage.
-[Container to host](https://sophilabs.com/blog/communication-between-containers-and-host-machine)
-[Communication between container](https://docs.oracle.com/cd/E37670_01/E75728/html/section_rsr_p2z_fp.html)
+* [Containers in Redhat](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/building_running_and_managing_containers/index) This also provide the scenarios where container put into usage.
+* [Container to host](https://sophilabs.com/blog/communication-between-containers-and-host-machine)
+* [Communication between container](https://docs.oracle.com/cd/E37670_01/E75728/html/section_rsr_p2z_fp.html)
 
 
 ### Networking on QEMU
-[Between host and guest](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/virtualization_administration_guide/sect-qemu_guest_agent-set_up_communication_between_guest_agent_and_host)
-[kvm networking](https://www.linux-kvm.org/page/Networking)
-[private network between vm](https://serverfault.com/questions/383208/creating-a-private-network-for-two-vms)
+* [Between host and guest](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/virtualization_administration_guide/sect-qemu_guest_agent-set_up_communication_between_guest_agent_and_host)
+* [kvm networking](https://www.linux-kvm.org/page/Networking)
+* [private network between vm](https://serverfault.com/questions/383208/creating-a-private-network-for-two-vms)
 
 
-Books.
-https://www.packtpub.com/product/kvm-virtualization-cookbook/9781788294676  
-KVM Virtualization Cookbook
-
-https://www.packtpub.com/product/mastering-kvm-virtualization-second-edition/9781838828714
 
 ### OS
 https://www.ics.uci.edu/~aburtsev/238P/
@@ -75,9 +70,7 @@ https://qemu.readthedocs.io/en/latest/system/monitor.html
 ### provide blockpull and blockcommit.
 blockcommit commits the change to the backing file
 blockpull commits the backing file.
-
 blockcommit is faster than blockpull
-
 
 ### AutoInstall openbsd.
 * https://www.skreutz.com/posts/autoinstall-openbsd-on-qemu/  This is cool!
@@ -86,3 +79,8 @@ blockcommit is faster than blockpull
 ### General Info
 * [QEMU gentoo wiki](https://wiki.gentoo.org/wiki/QEMU/Options#Hard_drive)
 * [QEMU arch wiki](https://wiki.archlinux.org/title/QEMU#Creating_a_hard_disk_image)
+
+### Books
+* [KVM Virtualization Cookbook] (https://www.packtpub.com/product/kvm-virtualization-cookbook/9781788294676)
+* [Mastering KVM virtualization] (https://www.packtpub.com/product/mastering-kvm-virtualization-second-edition/9781838828714)
+
