@@ -19,6 +19,11 @@ https://discuss.linuxcontainers.org/t/can-you-use-a-qemu-disk-image-to-boot-an-l
 qemu-img
 https://dustymabe.com/2015/01/11/qemu-img-backing-files-a-poor-mans-snapshotrollback/
 
+convert image format
+```
+qemu-img convert -f raw -O qcow2 vm_hdd.img vm_hdd.qcow2
+```
+
 
 Questions and Answers.
 
