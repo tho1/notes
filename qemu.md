@@ -53,6 +53,8 @@ https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addr
 * [private network between vm](https://serverfault.com/questions/383208/creating-a-private-network-for-two-vms)
 
 
+### private network for virtualbox
+* [virtualbox to emulate a network](https://www.brianlinkletter.com/2016/07/how-to-use-virtualbox-to-emulate-a-network/)
 
 ### OS
 https://www.ics.uci.edu/~aburtsev/238P/
