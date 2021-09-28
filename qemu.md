@@ -81,3 +81,8 @@ blockcommit is faster than blockpull
 
 ### AutoInstall openbsd.
 * https://www.skreutz.com/posts/autoinstall-openbsd-on-qemu/  This is cool!
+
+
+### General Info
+* [QEMU gentoo wiki](https://wiki.gentoo.org/wiki/QEMU/Options#Hard_drive)
+* [QEMU arch wiki](https://wiki.archlinux.org/title/QEMU#Creating_a_hard_disk_image)
