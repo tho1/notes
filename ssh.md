@@ -110,8 +110,12 @@ openssl s_client -connect stackoverflow.com:443
 
 The following use the SSLPoke Java Class to check the SSL connection is okay.
 ```
-java -Djavax.net.debug=ssl SSLPoke orgdc04.ad.toronto.ca 636
+java -Djavax.net.debug=ssl SSLPoke yourADserver 636
 ```
+
+### certificates in Windows
+* https://superuser.com/questions/1181163/unable-to-use-client-certificates-in-chrome-or-ie-on-windows-10
+* https://www.parkytowers.me.uk/thin/Linux/TinycoreSSL.shtml
 
 
 ### Add certificate in Windows
