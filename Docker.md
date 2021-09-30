@@ -15,9 +15,12 @@ Docker is built on top of runC runtime container and uses daemon
 
 ### Other containercandidates
 https://medium.com/technopanti/docker-vs-podman-c03359fabf77
+https://iximiuz.com/en/posts/journey-from-containerization-to-orchestration-and-beyond/
+
 
 ### Podman
 * Redhat market this as the docker replacement
 * ability to run rootless
 * podman keeps the same commands as docker
 * ```podman run -dt -p 8080:8080/tcp -e```
+
