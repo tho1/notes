@@ -6,6 +6,11 @@ This stores the notes about the Android platform.
 ./adb install your.apk
 
 
+### android emulator
+https://android.googlesource.com/platform/prebuilts/android-emulator/+/master/linux-x86_64/lib/advancedFeatures.ini
+
+
+
 Android platform is based on Linux kernel, but it does not use glibc library due to GNU license issue.  It uses the bionic C library instead of glibc library.
 
 * https://stackoverflow.com/questions/39108778/bionic-and-libc-s-stub-implementations
