@@ -27,6 +27,13 @@ https://gorillalogic.com/blog/what-why-and-how-to-migrate-to-net-core/
 https://www.taithienbo.com/target-net-standard-when-building-shared-project-or-library-in-net/
 [.NET core source code](https://source.dot.net/)
 
+### migration
+ASP.NET web from --> ASP.NET core blazor
+ASP.NET MVC --> ASP.NET core
+Classic ASP. https://edi.wang/post/2019/7/17/run-classic-asp-on-windows-10-and-azure-app-service
+https://blog.inedo.com/dotnet/net5-release-prep
+
+
 #### Command Line
 * csc.exe -- compiler ```csc.exe /platform:x86 /nologo /out:"~0.exe" %0```
 * ilasm.exe -- ```ilasm.exe /out yourexe.exe```
