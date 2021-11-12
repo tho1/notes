@@ -70,3 +70,9 @@ https://docs.servicestack.net/templates-aspnet-empty
 * [Convert code from VB.NET to C# and vice versa using Roslyn](https://github.com/icsharpcode/CodeConverter)
 * https://corgibytes.com/blog/2018/09/11/converting-large-vb-to-csharp/
 * softwaremeadows.com/posts/vbnet-windows-project-to-c-conversion/
+
+
+
+### some old technology asp classic questions.
+*[asp classic supported](https://social.msdn.microsoft.com/Forums/en-US/554a3819-8a43-42be-ab33-a0666af546ee/continue-supporting-classic-asp-indefinitely?forum=iisfeaturefeedback)
+*[asp classic supported](https://social.msdn.microsoft.com/Forums/en-US/4004a608-e7be-4795-b738-e79114c73da8/asp-classic-support?forum=aspmigration)
