@@ -41,15 +41,28 @@ https://linuxconfig.org/how-to-install-and-configure-dropbear-on-linux
 
 dropbear had its own client called dbclient
 
-To generate the private key
+To generate the private host key
 ```
 $ dropbearkey -t rsa -s 4096 -f key
 ```
+To create your own key
+```
+dropbearkey -y -f id_rsa | grep "^ssh-rsa " >> authorized_keys
+```
 
-To genrate the public key
+To convert the key for openssh
 ```
-$ dropbearkey -y -f key | grep ^ssh-rsa > key_public
+dropbearconvert dropbear openssh id_rsa id_rsa_openssh
 ```
+
+```
+dbclient -i id_rsa 0.0.0.0
+ssh -i id_rsa_openssh 0.0.0.0.
+```
+Reference
+https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=220463
+
+
 
 ## Putty related
 
@@ -57,6 +70,8 @@ https://developer.ridgerun.com/wiki/index.php?title=Dropbear#How_to_get_Dropbear
 Putty setup
 https://devops.ionos.com/tutorials/use-ssh-keys-with-putty-on-windows/
 https://superuser.com/questions/8077/how-do-i-set-up-ssh-so-i-dont-have-to-type-my-password
+https://kb.iu.edu/d/aews
+
 
 
 
