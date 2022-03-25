@@ -5,6 +5,30 @@ This stores the notes about the Android platform.
 ./adb push /yourdir/files /sdcard/Download
 ./adb install your.apk
 
+### boot the device to bootloader mode.
+./adb reboot bootloader
+
+### check is the devices locked or not
+./fastboot oem device-info
+
+### sample device-info
+(bootloader) Verity mode: true
+(bootloader) Device unlocked: false
+(bootloader) Device critical unlocked: false
+(bootloader) Charger screen enabled: true
+(bootloader) enable_dm_verity: true
+(bootloader) have_console: false
+(bootloader) selinux_type: SELINUX_TYPE_INVALID
+(bootloader) boot_mode: NORMAL_MODE
+(bootloader) kmemleak_detect: false
+(bootloader) force_training: 0
+(bootloader) mount_tempfs: 0
+(bootloader) op_abl_version: 0x31
+(bootloader) cal_rebootcount: 0x31
+OKAY [  0.001s]
+Finished. Total time: 0.001s
+
+
 
 ### android emulator
 https://android.googlesource.com/platform/prebuilts/android-emulator/+/master/linux-x86_64/lib/advancedFeatures.ini
