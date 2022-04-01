@@ -6,6 +6,7 @@ This stores the notes about the Android platform.
 ./adb push /yourdir/files /sdcard/Download
 ./adb install your.apk
 ./adb shell pm disable-user --user 0 com.oneplus.opbackup    
+./adb shell pm enable com.oneplus.opbackup
 ```
 
 
