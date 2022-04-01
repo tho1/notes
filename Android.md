@@ -9,6 +9,8 @@ This stores the notes about the Android platform.
 ./adb shell pm enable com.oneplus.opbackup
 ```
 
+See https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
+
 
 ### boot the device to bootloader mode.
 ```
