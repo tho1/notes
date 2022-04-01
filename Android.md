@@ -2,17 +2,22 @@ This stores the notes about the Android platform.
 
 
 ### adb tips
+```
 ./adb push /yourdir/files /sdcard/Download
 ./adb install your.apk
 ./adb shell pm disable-user --user 0 com.oneplus.opbackup    
-
+```
 
 
 ### boot the device to bootloader mode.
+```
 ./adb reboot bootloader
+```
 
 ### check is the devices locked or not
+```
 ./fastboot oem device-info
+```
 
 ### sample device-info
 (bootloader) Verity mode: true
