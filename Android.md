@@ -7,6 +7,7 @@ This stores the notes about the Android platform.
 ./adb install your.apk
 ./adb shell pm disable-user --user 0 com.oneplus.opbackup    
 ./adb shell pm enable com.oneplus.opbackup
+./fastboot getvar current-slot 
 ```
 
 See https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
