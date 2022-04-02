@@ -8,6 +8,11 @@ This stores the notes about the Android platform.
 ./adb shell pm disable-user --user 0 com.oneplus.opbackup    
 ./adb shell pm enable com.oneplus.opbackup
 ./fastboot getvar current-slot 
+
+#downgrade the oneplus version back to 10 from 11
+curl https://oxygenos.oneplus.net/OnePlus6TOxygen_34.J.54_OTA_054_all_2105112238_downgrade_708a3306f3904ad4.zip
+adb push OnePlus6TOxygen_34.J.54_OTA_054_all_2105112238_downgrade_708a3306f3904ad4.zip /sdcard
+
 ```
 
 See https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
