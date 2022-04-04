@@ -17,7 +17,6 @@ adb push OnePlus6TOxygen_34.J.54_OTA_054_all_2105112238_downgrade_708a3306f3904a
 
 See https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
 
-
 ### boot the device to bootloader mode.
 ```
 ./adb reboot bootloader
@@ -27,6 +26,11 @@ See https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
 ```
 ./fastboot oem device-info
 ```
+### to lock the bootloader
+```
+fastboot oem lock command 
+```
+
 
 ### sample device-info
 (bootloader) Verity mode: true
