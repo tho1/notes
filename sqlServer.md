@@ -162,3 +162,15 @@ FROM
 see mssqltips.com/sqlservertip/1177/determining-space-used-for-all-tables-in-a-sql-server-database/
 
 ### https://www.mssqltips.com/sqlservertip/1476/how-to-read-log-file-in-sql-server-using-tsql/
+
+
+### check the list of entries in each table.
+```
+  select t.name TableName, i.rows Records
+from sysobjects t, sysindexes i
+where t.xtype = 'U' and i.id = t.id and i.indid in (0,1)
+order by TableName;
+```
+
+see https://stackoverflow.com/questions/1443704/query-to-list-number-of-records-in-each-table-in-a-database
+
