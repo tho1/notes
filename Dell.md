@@ -19,3 +19,5 @@ Intel Xeon E3-1220 V2	1x	71%
 
 see https://www.dell.com/community/Optiplex-Desktops/Dell-optiplex-9010-can-support-Intel-Xeon-E3-1270-v2/td-p/8133762
 
+Intel Xeon E3-1230 3.2GHz Quad-Core (CM8062307262610) Processor
+
