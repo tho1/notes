@@ -10,8 +10,8 @@ Windows trick.
 
 Check the network setup and 
 * netsh 
-* wlan show profiles SSID 
-* wlan show profiles SSID key=clear
+* ```wlan show profiles SSID``` 
+* ```wlan show profiles SSID key=clear```
 
 Reference 
 * https://www.cyberciti.biz/faq/linux-find-windows-10-oem-product-key-command/
