@@ -12,3 +12,44 @@ Tomcat topics.
 ### How to add SSL certificate to a JVM
 * https://connect2id.com/blog/importing-ca-root-cert-into-jvm-trust-store
 * ```java -Djavax.net.debug=ssl SSLPoke yourADserver 636``` This is used to test the SSL connection is all right as expected.
+
+
+### setting up the tomcat authentication
+
+* Using Varnish and mod_security as a web frontend is a solution
+* jaspic-providers.xml needs to be updated using oauth file.
+
+The digest authentication needs to update the following files.  
+digest.sh in the /bin folder can be used to create the values. 
+ 
+* /config/server.xml
+* /conf/tomcat-users.xml 
+
+
+#### Update the server.xml with the following realm
+<realm className="org.apache.catalina.realm.LockOutRealm>
+<realm className="org.apache.catalina.realm.UserDatabaseRealm" resourcename="UserDatabase"> 
+	<credentialHandler className="org.apache.catalina.realm.MessageDigestCredentialHandler" 
+algorithm="sha-512"/>  
+</Realm>
+                   
+####  Use the digest.sh to create the digest value.
+digest.sh -a sha-512 -h
+org.apache.catalina.realm.MessageDigestCredentialHandler somepassword   
+                   
+
+<Valve className="org.apache.catalina.valves.RemoteAddrValve"
+   allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1|.*" />
+
+And in tomcat-users.xml replace the pass 
+                                                    
+curl -u admin:somepassword host-manager/text/list
+lesson: use normal password to login instead for digest password.
+realm-howto.html -- add LDAP for realms using LDAP.
+                                                   
+####
+how to perform this in .net
+rewrite Tomcat in Go and learn about it.
+
+load balancer.
+                                                   
