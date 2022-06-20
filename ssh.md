@@ -28,16 +28,11 @@ https://www.liberiangeek.net/2014/07/enable-ssh-key-logon-disable-password-passw
 https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html
 
 
-
-
 ### wireguard 
 alternative to openvpn
 
-
 setting up dropbear server and client
 https://linuxconfig.org/how-to-install-and-configure-dropbear-on-linux
-
-
 
 dropbear had its own client called dbclient
 
@@ -73,8 +68,6 @@ https://superuser.com/questions/8077/how-do-i-set-up-ssh-so-i-dont-have-to-type-
 https://kb.iu.edu/d/aews
 
 
-
-
 ### Windows binary
 
 OPENSSL for windows platform.
@@ -84,8 +77,6 @@ Go to https://curl.se/windows/ and get the windows binary. look for openssl bina
 ### IIS related
 
 https://stackoverflow.com/questions/19441155/how-to-create-a-self-signed-certificate-for-a-domain-name-for-development?noredirect=1&lq=1   create self signed certificate in IIS
-
-
 
 ### Tomcat related.
 
@@ -172,6 +163,22 @@ https://serverfault.com/questions/431290/svn-authentication-with-ldap-and-active
 https://stackoverflow.com/questions/21833732/configure-truststore-in-tomcat
 https://stackoverflow.com/questions/7885785/using-openssl-to-get-the-certificate-from-a-server
 
+###  SSL certification generation
+openssl req -utf8 -new -key [key file name] -x509 -days [cert lifespan] -out [cert file name] -set_serial [num]
+
+#### options used.
+```
+req - Certificate Signing Request ( CSR ) Management. 
+utf8 - UTF8 unicode
+new  - generate new values.
+key - key filename
+x509 - X.509 Certificate Data Management
+days - certificate days
+out - name of generated cert file
+set_serial - set certificate serial number
+```
+
+see [SSL man pages](https://linux.die.net/man/1/openssl)
 
 ### Exchange server
 1. [Exchange Server TLS guidance Part 3: Turning Off TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-server-tls-guidance-part-3-turning-off-tls-1-0-1-1/ba-p/607898)
