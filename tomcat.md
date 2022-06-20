@@ -51,5 +51,16 @@ realm-howto.html -- add LDAP for realms using LDAP.
 how to perform this in .net
 rewrite Tomcat in Go and learn about it.
 
-load balancer.
+### load balancer
+mod_proxy is for the lighter load.						    
+mod_jk - maintain consistent pools.
+						    
+http://people.apache.org/~mturk/docs/article/ftwai.html
+						    
+https://linuxhint.com/set-up-load-balancing-for-apache-tomcat/						    
+						  
+https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0/installing/how-to-enable-web-services/configure-apache-tomcat-load-balancing.html
+						    
+						    
+						    
                                                    
