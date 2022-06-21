@@ -60,7 +60,10 @@ http://people.apache.org/~mturk/docs/article/ftwai.html
 https://linuxhint.com/set-up-load-balancing-for-apache-tomcat/						    
 						  
 https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0/installing/how-to-enable-web-services/configure-apache-tomcat-load-balancing.html
-						    
+						
+### tomcat clustering.
+https://www.openlogic.com/blog/apache-tomcat-clustering#:~:text=Tomcat%20clustering%20is%20a%20group,referred%20to%20as%20a%20node.
+https://tomcat.apache.org/tomcat-9.0-doc/cluster-howto.html						    
 						    
 						    
                                                    
