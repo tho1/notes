@@ -81,3 +81,13 @@ document_root /usr/share/doc
 /etc/init.d/civetweb start
 ```
 
+#### viewing non english website in links
+download the links source code
+
+```
+configure --enable-graphics --enable-utf8
+make
+make install
+```
+
+Now start 'links -g' as graphics mode.  Go to Setup, Fonts, Regular Fonts, and select the other fonts.  In my case, I use WenQuanYi Micro Hei to view website in Chinese
