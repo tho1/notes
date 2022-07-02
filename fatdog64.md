@@ -64,3 +64,20 @@ This turns off the hiberante during shutdown and reboot, in order for the Linux 
 ```
 powercfg /h off 
 ```
+
+#### viewing the document directory
+The /usr/share/doc directory contains lot of information for the software installed.  A lot of the files are in html foramt. Therefore, hosting the directories in web server make lot of sense.
+
+Fatdog64 comes with civet web server. See /etc/init.d/60-civetweb to enable it
+Modify the file civetweb.conf to host the directories
+
+open up the /etc/civetweb.conf, and look for the line document_root, change it to document_root /usr/share/doc
+
+```
+document_root /usr/share/doc
+```
+
+```
+/etc/init.d/civetweb start
+```
+
