@@ -43,10 +43,11 @@ There is the usermode linux, lxc,  and also qemu. See
 * 
 * [rw-sandbox.sh](http://www.lightofdawn.org/blog/?viewDetailed=00022)
 * see https://oldforum.puppylinux.com/viewtopic.php?p=903665#903665
-* ```lxc-create -t download -n ubuntu1604 -- --dist ubuntu --release xenial --arch amd64
+* lxc-create -t download -n ubuntu1604 -- --dist ubuntu --release xenial --arch amd64
 
 To login you'll have to change the root password of the ubuntu container with:
 
+```
 chroot /var/lib/lxc/ubuntu1604/rootfs/
 passwd
 exit
