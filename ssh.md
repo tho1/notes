@@ -8,6 +8,17 @@ non-standard port
 connection rate limiting (1 new connection per minute per IP)
 fail2ban
 
+### tips on setting SSH server.
+
+* Use a different port instead of port 22
+* Disable SSH passwords
+* Require a private key for logging in
+* Throttle connections
+* Implement an IPS (Fail2ban and Snort come to mind)
+* Restrict login per IP address
+* Restrict which users can log in (different than checking the IP address)
+
+
 ### common commands
 https://www.sslshopper.com/article-most-common-openssl-commands.html
 
