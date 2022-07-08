@@ -58,6 +58,33 @@ Reference
 https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=220463
 
 
+## sshfs
+```
+groupadd fuse
+usermod -a -G fuse USERNAME
+gpasswd -a USERNAME fuse
+
+sshfs -o allow_other,default_permissions username@your_other_server:~/ /mnt/mymount
+umount /mnt/mymount
+```
+
+to add it permanently to the system.
+
+in /etc/fuse.conf enable the following line.
+```
+user_allow_other
+```
+
+/etc/fstab add the following line
+```
+/mnt/mymount fuse.sshfs noauto,x-systemd.automount,_netdev,reconnect,identityfile=/home/youruser/.ssh/id_rsa,allow_other,default_permissions 0 0
+```
+repeat the above lines for multiple mount points in the system.
+
+see [How To Use SSHFS to Mount Remote File Systems Over SSH](https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh)
+see [shell script to easily mount the directories](https://github.com/lemyskaman/kmountssh)
+
+
 
 ## Putty related
 
