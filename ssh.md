@@ -18,6 +18,8 @@ fail2ban
 * Restrict login per IP address
 * Restrict which users can log in (different than checking the IP address)
 
+see [ssh knocking](https://codecapsule.com/2010/07/06/knock-knock-secure-your-ssh-server-using-port-knocking/)  source code in https://raw.githubusercontent.com/goossaert/algorithms/master/port-knocking/knock-knock.c
+see [ssh tarpit](https://github.com/skeeto/endlessh)
 
 ### common commands
 https://www.sslshopper.com/article-most-common-openssl-commands.html
