@@ -16,6 +16,33 @@ compiler and libraries in general
 * [tcc and dietlibc](https://www.monperrus.net/martin/compiling-c-code-with-dietlibc-and-tcc) 
 * [where is function "_start"?](https://www.monperrus.net/martin/compiling-where-is-_start)
 * [tcc with uClibc](https://github.com/pts/pts-tcc)
+* TCC uses the libdef to figure out how to call a windows dll. One needs to use tcc to generate .def file from a dll, and then call the required functions.
+
+### TCC and dietlibc integrations.
+in config.mak
+```
+  CFLAGS=-I/usr/include/diet/ -D__dietlibc__ -DCONFIG_TCC_STATIC 
+  LDFLAGS=-L/usr/lib/diet/lib/ -nostartfiles
+```
+CONFIG_TCC_STATIC says that dynamic loading (libdl) should not be used. However, there is a dependency to libdl at linking time (-ldl).
+
+In `Makefile’:
+```
+remove LIBS+=-ldl.
+add crt0.o to linked objects ` $(CC) -o $@ crt0.o $^ $(LIBS) $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) $(LINK_LIBTCC)
+
+```
+crt0.o is the startup file which provides function _start as entry point.
+Function _start of dietlibc is in a file called start.o. We copy it to crt0.o 
+```
+
+  $ cp /usr/lib/diet/lib/start.o crt0.o
+
+```
+
+see https://www.monperrus.net/martin/compiling-tcc-with-dietlibc 
+
+
 
 
 #### TCC and the libraries
