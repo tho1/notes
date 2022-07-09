@@ -16,7 +16,8 @@ compiler and libraries in general
 * [tcc and dietlibc](https://www.monperrus.net/martin/compiling-c-code-with-dietlibc-and-tcc) 
 * [where is function "_start"?](https://www.monperrus.net/martin/compiling-where-is-_start)
 * [tcc with uClibc](https://github.com/pts/pts-tcc)
-* TCC uses the libdef to figure out how to call a windows dll. One needs to use tcc to generate .def file from a dll, and then call the required functions.
+* TCC uses the libdef to figure out how to call a windows dll. One needs to use tcc to generate .def file from a dll, and then call the required functions.  It would be interesting to use it get the list of functions used in a dll.
+
 
 ### TCC and dietlibc integrations.
 in config.mak
@@ -42,15 +43,25 @@ Function _start of dietlibc is in a file called start.o. We copy it to crt0.o
 
 see https://www.monperrus.net/martin/compiling-tcc-with-dietlibc 
 
-
-
-
 #### TCC and the libraries
 TCC excels at compiling speed,  as it does not perform as much compiler optimization as GCC.  It would be interesting to see the libraries that work with the TCC.  GCC had a lot of include files that are specific to the Linux kernel, which explains the high correlation between GCC and Linux kernel.  Therefore, TCC would be a good candidate for testing the other size optimized libraries.  It is always interesting to see that one can compile C source code with a size optimized compiler.  The only downside is binary generated might not be speed optimized as other C compiler.
 
 It is still a good compiler for educational purpose.  One can read the source code of TCC, as it include the work preprocessor, compiler, linker all in one binary.
 
 Links above provide TCC with ulibC and TCC with dietlibc
+
+### TCC and dietlibc
+There is work that one tries to recompile TCC using dietlibc. Interesting exercise.  It would be good to create some benchmark for comparison.
+
+Here are some tips for compiling code using dietlibc.
+```
+CC="diet gcc -nostdinc -D_BSD_SOURCE " \
+CFLAGS=" -pipe -combine -Os -ffunction-sections -fdata-sections -momit-leaf-frame-pointer -fomit-frame-pointer -mpreferred-stack-boundary=2 -fmerge-constants " \
+LDFLAGS=" -Wl,-O,--gc-sections " \
+./configure --prefix=/opt/diet --disable-nls --help
+```
+see https://oldforum.puppylinux.com/viewtopic.php?t=44737
+
 
 ### musl 
 * https://superuser.com/questions/1219609/why-is-the-alpine-docker-image-over-50-slower-than-the-ubuntu-image
