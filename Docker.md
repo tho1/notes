@@ -24,3 +24,7 @@ https://iximiuz.com/en/posts/journey-from-containerization-to-orchestration-and-
 * podman keeps the same commands as docker
 * ```podman run -dt -p 8080:8080/tcp -e```
 
+
+#### Podman dependencies
+* Podman uses crun instead of runc. They rewrite crun in C, as runc is written in go.  They expect there is much lower overhead, and it is a lot faster.
+* other podman dependencies include buildah for building images. 
