@@ -13,6 +13,8 @@ Assembly for DOS
 
 Software optimization
 * [Software optimization](https://www.agner.org/optimize/?e=0#testp)
+* [AsmUtils](http://asm.sourceforge.net/asmutils.html)  Unix tools written in assembly language.
+
 
 ###Assembly syntax.
 
