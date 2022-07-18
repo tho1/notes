@@ -2,6 +2,9 @@
 ### distributed streaming platform
 distributed event requires a different way of thinking to captures messages.  The current way of thinking is we start all the data in the database.  With streaming platform, the process is changed to event driven architecture.  All the incoming messages are stored in topics, ready for further processing.  This means the processing can be done in real time.
 
+* event streaming platform for massive volumes of big data analytics and small volumes of transactional data processing.
+* a data integration framework for streaming ETL.
+
 ### some commands 
 
 * ```zkServer.sh start``` - start zookeeper 
