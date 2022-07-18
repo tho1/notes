@@ -1,8 +1,6 @@
-https://blog.csdn.net/ddonking/article/details/81912250?ops_request_misc=&request_id=&biz_id=102&utm_term=apache%2520kafka&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-81912250.nonecase
-
 
 ### distributed streaming platform
-
+distributed event requires a different way of thinking to captures messages.  The current way of thinking is we start all the data in the database.  With streaming platform, the process is changed to event driven architecture.  All the incoming messages are stored in topics, ready for further processing.  This means the processing can be done in real time.
 
 ### some commands 
 
@@ -26,3 +24,11 @@ https://blog.csdn.net/ddonking/article/details/81912250?ops_request_misc=&reques
 * https://github.com/lensesio/kafka-cheat-sheet
 * https://gist.github.com/alexnoz/5aaa7446374a2aca4302968fc69e08fd
 * https://gist.github.com/sahilsk/d2a6ec384f5f2333e3fef40a581a97e1
+
+### When not to use Apache Kafka
+* https://pandio.com/top-10-problems-when-using-apache-kafka/
+* https://www.kai-waehner.de/blog/2022/01/04/when-not-to-use-apache-kafka/
+
+
+### tutorial
+* https://blog.csdn.net/ddonking/article/details/81912250?ops_request_misc=&request_id=&biz_id=102&utm_term=apache%2520kafka&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-81912250.nonecase
