@@ -25,20 +25,31 @@ see [ssh tarpit](https://github.com/skeeto/endlessh)
 https://www.sslshopper.com/article-most-common-openssl-commands.html
 
 ### shellinabox
-
 multiple advices.
 https://forums.whirlpool.net.au/archive/2745989
 
 https://wiki.dd-wrt.com/wiki/index.php/Knockd
 
 ### IP rating
-https://making.pusher.com/per-ip-rate-limiting-with-iptables/
+* https://making.pusher.com/per-ip-rate-limiting-with-iptables/
+* https://making.pusher.com/per-ip-rate-limiting-with-iptables/ rate limiting
+* https://www.liberiangeek.net/2014/07/enable-ssh-key-logon-disable-password-password-less-logon-centos/
+* https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html
 
-https://making.pusher.com/per-ip-rate-limiting-with-iptables/ rate limiting
 
-https://www.liberiangeek.net/2014/07/enable-ssh-key-logon-disable-password-password-less-logon-centos/
+### using SSH as SOCK server
+* https://thinkingeek.com/2022/01/03/ssh-and-socks/
+```
+ssh -N -D 127.0.0.1:12345 user@localhost
+-N means not to execute a command
+-D interface:port means to open the port bound to the interface
+```
 
-https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html
+* using the proxy function to install rust
+```
+user@no-internet$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs \
+                       --proxy socks5://localhost:9999 -o  install-rust.sh
+```
 
 
 ### wireguard 
