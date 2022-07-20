@@ -170,9 +170,18 @@ The following use the SSLPoke Java Class to check the SSL connection is okay.
 java -Djavax.net.debug=ssl SSLPoke yourADserver 636
 ```
 
-### certificates in Windows
+### certificates location in Windows and Linux
 * https://superuser.com/questions/1181163/unable-to-use-client-certificates-in-chrome-or-ie-on-windows-10
 * https://www.parkytowers.me.uk/thin/Linux/TinycoreSSL.shtml
+
+Windows have the concept of Local Machine and Current User Certificate.  Local Machine certificates applies globally to all users in the system.  Current user only applies to the currently logined user. Local machine applies to HKEY_LOCAL_MACHINE and current user to HKEY_CURRENT_USER as defined in window registry.
+See https://docs.microsoft.com/en-us/windows-hardware/drivers/install/local-machine-and-current-user-certificate-stores
+
+One can see the certs using the tool certmgr
+
+Linux stored them in /etc/ssl/certs
+
+Mac OSX store them in ~/Library/Keychains/, /Library/Keychains/, and /Network/Library/Keychains/
 
 
 ### Add certificate in Windows
