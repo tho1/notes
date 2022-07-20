@@ -37,3 +37,10 @@ use for http repository  http://insecure.repo1.maven.org/maven2/
 systemProp.javax.net.ssl.trustStore=NUL
 systemProp.javax.net.ssl.trustStoreType=Windows-ROOT
 ```
+
+### mvn command lines.
+
+clear the build.
+```
+mvn clean install -DskipTests -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true
+```
