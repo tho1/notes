@@ -22,21 +22,30 @@ use for http repository  http://insecure.repo1.maven.org/maven2/
             <releases>
                 <updatePolicy>never</updatePolicy>
             </releases>
-        </repository>
-    </repositories>
+        </repositor
 ```
+
+
+save the maven repo certificate as mavenCert.cer
+``` 
+keytool -import -file C:\temp\mavenCert.cer -keystore C:\temp\mavenKeystore
+
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -Djavax.net.ssl.trustStore=C:\temp\mavenKeystore
+```
+Set the truststore value in MAVEN_OPTS
+
 
 
 * https://maven.apache.org/guides/mini/guide-repository-ssl.html
 * https://stackoverflow.com/questions/49176390/set-jre-to-use-windows-trust-store-specifically-the-users-trust-store
 * https://stackoverflow.com/questions/25911623/problems-using-maven-and-ssl-behind-proxy
 
-
 ### gradle points to use Windows-ROOT as the certificate
 ```
 systemProp.javax.net.ssl.trustStore=NUL
 systemProp.javax.net.ssl.trustStoreType=Windows-ROOT
 ```
+
 
 ### mvn command lines.
 
