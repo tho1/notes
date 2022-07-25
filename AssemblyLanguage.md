@@ -43,3 +43,6 @@ https://liberoscarcelli.net/courses/reverse-engineering/beginners/reverse-engine
 * [FAQ](https://board.flatassembler.net/topic.php?t=2530)
 * [tutorial](https://gpfault.net/posts/asm-tut-0.txt.html)
 
+### Linux syscall, it does not use x80
+* [x86 calling convention](https://en.wikipedia.org/wiki/X86_calling_conventions#System_V_AMD64_ABI)
+* [Linux system call](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)
