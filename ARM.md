@@ -9,12 +9,12 @@
 
 see [Android ABI](https://developer.android.com/ndk/guides/abis)
 
-
 ### Another company building server motherboard using ARM cpu.  Wonder how it competes with AWS graviton processors
 
 * [Bamboo Systems](https://bamboosystems.io/)
 * [Bamboo server motherboard](https://www.networkworld.com/article/3490385/bamboo-systems-redesigns-server-motherboards-for-greater-performance.html)
 * [Bamboo get funding](https://www.hpcwire.com/off-the-wire/kaleao-closes-4-5m-funding-round-restructures-as-bamboo-systems-backs-arm-server-architecture/)
+* Updated. Company folded in Dec 2021.
 
 
 ### Opinion on WinTel with respect to ARM
