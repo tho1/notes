@@ -3,6 +3,13 @@
 * [ARM architecture](https://en.wikipedia.org/wiki/ARM_architecture)
 * [MicroArchitecture](https://en.wikipedia.org/wiki/List_of_ARM_microarchitectures)
 
+#### ARM have many ABI (Application Binary Interface). 2 of the most prominent one is arm64-v8a and armeabi-v7a
+* armeabi-v7a compiles to armeabi, thumb-2 and VFPv3-D16 instruction set
+* arm64-v8a compiles to AArch64 instruction set.
+
+see [Android ABI](https://developer.android.com/ndk/guides/abis)
+
+
 ### Another company building server motherboard using ARM cpu.  Wonder how it competes with AWS graviton processors
 
 * [Bamboo Systems](https://bamboosystems.io/)
