@@ -39,6 +39,9 @@ LDAP notes.
 * [Search Active Directory with Ldapsearch](https://tylersguides.com/guides/search-active-directory-ldapsearch/#:~:text=It%20is%20fairly%20common%20to,search%20Active%20Directory%20with%20ldapsearch.)
 * [How To Search LDAP using ldapsearch (With Examples)](https://devconnected.com/how-to-search-ldap-using-ldapsearch-examples/)
 * [Powershell example](http://www.jaapbrasser.com/wp-content/uploads/2012/11/Adsisearcher-Examples.txt)
+* [Step-By-Step : How to install and configure Domain Controller on Windows Server 2019](https://www.virtualgyanis.com/post/step-by-step-how-to-install-and-configure-domain-controller-on-windows-server-2019)
+
+
 
 LDAP URLS
 * [LDAP URLS](https://ldap.com/ldap-urls/)  General LDAP info.
