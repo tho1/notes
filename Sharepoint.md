@@ -23,3 +23,7 @@ winrm set winrm/config/service/Auth @{Negotiate="false"}
 Configure-SMRemoting.exe -enable
 
 Test-WSMan srv-sp2019WFE
+
+### helpful links on installing Sharepoint 2019
+[Deploying a SharePoint 2019 Development Environment – Install SharePoint 2019 with AutoSPInstaller](https://prairiedeveloper.com/2019/03/install-sharepoint-2019-with-autospinstaller/)
+[Deploying a SharePoint 2019 Development Environment – Preparing Servers for SharePoint 2019](https://prairiedeveloper.com/2019/03/preparing-servers-for-sharepoint-2019/)
