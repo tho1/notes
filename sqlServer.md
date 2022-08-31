@@ -103,6 +103,9 @@ In order to test the OLE connection, one can try create an empty file with UDL e
     [Resolve Error 40: Could Not Open a Connection to SQL Server](https://www.c-sharpcorner.com/article/resolve-error-40-could-not-open-a-connection-to-sql-server/)
     [Resolving could not open a connection to SQL Server errors](https://www.mssqltips.com/sqlservertip/2340/resolving-could-not-open-a-connection-to-sql-server-errors/)
 
+    [Resolving could not open a connection to SQL Server errors](https://www.mssqltips.com/sqlservertip/2340/resolving-could-not-open-a-connection-to-sql-server-errors/)
+    [Different Ways to Connect to SQL Server Using sqlcmd](https://www.mssqltips.com/sqlservertip/5133/different-ways-to-connect-to-sql-server-using-sqlcmd/)
+
 
 #### Upsize from Access Database to SQL server
 [When and How to Upsize Microsoft Access Databases to SQL Server](https://www.fmsinc.com/MicrosoftAccess/SQLServerUpsizing/how/index.htm)
