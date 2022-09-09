@@ -40,3 +40,7 @@ This provides some notes on passing the video modes.
 
 #### OS lectures
 https://courses.cs.washington.edu/courses/cse451/12sp/lectures.html
+
+
+### redirect the port numbers
+redir --lport 3389 --caddr=GuestIP --cport 3389
