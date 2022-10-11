@@ -67,6 +67,10 @@ https://pdos.csail.mit.edu/publications/
 ### xv6
 https://pdos.csail.mit.edu/6.828/2020/xv6.html
 
+### compile qmeu and virsh
+https://developer.ibm.com/tutorials/compiling-libvirt-and-qemu/
+
+
 ### qemu monitor
 https://kashyapc.wordpress.com/tag/qemu/
 https://en.wikibooks.org/wiki/QEMU/Monitor#:~:text=The%20monitor%20is%20accessed%20from,back%20to%20the%20guest%20OS.
