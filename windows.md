@@ -16,3 +16,17 @@ Check the network setup and
 Reference 
 * https://www.cyberciti.biz/faq/linux-find-windows-10-oem-product-key-command/
 * https://www.techrepublic.com/videos/how-to-use-god-mode-in-windows-10/
+
+
+* https://www.microsoft.com/en-US/cloudskillschallenge/ignite/officialrules/2022
+* https://learn.microsoft.com/en-us/certifications/azure-administrator/ AZ-104
+* 
+* https://learn.microsoft.com/en-us/certifications/exams/az-305?wt.mc_id=ignite22_cloudskillschallenge_cschome_cnl AZ-305
+
+* https://learn.microsoft.com/en-us/certifications/devops-engineer/ AZ-400, AZ-104 prereq.
+* https://learn.microsoft.com/en-us/certifications/exams/dp-100  DP-100 no prereq.
+* https://learn.microsoft.com/en-us/certifications/power-platform-app-maker/ PL-100 no-prereq.
+* https://learn.microsoft.com/en-us/certifications/d365-functional-consultant-field-service/ MB-240 no prereq
+* https://learn.microsoft.com/en-us/certifications/d365-functional-consultant-field-service/ MS-700
+* https://learn.microsoft.com/en-us/certifications/m365-teams-voice-engineer-expert/ MS-720  team associate.
+* https://learn.microsoft.com/en-us/certifications/security-operations-analyst/  SC-200 security exam.
