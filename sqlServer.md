@@ -207,3 +207,10 @@ GROUP BY
 ORDER BY 
  OBJECT_NAME(i.object_id) 
 ```
+
+
+### Indexes.
+#### Included indexes, Covering indexes, fill factor.
+
+* https://social.msdn.microsoft.com/Forums/sqlserver/en-US/313e7f3b-48ae-42a6-99f4-7616941faff8/what-is-the-difference-between-covering-and-included-indexes-?forum=transactsql
+* https://learn.microsoft.com/en-us/answers/questions/494049/sql-server-covering-index.html
