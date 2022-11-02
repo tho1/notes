@@ -20,3 +20,4 @@ see https://www.dell.com/community/Optiplex-Desktops/Dell-optiplex-9010-can-supp
 
 Intel Xeon E3-1230 3.2GHz Quad-Core (CM8062307262610) Processor
 
+* [https://www.tachytelic.net/2021/12/dell-optiplex-7010-pcie-nvme/#comment-319652](https://www.tachytelic.net/2021/12/dell-optiplex-7010-pcie-nvme/#comment-319652)
