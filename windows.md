@@ -33,3 +33,15 @@ Reference
 
 * https://hackr.io/blog/microsoft-azure-certification-guide
 * https://cloudacademy.com/blog/microsoft-azure-certifications-which-is-right-for-you-and-your-team/
+
+
+*  AZ104, AZ204, AZ305
+*  https://acloudguru.com/blog/engineering/which-azure-certification-is-right-for-me
+*  AZ-305: Designing Microsoft Azure Infrastructure Solutions
+	Aligning Challenge: Microsoft Ignite: Intelligent Cloud Challenge
+
+Candidates for this exam should have advanced experience and knowledge of IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platforms, and governance. A professional in this role should manage how decisions in each area affect an overall solution. In addition, they should have experience in Azure administration, Azure development, and DevOps processes.
+Design identity, governance, and monitoring solutions (25-30%)
+Design data storage solutions (25-30%)
+Design business continuity solutions (10-15%)
+Design infrastructure solutions (25-30%)
