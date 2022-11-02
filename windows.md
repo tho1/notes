@@ -46,3 +46,8 @@ Design identity, governance, and monitoring solutions (25-30%)
 Design data storage solutions (25-30%)
 Design business continuity solutions (10-15%)
 Design infrastructure solutions (25-30%)
+
+* AI challenge.
+* https://github.com/MicrosoftDocs/ml-basics/blob/master/challenges/01%20-%20Flights%20Challenge.ipynb
+* https://www.w3schools.com/python/numpy/default.asp
+* https://www.w3schools.com/python/pandas/default.asp
