@@ -30,6 +30,7 @@ Reference
 * https://learn.microsoft.com/en-us/certifications/d365-functional-consultant-field-service/ MS-700
 * https://learn.microsoft.com/en-us/certifications/m365-teams-voice-engineer-expert/ MS-720  team associate.
 * https://learn.microsoft.com/en-us/certifications/security-operations-analyst/  SC-200 security exam.
+* https://learn.microsoft.com/en-ca/training/challenges?id=8c527742-d628-4e50-964c-852e63e5018c accessibility challenges
 
 * https://hackr.io/blog/microsoft-azure-certification-guide
 * https://cloudacademy.com/blog/microsoft-azure-certifications-which-is-right-for-you-and-your-team/
