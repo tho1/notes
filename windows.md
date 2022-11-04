@@ -49,5 +49,8 @@ Design infrastructure solutions (25-30%)
 
 * AI challenge.
 * https://github.com/MicrosoftDocs/ml-basics/blob/master/challenges/01%20-%20Flights%20Challenge.ipynb
+* https://github.com/MicrosoftDocs/ml-basics/blob/master/challenges/02%20-%20Real%20Estate%20Regression%20Challenge.ipynb
+
+
 * https://www.w3schools.com/python/numpy/default.asp
 * https://www.w3schools.com/python/pandas/default.asp
