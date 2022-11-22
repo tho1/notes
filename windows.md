@@ -1,5 +1,6 @@
 Windows trick.
 
+### basic tricks.
 * get the windows hardware info. ```wmic computersystem get model,name,manufacturer,systemtype```
 * locate system service tag ```wmic bios get serialnumber```
 * Windows key ```wmic path softwarelicensingservice get OA3xOriginalProductKey```
@@ -8,10 +9,24 @@ Windows trick.
 * Windows 7 & 8: GodMode.{ED7BA470-8E54-465E-825C-99712043E01C} 
 * Windows 10: GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
 
-Check the network setup and 
+### Check the network setup and view past entries. 
 * netsh 
 * ```wlan show profiles SSID``` 
 * ```wlan show profiles SSID key=clear```
+
+### windows image command 
+https://www.windowscentral.com/how-use-dism-command-line-utility-repair-windows-10-image
+
+### disable auto update
+```reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v NoAutoUpdate /t REG_DWORD /d 1 /f```
+
+### specify start layout for windows 10 pc
+```reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v SpecialRoamingOverrideAllowed /t REG_DWORD /d 1 /f```
+
+### redirect time zones
+```reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services" /v fEnableTimeZoneRedirection /t REG_DWORD /d 1 /f````
+
+
 
 Reference 
 * https://www.cyberciti.biz/faq/linux-find-windows-10-oem-product-key-command/
@@ -50,7 +65,6 @@ Design infrastructure solutions (25-30%)
 * AI challenge.
 * https://github.com/MicrosoftDocs/ml-basics/blob/master/challenges/01%20-%20Flights%20Challenge.ipynb
 * https://github.com/MicrosoftDocs/ml-basics/blob/master/challenges/02%20-%20Real%20Estate%20Regression%20Challenge.ipynb
-
-
+* 
 * https://www.w3schools.com/python/numpy/default.asp
 * https://www.w3schools.com/python/pandas/default.asp
