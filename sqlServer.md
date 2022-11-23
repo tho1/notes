@@ -214,3 +214,9 @@ ORDER BY
 
 * https://social.msdn.microsoft.com/Forums/sqlserver/en-US/313e7f3b-48ae-42a6-99f4-7616941faff8/what-is-the-difference-between-covering-and-included-indexes-?forum=transactsql
 * https://learn.microsoft.com/en-us/answers/questions/494049/sql-server-covering-index.html
+
+
+### SQL server log debugging
+The application cannot access the database via SSMS. Bounce the Sql server and sql server agent services, and see if it fix the issue.
+Also check the Windows event viewer for possible insight. 
+And the sql server log.  see https://learn.microsoft.com/en-us/sql/tools/configuration-manager/viewing-the-sql-server-error-log?view=sql-server-ver16
