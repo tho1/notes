@@ -220,3 +220,6 @@ ORDER BY
 The application cannot access the database via SSMS. Bounce the Sql server and sql server agent services, and see if it fix the issue.
 Also check the Windows event viewer for possible insight. 
 And the sql server log.  see https://learn.microsoft.com/en-us/sql/tools/configuration-manager/viewing-the-sql-server-error-log?view=sql-server-ver16
+
+### UDL file to test connection
+Create a UDL file to test the connection.  https://stackoverflow.com/questions/61783623/how-to-ping-test-connection-to-sql-server-without-software-like-through-cmd
