@@ -24,3 +24,7 @@ https://www.ifixit.com/Answers/View/192265/solution+to+phantom-ghost+touches+ipa
 https://www.ifixit.com/Answers/View/137418/Digitizer+freaks+out+when+laid+flat+on+the+frame
 https://imgur.com/a/mwTJa
 
+### Macbook maintainence
+https://beetstech.com/blog/apple-proprietary-ssd-ultimate-guide-to-specs-and-upgrades#hdr-7
+https://beetstech.com/blog/replacing-thermal-paste
+
