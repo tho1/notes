@@ -30,7 +30,7 @@ There are so many javascript libraries.  Doesn't mean to be a know it all.  Here
 
 ### Node
 * https://levelup.gitconnected.com/set-up-and-run-a-simple-node-server-project-38b403a3dc09 
-
+* https://www.toptal.com/nodejs/top-10-common-nodejs-developer-mistakes
 
 ### debugging
 ```
