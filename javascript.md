@@ -43,6 +43,9 @@ Virtual DOM is an abstraction of the real DOM.  light weight. recreated after ev
 * https://levelup.gitconnected.com/set-up-and-run-a-simple-node-server-project-38b403a3dc09 gentle intro to start a node project
 * https://www.toptal.com/nodejs/top-10-common-nodejs-developer-mistakes
 
+### testing
+* https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing
+
 ### debugging
 ```
 console.log({name,age,gender});
