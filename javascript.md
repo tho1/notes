@@ -28,4 +28,15 @@ There are so many javascript libraries.  Doesn't mean to be a know it all.  Here
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 
+### Node
+* https://levelup.gitconnected.com/set-up-and-run-a-simple-node-server-project-38b403a3dc09 
 
+
+### debugging
+```
+console.log({name,age,gender});
+console.log( "plain text, %ccolored text", "color:green; font size:15px" );
+console.warn("watch out");
+console.error("you got an error");
+console.table(["apples", "oranges", "bananas"]);
+```
