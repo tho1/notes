@@ -24,12 +24,20 @@ There are so many javascript libraries.  Doesn't mean to be a know it all.  Here
 * https://github.com/MaximAbramchuck/awesome-interview-questions
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions
 * https://github.com/sudheerj/javascript-interview-questions
-* https://github.com/sudheerj/javascript-interview-questions
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 ### 
 * https://frontendmasters.com/blog/vanilla-javascript-todomvc/  Plain old todomvc. debates on not using js framework. pros and cons.
-* 
+* https://medium.com/devinder/react-virtual-dom-vs-real-dom-23749ff7adc9 Real vs Virtual DOM vs Shadow Dom
+
+### 
+dirty checking - traverse the entire tree at regular interval. Expensive and slow
+observable - components listen on events when there is update.  Fast.  
+Virtual DOM is an abstraction of the real DOM.  light weight. recreated after every render.  Reconciliation does compare and sync the virtual dom to the read DOM. It uses diffing algorithm.  Updated real DOM is rendered again.
+
+
+### event loop
+* https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4
 
 ### Node
 * https://levelup.gitconnected.com/set-up-and-run-a-simple-node-server-project-38b403a3dc09 gentle intro to start a node project
