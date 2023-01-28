@@ -30,7 +30,7 @@ There are so many javascript libraries.  Doesn't mean to be a know it all.  Here
 * https://frontendmasters.com/blog/vanilla-javascript-todomvc/  Plain old todomvc. debates on not using js framework. pros and cons.
 * https://medium.com/devinder/react-virtual-dom-vs-real-dom-23749ff7adc9 Real vs Virtual DOM vs Shadow Dom
 
-### 
+### Virtual DOM.
 dirty checking - traverse the entire tree at regular interval. Expensive and slow
 observable - components listen on events when there is update.  Fast.  
 Virtual DOM is an abstraction of the real DOM.  light weight. recreated after every render.  Reconciliation does compare and sync the virtual dom to the read DOM. It uses diffing algorithm.  Updated real DOM is rendered again.
@@ -39,9 +39,9 @@ Virtual DOM is an abstraction of the real DOM.  light weight. recreated after ev
 ### event loop
 * https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4
 
-### Node
-* https://levelup.gitconnected.com/set-up-and-run-a-simple-node-server-project-38b403a3dc09 gentle intro to start a node project
-* https://www.toptal.com/nodejs/top-10-common-nodejs-developer-mistakes
+### design patterns
+* https://www.patterns.dev/
+* https://www.patterns.dev/resources/ Also contain patterns for TS, vue, angular.  Super useful.
 
 ### testing
 * https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing
@@ -54,3 +54,21 @@ console.warn("watch out");
 console.error("you got an error");
 console.table(["apples", "oranges", "bananas"]);
 ```
+
+
+
+## Node in general
+* https://levelup.gitconnected.com/set-up-and-run-a-simple-node-server-project-38b403a3dc09 gentle intro to start a node project
+* https://www.toptal.com/nodejs/top-10-common-nodejs-developer-mistakes
+
+## node alternative
+* deno next version of Node.js by Node founder
+* https://github.com/superfly/flyjs flyJs specific for Edge application. The Fly JavaScript runtime
+
+### Scaffolding 
+There are many packages out there.  Webpack, Yeoman, Grunt, jsHint, Slush 
+* http://www.codedigest.com/quick-start/13/what-is-gulp-how-to-use-gulp Gulp intro
+
+### Lint checker
+There are many.  JsHint, ESLint 
+* https://medium.com/@sheldonled/from-jshint-to-eslint-8a0a135fa2bf
