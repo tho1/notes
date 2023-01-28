@@ -60,15 +60,39 @@ console.table(["apples", "oranges", "bananas"]);
 ## Node in general
 * https://levelup.gitconnected.com/set-up-and-run-a-simple-node-server-project-38b403a3dc09 gentle intro to start a node project
 * https://www.toptal.com/nodejs/top-10-common-nodejs-developer-mistakes
+* https://www.guru99.com/node-js-tutorial.html
 
 ## node alternative
 * deno next version of Node.js by Node founder
 * https://github.com/superfly/flyjs flyJs specific for Edge application. The Fly JavaScript runtime
 
-### Scaffolding 
+### Scaffolding in general
 There are many packages out there.  Webpack, Yeoman, Grunt, jsHint, Slush 
-* http://www.codedigest.com/quick-start/13/what-is-gulp-how-to-use-gulp Gulp intro
+* https://www.reddit.com/r/javascript/comments/262qw5/yeoman_vs_slush/
 
+#### Gulp
+* http://www.codedigest.com/quick-start/13/what-is-gulp-how-to-use-gulp Gulp intro
+* https://medium.com/@horte/how-to-create-a-slush-generator-part-1-eafece6c1ca8
+
+#### WebPack
+* https://www.smashingmagazine.com/2017/02/a-detailed-introduction-to-webpack/
+* https://ui.dev/webpack
+* https://survivejs.com/webpack/introduction/
+
+#### Grunt
+* https://semaphoreci.com/community/tutorials/getting-started-with-grunt-js
+* https://gruntjs.com/getting-started
+* https://www.geeksforgeeks.org/introduction-to-grunt/
+* https://www.webfx.com/blog/web-design/grunt-tutorial-01/
+
+#### Yeoman
+* https://flaviocopes.com/introduction-to-yeoman/
+* https://frontendmasters.com/courses/workflows-and-tooling/yeoman-introduction/
+* https://blog.techtalentsouth.com/an-intro-to-yeoman
+
+#### Slush
+* https://stackoverflow.com/questions/26322592/how-to-make-a-slush-generator
+* https://medium.com/@horte/how-to-create-a-slush-generator-part-1-eafece6c1ca8
 ### Lint checker
 There are many.  JsHint, ESLint 
 * https://medium.com/@sheldonled/from-jshint-to-eslint-8a0a135fa2bf
