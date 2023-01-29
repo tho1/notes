@@ -24,3 +24,4 @@ cheatsheet from Java to backbone.js
 * https://github.com/sadcitizen/awesome-backbone
 * https://www.codeproject.com/Articles/795965/BackBone-Tutorial-Part-Introduction-to-Backbone-Js
 * https://www.toptal.com/backbone-js/top-8-common-backbone-js-developer-mistakes
+* https://adrianmejia.com/backbone-dot-js-for-absolute-beginners-getting-started/
