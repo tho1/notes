@@ -62,6 +62,11 @@ console.table(["apples", "oranges", "bananas"]);
 * https://www.toptal.com/nodejs/top-10-common-nodejs-developer-mistakes
 * https://www.guru99.com/node-js-tutorial.html
 
+## Node setup
+* https://heynode.com/tutorial/what-packagejson/
+* https://heynode.com/tutorial/how-use-semantic-versioning-npm/
+* 
+
 ## node alternative
 * deno next version of Node.js by Node founder
 * https://github.com/superfly/flyjs flyJs specific for Edge application. The Fly JavaScript runtime
