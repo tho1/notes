@@ -34,11 +34,13 @@ https://unix.stackexchange.com/questions/250938/qemu-usb-passthrough-windows-gue
 https://unix.stackexchange.com/questions/131942/qemu-2-0-windows-guest-mouse-stops-working-vnc-when-using-usb-passthrough?rq=1
 https://unix.stackexchange.com/questions/318947/how-to-allow-guest-os-to-access-internet-in-qemu
 https://unix.stackexchange.com/questions/13590/really-light-weight-linux-for-vm-no-extensions
-
 https://unix.stackexchange.com/questions/156816/emulate-raspberrypi-using-qemu
 
+### Shortcut keys
+* ctrl-alt-F toggle screen
+* ctrl-alt-G toggle between vm and the host
 
-###LXC related
+### LXC related
 https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addresses-for-lxc-guests
 
 ### Comparision to docker
