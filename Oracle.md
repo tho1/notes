@@ -126,4 +126,4 @@ Oracle APEX
 * https://www.youtube.com/watch?v=2uBQF7wk3zg APEX 5.0 UI
 * https://content.dsp.co.uk/apex/ordsinary  why ORDS
 * https://apexapps.oracle.com/pls/apex/f?p=44785:2:116219426549991:::2,CIR,RIR:P2_PRODUCT_ID:3632#:~:text=Oracle%20REST%20Data%20Services%20(ORDS,scalable%2C%20manageable%2C%20and%20secure.  Getting started with ORDS
-* 
+* https://blogs.oracle.com/database/post/apex-ords-futc
