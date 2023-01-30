@@ -8,3 +8,7 @@ Graphic  companies
 *[AudioKinetic](https://www.audiokinetic.com/)
 *[SN Systems]https://www.snsystems.com/technology)
 
+
+### 8 bit game programming
+* https://www.youtube.com/watch?v=TPbroUDHG0s&t=27s  "Game Development in Eight Bits" by Kevin Zurawel
+
