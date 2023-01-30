@@ -121,4 +121,6 @@ order by col.owner, col.table_name, col.column_id;
 Oracle APEX
 * https://docs.oracle.com/en/database/oracle/application-express/21.2/htmig/upgrading-apex-within-oracle-db-xe.html#GUID-38805604-3203-4365-B9E0-9347DE5D3D7A
 * https://oracleagent.wordpress.com/2021/11/28/installation-of-apex-21-2-in-linux/
-* https://www.youtube.com/watch?v=GUpvXMHqe2U
+* https://www.youtube.com/watch?v=GUpvXMHqe2U 19c
+* https://www.youtube.com/watch?v=ffcD9NDAcIs 21c ORDS tomcat
+* https://www.youtube.com/watch?v=2uBQF7wk3zg APEX 5.0 UI
