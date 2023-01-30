@@ -35,6 +35,8 @@ https://unix.stackexchange.com/questions/131942/qemu-2-0-windows-guest-mouse-sto
 https://unix.stackexchange.com/questions/318947/how-to-allow-guest-os-to-access-internet-in-qemu
 https://unix.stackexchange.com/questions/13590/really-light-weight-linux-for-vm-no-extensions
 https://unix.stackexchange.com/questions/156816/emulate-raspberrypi-using-qemu
+https://stackoverflow.com/questions/70351250/is-it-possible-to-copy-files-to-qemu-image-without-running-qemu  copy files using nbd. Useful
+
 
 ### Shortcut keys
 * ctrl-alt-F toggle screen
