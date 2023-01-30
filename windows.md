@@ -23,6 +23,12 @@ https://www.windowscentral.com/how-use-dism-command-line-utility-repair-windows-
 ### specify start layout for windows 10 pc
 ```reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v SpecialRoamingOverrideAllowed /t REG_DWORD /d 1 /f```
 
+### extend trial period for windows server
+```
+slmgr -dlv
+slmgr -ream
+```
+
 ### redirect time zones
 ```reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services" /v fEnableTimeZoneRedirection /t REG_DWORD /d 1 /f````
 
