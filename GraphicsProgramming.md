@@ -11,4 +11,4 @@ Graphic  companies
 
 ### 8 bit game programming
 * https://www.youtube.com/watch?v=TPbroUDHG0s&t=27s  "Game Development in Eight Bits" by Kevin Zurawel
-
+* https://famicom.party/book/
