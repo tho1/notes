@@ -26,13 +26,13 @@ https://www.windowscentral.com/how-use-dism-command-line-utility-repair-windows-
 ### extend trial period for windows server
 ```
 slmgr -dlv
-slmgr -ream
+slmgr -rearm
 ```
+Reference: https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn502540(v=ws.11)
+
 
 ### redirect time zones
 ```reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services" /v fEnableTimeZoneRedirection /t REG_DWORD /d 1 /f````
-
-
 
 Reference 
 * https://www.cyberciti.biz/faq/linux-find-windows-10-oem-product-key-command/
