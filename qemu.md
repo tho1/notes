@@ -1,23 +1,28 @@
-# notes
-Notes of multiple topics
+## QEMU
 
-QEMU.
+[Runnning ArchLinux in QEMU](
+https://www.reddit.com/r/archlinux/comments/68jvew/installing_archlinux_in_a_qemu_kvm_vm/)
 
-Runnning ArchLinux in QEMU
-https://www.reddit.com/r/archlinux/comments/68jvew/installing_archlinux_in_a_qemu_kvm_vm/
-
-Running FreeBSD in QEMU 
-https://stackoverflow.com/questions/49656395/how-to-boot-freebsd-image-under-qemu/64027161#64027161
+[Running FreeBSD in QEMU](
+https://stackoverflow.com/questions/49656395/how-to-boot-freebsd-image-under-qemu/64027161#64027161)
 
 Some notes why people like FreeBSD, compare to linux.
 https://www.over-yonder.net/~fullermd/rants/bsd4linux/01
 
-Running openwrt in QEMU
-https://openwrt.org/docs/guide-user/virtualization/qemu
+[Running openwrt in QEMU]
+(https://openwrt.org/docs/guide-user/virtualization/qemu)
 https://discuss.linuxcontainers.org/t/can-you-use-a-qemu-disk-image-to-boot-an-lxd-vm/8030
 
-qemu-img
-https://dustymabe.com/2015/01/11/qemu-img-backing-files-a-poor-mans-snapshotrollback/
+
+## image related
+qemu-img  https://dustymabe.com/2015/01/11/qemu-img-backing-files-a-poor-mans-snapshotrollback/
+[overlay image] (https://wiki.archlinux.org/title/QEMU#Overlay_storage_images)
+
+```
+ qemu-img create -o backing_file=img1.raw,backing_fmt=raw -f qcow2 img1.cow
+ qemu-img rebase -u -b /new/img1.raw /new/img1.cow
+```
+
 
 convert image format
 ```
