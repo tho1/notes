@@ -42,6 +42,9 @@ https://stackoverflow.com/questions/70351250/is-it-possible-to-copy-files-to-qem
 * ctrl-alt-F toggle screen
 * ctrl-alt-G toggle between vm and the host
 
+### using virtio drivers 
+* https://leduccc.medium.com/improving-the-performance-of-a-windows-10-guest-on-qemu-a5b3f54d9cf5
+
 ### LXC related
 https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addresses-for-lxc-guests
 
