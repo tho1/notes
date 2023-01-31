@@ -18,11 +18,11 @@ https://discuss.linuxcontainers.org/t/can-you-use-a-qemu-disk-image-to-boot-an-l
 qemu-img  https://dustymabe.com/2015/01/11/qemu-img-backing-files-a-poor-mans-snapshotrollback/
 [overlay image] (https://wiki.archlinux.org/title/QEMU#Overlay_storage_images)
 
+### overlay
 ```
  qemu-img create -o backing_file=img1.raw,backing_fmt=raw -f qcow2 img1.cow
  qemu-img rebase -u -b /new/img1.raw /new/img1.cow
 ```
-
 
 convert image format
 ```
@@ -41,6 +41,8 @@ https://unix.stackexchange.com/questions/318947/how-to-allow-guest-os-to-access-
 https://unix.stackexchange.com/questions/13590/really-light-weight-linux-for-vm-no-extensions
 https://unix.stackexchange.com/questions/156816/emulate-raspberrypi-using-qemu
 https://stackoverflow.com/questions/70351250/is-it-possible-to-copy-files-to-qemu-image-without-running-qemu  copy files using nbd. Useful
+https://www.reddit.com/r/VFIO/comments/i12uyn/virtiofs_is_amazing_plus_how_i_set_it_up/
+https://github.com/virtio-win/kvm-guest-drivers-windows/issues/126
 
 
 ### Shortcut keys
@@ -105,6 +107,7 @@ blockcommit is faster than blockpull
 ### General Info
 * [QEMU gentoo wiki](https://wiki.gentoo.org/wiki/QEMU/Options#Hard_drive)
 * [QEMU arch wiki](https://wiki.archlinux.org/title/QEMU#Creating_a_hard_disk_image)
+* [Enable huge pages](https://wiki.archlinux.org/title/KVM#Enabling_huge_pages)
 
 ### Books
 * [KVM Virtualization Cookbook](https://www.packtpub.com/product/kvm-virtualization-cookbook/9781788294676)
