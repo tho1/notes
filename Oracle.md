@@ -118,15 +118,27 @@ order by col.owner, col.table_name, col.column_id;
 
 * Reference https://dataedo.com/kb/query/oracle/list-table-columns-in-database
 
+
+### installation 
+* https://community.oracle.com/tech/developers/discussion/4308480/18c-express-edition-win-10-pro-no-default-database-ora-12560-ora-12514-what-am-i-missing
+
 ### running old version of Oracle on AWS
 * https://aws.amazon.com/blogs/database/options-to-run-deprecated-major-versions-of-oracle-databases-on-aws/
+* https://www.sqlshack.com/installing-oracle-19c-on-windows-server-2019/  19c
+* https://www.youtube.com/watch?v=v33u3fx7ZeE 19c on Win server 2019
+* https://www.youtube.com/watch?v=DYleroLay5E 21c XE on windows
+
 
 ### Oracle APEX
 * https://docs.oracle.com/en/database/oracle/application-express/21.2/htmig/upgrading-apex-within-oracle-db-xe.html#GUID-38805604-3203-4365-B9E0-9347DE5D3D7A
 * https://oracleagent.wordpress.com/2021/11/28/installation-of-apex-21-2-in-linux/
 * https://www.youtube.com/watch?v=GUpvXMHqe2U 19c
-* https://www.youtube.com/watch?v=ffcD9NDAcIs 21c ORDS tomcat  installation 
 * https://www.youtube.com/watch?v=2uBQF7wk3zg APEX 5.0 UI
+* https://oracle.github.io/learning-library/developer-library/apex/intro-to-javascript/?lab=1-sign-up-apex Apex lab
+
+
+### ORDS Rest service
+* https://www.youtube.com/watch?v=ffcD9NDAcIs 21c ORDS tomcat  installation 
 * https://content.dsp.co.uk/apex/ordsinary  why ORDS
 * https://apexapps.oracle.com/pls/apex/f?p=44785:2:116219426549991:::2,CIR,RIR:P2_PRODUCT_ID:3632#:~:text=Oracle%20REST%20Data%20Services%20(ORDS,scalable%2C%20manageable%2C%20and%20secure.  Getting started with ORDS
 * https://blogs.oracle.com/database/post/apex-ords-futc
