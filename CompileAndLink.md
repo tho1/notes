@@ -33,3 +33,6 @@ See https://en.wikipedia.org/wiki/Cross_compiler for more explanation
 
 make CROSS=x86_64-w64-mingw32-
 
+#### cross compiling examples.
+* https://github.com/tpoechtrager/osxcross
+* https://smallhacks.wordpress.com/2018/01/08/c-cross-compilation-on-linux-for-the-freebsd-target-using-gcc-or-clang/ for FreeBSD
