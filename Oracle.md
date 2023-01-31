@@ -128,6 +128,8 @@ order by col.owner, col.table_name, col.column_id;
 * https://www.youtube.com/watch?v=v33u3fx7ZeE 19c on Win server 2019
 * https://www.youtube.com/watch?v=DYleroLay5E 21c XE on windows
 
+### Oracle tips
+* https://www.youtube.com/@oracle-base/playlists Tim Hall. Lots of info
 
 ### Oracle APEX
 * https://docs.oracle.com/en/database/oracle/application-express/21.2/htmig/upgrading-apex-within-oracle-db-xe.html#GUID-38805604-3203-4365-B9E0-9347DE5D3D7A
