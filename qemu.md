@@ -50,6 +50,9 @@ https://stackoverflow.com/questions/70351250/is-it-possible-to-copy-files-to-qem
 ### using virtio drivers 
 * https://leduccc.medium.com/improving-the-performance-of-a-windows-10-guest-on-qemu-a5b3f54d9cf5
 
+### hyper V related
+* https://blog.wikichoon.com/2014/07/enabling-hyper-v-enlightenments-with-kvm.html
+
 ### LXC related
 https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addresses-for-lxc-guests
 
