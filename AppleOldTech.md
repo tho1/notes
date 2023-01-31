@@ -28,3 +28,5 @@ https://imgur.com/a/mwTJa
 https://beetstech.com/blog/apple-proprietary-ssd-ultimate-guide-to-specs-and-upgrades#hdr-7
 https://beetstech.com/blog/replacing-thermal-paste
 
+### XCode
+https://smallhacks.wordpress.com/2018/11/11/how-to-support-old-osx-version-with-a-recent-xcode/
