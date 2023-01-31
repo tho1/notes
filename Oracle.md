@@ -22,6 +22,7 @@ Here are some common registry values added to registry.  See
 ### check the oracle database is up
 ```
 tnsping serivcename
+lsnrctl status
 ```
 
 * And check the port number is correct 
@@ -121,6 +122,7 @@ order by col.owner, col.table_name, col.column_id;
 
 ### installation 
 * https://community.oracle.com/tech/developers/discussion/4308480/18c-express-edition-win-10-pro-no-default-database-ora-12560-ora-12514-what-am-i-missing
+* https://docs.oracle.com/en/database/oracle/oracle-database/21/xeinw/ offcial guide
 
 ### running old version of Oracle on AWS
 * https://aws.amazon.com/blogs/database/options-to-run-deprecated-major-versions-of-oracle-databases-on-aws/
