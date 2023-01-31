@@ -1,4 +1,4 @@
-##Powershell cmdlets that are useful to look things up.
+## Powershell cmdlets that are useful to look things up.
 
 Windows operating system comes with powershell to look things up.  It is like a Windows version of Unix shell, with its set of cmdlet. 
 The great thing is it comes with windows.  No installation required.
@@ -143,3 +143,8 @@ $smtp.Send($smtpFrom,$smtpTo,$messagesubject,$messagebody)
 * [Christopher Bisset](https://adamtheautomator.com/author/christopher-b/)
 * [Useful .NET classes for PowerShell](https://4sysops.com/wiki/useful-net-classes-for-powershell/)
 * [Executing PowerShell Scripts FAQ and Tips & Tricks](https://www.howto-outlook.com/howto/powershell-scripts-faq-tips-and-tricks.htm)
+
+
+### sample modules
+
+* [IIS log parser](https://evotec.xyz/powershell-modules/iisparser-powershell-module/)
