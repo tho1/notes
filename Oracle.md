@@ -126,15 +126,21 @@ order by col.owner, col.table_name, col.column_id;
 ### installation 
 * https://community.oracle.com/tech/developers/discussion/4308480/18c-express-edition-win-10-pro-no-default-database-ora-12560-ora-12514-what-am-i-missing
 * https://docs.oracle.com/en/database/oracle/oracle-database/21/xeinw/ offcial guide
+* https://matthiashoys.wordpress.com/2019/05/22/installation-of-oracle-database-express-edition-oracle-xe-18c-on-linux/ 18c XE on CentOS 7.6
 
 ### running old version of Oracle on AWS
 * https://aws.amazon.com/blogs/database/options-to-run-deprecated-major-versions-of-oracle-databases-on-aws/
 * https://www.sqlshack.com/installing-oracle-19c-on-windows-server-2019/  19c
 * https://www.youtube.com/watch?v=v33u3fx7ZeE 19c on Win server 2019
-* https://www.youtube.com/watch?v=DYleroLay5E 21c XE on windows
+* https://www.youtube.com/watch?v=DYleroLay5E 21c XE on windows 
 
+### XE specific
+* https://dba.stackexchange.com/questions/256722/how-to-connect-using-pdb-userid-on-oracle-18c-xe
+* https://stackoverflow.com/questions/62045736/oracle-xe-18c-express-edition-ora-12541-tns-no-listener
+* 
 ### Oracle tips
 * https://www.youtube.com/@oracle-base/playlists Tim Hall. Lots of info
+
 
 ### Oracle APEX
 * https://docs.oracle.com/en/database/oracle/application-express/21.2/htmig/upgrading-apex-within-oracle-db-xe.html#GUID-38805604-3203-4365-B9E0-9347DE5D3D7A
@@ -145,8 +151,15 @@ order by col.owner, col.table_name, col.column_id;
 * https://matthiashoys.wordpress.com/2019/12/12/installation-of-apex-19-2-on-oracle-18c-xe-express-edition/ Oracle 19c installation
 
 
-### ORDS Rest service
+### ORDS Rest service ORDS
 * https://www.youtube.com/watch?v=ffcD9NDAcIs 21c ORDS tomcat  installation 
 * https://content.dsp.co.uk/apex/ordsinary  why ORDS
 * https://apexapps.oracle.com/pls/apex/f?p=44785:2:116219426549991:::2,CIR,RIR:P2_PRODUCT_ID:3632#:~:text=Oracle%20REST%20Data%20Services%20(ORDS,scalable%2C%20manageable%2C%20and%20secure.  Getting started with ORDS
 * https://blogs.oracle.com/database/post/apex-ords-futc
+* https://myofmwexperiments.blogspot.com/2020/06/uninstalling-ords-from-database.html
+* https://forums.oracle.com/ords/apexds/post/ords-install-latest-version-and-22-2-failed-and-unable-to-l-1991
+* https://forums.oracle.com/ords/apexds/post/error-in-starting-standalone-mode-ords-0281
+* https://asktom.oracle.com/pls/apex/asktom.search?tag=after-installationupgradation-ords-222-unable-to-run-apex
+* https://forums.oracle.com/ords/apexds/post/after-installing-ords-22-1-can-t-access-apex-7592
+* https://forums.oracle.com/ords/apexds/post/facing-issue-with-ords-http-https-2652
+* https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/19.4/aelig/troubleshooting-REST.html#GUID-459D10EB-4E62-4D28-92EB-BE1886615E00
