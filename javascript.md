@@ -62,6 +62,8 @@ console.table(["apples", "oranges", "bananas"]);
 * https://www.toptal.com/nodejs/top-10-common-nodejs-developer-mistakes
 * https://www.guru99.com/node-js-tutorial.html
 * https://stackoverflow.com/questions/14415398/best-approach-to-design-a-rest-web-service-with-binary-data-to-be-consumed-from
+* https://stackoverflow.com/questions/23210437/npm-install-private-github-repositories-by-dependency-in-package-json
+* https://stackoverflow.com/questions/28728665/how-to-use-private-github-repo-as-npm-dependency?noredirect=1&lq=1
 
 ## Node setup
 * https://heynode.com/tutorial/what-packagejson/
