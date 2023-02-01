@@ -29,6 +29,9 @@ Dependencies
 * Gitea 
 
 
+### gitlab
+* https://knasmueller.net/gitlab-authenticate-using-access-token#:~:text=GitLab%3A%20Authenticate%20Using%20Access%20Token%201%20Create%20an,Configure%20the%20Token%20for%20an%20Existing%20Repository%20
+
 #### git tips
 ```
 git log -1 --pretty="format:%ci" /path/to/repo/anyfile.any)
