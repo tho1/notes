@@ -150,8 +150,12 @@ order by col.owner, col.table_name, col.column_id;
 * https://oracle.github.io/learning-library/developer-library/apex/intro-to-javascript/?lab=1-sign-up-apex Apex 
 * https://matthiashoys.wordpress.com/2019/12/12/installation-of-apex-19-2-on-oracle-18c-xe-express-edition/ Oracle 19c installation
 
-
 ### ORDS Rest service ORDS
+Add the following in defaults.xml for debugging purpose.
+```
+<entry key="debug.printDebugToScreen">true</entry>
+```
+
 * https://www.youtube.com/watch?v=ffcD9NDAcIs 21c ORDS tomcat  installation 
 * https://content.dsp.co.uk/apex/ordsinary  why ORDS
 * https://apexapps.oracle.com/pls/apex/f?p=44785:2:116219426549991:::2,CIR,RIR:P2_PRODUCT_ID:3632#:~:text=Oracle%20REST%20Data%20Services%20(ORDS,scalable%2C%20manageable%2C%20and%20secure.  Getting started with ORDS
