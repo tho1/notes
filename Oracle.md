@@ -167,3 +167,6 @@ Add the following in defaults.xml for debugging purpose.
 * https://forums.oracle.com/ords/apexds/post/after-installing-ords-22-1-can-t-access-apex-7592
 * https://forums.oracle.com/ords/apexds/post/facing-issue-with-ords-http-https-2652
 * https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/19.4/aelig/troubleshooting-REST.html#GUID-459D10EB-4E62-4D28-92EB-BE1886615E00
+
+### Expressjs integration
+* https://matthiashoys.wordpress.com/2020/01/21/using-apex-as-front-end-for-mysql-databases-rest-enabled-with-node-js/
