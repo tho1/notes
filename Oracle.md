@@ -139,9 +139,10 @@ order by col.owner, col.table_name, col.column_id;
 ### Oracle APEX
 * https://docs.oracle.com/en/database/oracle/application-express/21.2/htmig/upgrading-apex-within-oracle-db-xe.html#GUID-38805604-3203-4365-B9E0-9347DE5D3D7A
 * https://oracleagent.wordpress.com/2021/11/28/installation-of-apex-21-2-in-linux/
-* https://www.youtube.com/watch?v=GUpvXMHqe2U 19c
+* https://www.youtube.com/watch?v=GUpvXMHqe2U 19c 
 * https://www.youtube.com/watch?v=2uBQF7wk3zg APEX 5.0 UI
-* https://oracle.github.io/learning-library/developer-library/apex/intro-to-javascript/?lab=1-sign-up-apex Apex lab
+* https://oracle.github.io/learning-library/developer-library/apex/intro-to-javascript/?lab=1-sign-up-apex Apex 
+* https://matthiashoys.wordpress.com/2019/12/12/installation-of-apex-19-2-on-oracle-18c-xe-express-edition/ Oracle 19c installation
 
 
 ### ORDS Rest service
