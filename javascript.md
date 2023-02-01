@@ -61,6 +61,7 @@ console.table(["apples", "oranges", "bananas"]);
 * https://levelup.gitconnected.com/set-up-and-run-a-simple-node-server-project-38b403a3dc09 gentle intro to start a node project
 * https://www.toptal.com/nodejs/top-10-common-nodejs-developer-mistakes
 * https://www.guru99.com/node-js-tutorial.html
+* https://stackoverflow.com/questions/14415398/best-approach-to-design-a-rest-web-service-with-binary-data-to-be-consumed-from
 
 ## Node setup
 * https://heynode.com/tutorial/what-packagejson/
