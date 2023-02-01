@@ -25,3 +25,25 @@ cheatsheet from Java to backbone.js
 * https://www.codeproject.com/Articles/795965/BackBone-Tutorial-Part-Introduction-to-Backbone-Js
 * https://www.toptal.com/backbone-js/top-8-common-backbone-js-developer-mistakes
 * https://adrianmejia.com/backbone-dot-js-for-absolute-beginners-getting-started/
+
+### boilerplates
+ * https://github.com/ajaxray/marionette-boilerplate using marionette rqquirejs boostrap BackboneJS
+ * https://github.com/tbranyen/backbone-boilerplate  Backbone, jQuery, Lodash, Grunt, Babel, Combyne, Karma, Mocha, and PureCSS for styles
+ * https://github.com/addyosmani/backbone-boilerplates integration with Express, Ruby, PHP, Grails and
+ * https://github.com/AlexSergey/rocket React + Babel + Backbone + Node + Mongo
+ * https://github.com/phawk/Backbone-Stack  Almond, handlebar, requirejs, Grunt
+ * https://github.com/kud/marrow grunt, bower, backbone
+ * https://github.com/born2net/Backbone-boilerplate-and-StackView Single Page App Skeleton  StackView
+  
+  Use 
+```
+ComBroker
+Backbone
+jQuery
+Require
+Cookie
+Bootstrap
+Localizer
+Bootbox
+LocalStorage
+```
