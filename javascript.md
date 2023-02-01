@@ -55,7 +55,11 @@ console.error("you got an error");
 console.table(["apples", "oranges", "bananas"]);
 ```
 
-
+## node token
+```
+ git+https://oauth2:yourtoken@gitlab.com:6443/somegit
+ git+https://<token-from-github>:x-oauth-basic@github.com/<user>/<GitRepo>.git
+```
 
 ## Node in general
 * https://levelup.gitconnected.com/set-up-and-run-a-simple-node-server-project-38b403a3dc09 gentle intro to start a node project
