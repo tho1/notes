@@ -31,6 +31,7 @@ Dependencies
 
 ### gitlab
 * https://knasmueller.net/gitlab-authenticate-using-access-token#:~:text=GitLab%3A%20Authenticate%20Using%20Access%20Token%201%20Create%20an,Configure%20the%20Token%20for%20an%20Existing%20Repository%20
+* https://web.archive.org/web/20170506085956/http://rzrsharp.net/2013/07/02/private-github-repos-with-npm-and-heroku.html
 
 #### git tips
 ```
