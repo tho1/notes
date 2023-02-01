@@ -2,6 +2,9 @@ Oracle is an enterprise database.
 
 ### installation of Oracle client
 
+### Oracle support
+https://www.oracle.com/us/assets/lifetime-support-technology-069183.pdf
+
 ### Oracle Client for Windows 
 It comes with 32 bit and 64 bit versions.  64 bit versions can only be installed in 64 bit Windows. 
 
