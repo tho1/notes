@@ -37,3 +37,7 @@ make CROSS=x86_64-w64-mingw32-
 * https://github.com/tpoechtrager/osxcross
 * https://smallhacks.wordpress.com/2018/01/08/c-cross-compilation-on-linux-for-the-freebsd-target-using-gcc-or-clang/ for FreeBSD
 * https://github.com/phracker/MacOSX-SDKs
+
+### ccache
+* https://www.opengeosys.org/docs/devguide/advanced/compiler-cache/
+* https://stackoverflow.com/questions/45991561/ccache-basedir-doesnt-work-as-expected
