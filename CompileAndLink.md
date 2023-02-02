@@ -41,3 +41,4 @@ make CROSS=x86_64-w64-mingw32-
 ### ccache
 * https://www.opengeosys.org/docs/devguide/advanced/compiler-cache/
 * https://stackoverflow.com/questions/45991561/ccache-basedir-doesnt-work-as-expected
+* https://stackoverflow.com/questions/1815688/how-to-use-ccache-with-cmake
