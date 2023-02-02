@@ -68,6 +68,10 @@ console.table(["apples", "oranges", "bananas"]);
 * https://stackoverflow.com/questions/14415398/best-approach-to-design-a-rest-web-service-with-binary-data-to-be-consumed-from
 * https://stackoverflow.com/questions/23210437/npm-install-private-github-repositories-by-dependency-in-package-json
 * https://stackoverflow.com/questions/28728665/how-to-use-private-github-repo-as-npm-dependency?noredirect=1&lq=1
+* https://stackoverflow.com/questions/23210437/npm-install-private-github-repositories-by-dependency-in-package-json
+* https://stackoverflow.com/questions/17509669/how-to-install-an-npm-package-from-github-directly?rq=1
+* https://stackoverflow.com/questions/27087483/how-to-resolve-git-pull-fatal-unable-to-access-https-github-com-empty
+* https://github.com/goldbergyoni/nodebestpractices
 
 ## Node setup
 * https://heynode.com/tutorial/what-packagejson/
