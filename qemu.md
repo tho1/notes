@@ -25,6 +25,16 @@ convert image format
 qemu-img convert -f raw -O qcow2 vm_hdd.img vm_hdd.qcow2
 ```
 
+### image conversion
+```
+qemu-img convert -O vdi gnome.qcow2 gnome.vdi
+
+
+#if its a raw image then:
+VBoxManage convertdd opnstk.raw VBox.vdi --format VDI
+```
+Reference: https://gist.github.com/mamonu/671038b09f5ae9e034e8
+
 ### Questions and Answers.
 * https://stackoverflow.com/questions/6710555/how-to-use-qemu-to-run-a-non-gui-os-on-the-terminal
 * https://stackoverflow.com/questions/19565116/redirect-qemu-window-output-to-terminal-running-qemu
