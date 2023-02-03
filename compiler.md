@@ -92,3 +92,6 @@ https://iamsorush.com/posts/build-gcc11/
 
 ### QBE
 * compiler backend [https://c9x.me/compile/]  
+
+### GDB walkthrough
+* https://www.incredibuild.com/blog/a-step-by-step-crash-course-in-c-debugging-without-ide#TUI
