@@ -9,9 +9,10 @@
 Docker is built on top of runC runtime container and uses daemon
 
 
-
 ### Windows Container
 * https://blog.mdfranz.com/a-windows-container-guide-for-linux-folks-397785f7675e
+* [Simple way to Docker on Windows 10 home with WSL 2] (https://hinty.io/ivictbor/simple-way-to-docker-on-windows-10-home-with-wsl-2/)
+
 
 ### Other containercandidates
 https://medium.com/technopanti/docker-vs-podman-c03359fabf77
