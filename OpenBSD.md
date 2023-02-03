@@ -6,13 +6,14 @@ https://medium.com/linux-gossip/openbsd-6-4-installing-a-seriously-underrated-os
 ### Make openbsd a desktop system with GUI
 https://framagit.org/3hg/isotop/-/blob/master/README.md
 
-
 ### Other BSD variant.
 Most are not getting a lot of updates.  Not enough users?
 
-https://en.wikipedia.org/wiki/PacBSD
-https://www.debian.org/ports/kfreebsd-gnu/
-https://www.reddit.com/r/UbuntuBSD/comments/65dzat/is_ubuntubsd_dead/
+* https://en.wikipedia.org/wiki/PacBSD
+* https://www.debian.org/ports/kfreebsd-gnu/
+* https://www.reddit.com/r/UbuntuBSD/comments/65dzat/is_ubuntubsd_dead/
+* [Some notes why people like FreeBSD, compare to linux.](https://www.over-yonder.net/~fullermd/rants/bsd4linux/01 )
+
 
 ### migrate openbsd userland to Linux
 https://github.com/leahneukirchen/outils interesting to study the commands and the tools source code.  the coding style.
