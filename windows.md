@@ -34,8 +34,11 @@ Reference: https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/wi
 ### redirect time zones
 ```reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services" /v fEnableTimeZoneRedirection /t REG_DWORD /d 1 /f````
 
+### windows newsgroup achive
+* https://microsoft.public.vstudio.general.narkive.com/
+
 ### windows server core option
-https://learn.microsoft.com/en-us/windows-server/administration/server-core/what-is-server-core lists the application disabled in a table 
+* https://learn.microsoft.com/en-us/windows-server/administration/server-core/what-is-server-core lists the application disabled in a table 
 
 
 Reference 
