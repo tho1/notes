@@ -4,9 +4,12 @@
 * [What is docker.io in relation to docker-ce and docker-ee?](https://stackoverflow.com/questions/45023363/what-is-docker-io-in-relation-to-docker-ce-and-docker-ee)
 * [Experimenting with Rootless Docker](https://me*dium.com/@tonistiigi/experimenting-with-rootless-docker-416c9ad8c0d6)
 * [Building Minimal Docker Containers for Go Applications](https://www.cloudbees.com/blog/building-minimal-docker-containers-for-go-applications/)
+* [Minideb comparison to other popular docker images](https://dzone.com/articles/minideb-a-minimalist-debian-based-docker-image)
 
 #### Docker feature
 Docker is built on top of runC runtime container and uses daemon
+
+
 
 
 ### Windows Container
@@ -15,8 +18,8 @@ Docker is built on top of runC runtime container and uses daemon
 
 
 ### Other containercandidates
-https://medium.com/technopanti/docker-vs-podman-c03359fabf77
-https://iximiuz.com/en/posts/journey-from-containerization-to-orchestration-and-beyond/
+* https://medium.com/technopanti/docker-vs-podman-c03359fabf77
+* https://iximiuz.com/en/posts/journey-from-containerization-to-orchestration-and-beyond/
 
 
 ### Podman
