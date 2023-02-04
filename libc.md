@@ -55,3 +55,4 @@ The other approach is to run the applications in emulated mode. There are many t
 ### C++ library
 http://stdcxx.apache.org/download.html
 https://www.incredibuild.com/blog/top-13-c-libraries-to-watch-out-for
+https://www.incredibuild.com/blog/what-is-a-virtual-function virtual function
