@@ -94,5 +94,5 @@ https://iamsorush.com/posts/build-gcc11/
 
 ### GDB walkthrough
 * https://www.incredibuild.com/blog/a-step-by-step-crash-course-in-c-debugging-without-ide#TUI
-
+* https://stackoverflow.com/questions/6637448/how-to-find-the-address-of-a-string-in-memory-using-gdb/38298343#38298343
 
