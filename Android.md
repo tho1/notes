@@ -78,6 +78,7 @@ Android code search
 
 ### Android development
 * [Top 10 Most Common Mistakes That Android Developers Make: A Programming Tutorial](https://www.toptal.com/android/top-10-most-common-android-development-mistakes)
+* [Build Android kernel ld vdso32 with error unrecognised emulation mode: armelf_linux_eabi](https://stackoverflow.com/questions/73496847/build-android-kernel-ld-vdso32-with-error-unrecognised-emulation-mode-armelf-li)
 
 ### Understanding build layer and other concepts.
 * https://source.android.com/setup/develop/new-device#build-layers
