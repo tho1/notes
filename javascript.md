@@ -75,6 +75,8 @@ console.table(["apples", "oranges", "bananas"]);
 * https://stackoverflow.com/questions/17509669/how-to-install-an-npm-package-from-github-directly?rq=1
 * https://stackoverflow.com/questions/27087483/how-to-resolve-git-pull-fatal-unable-to-access-https-github-com-empty
 * https://github.com/goldbergyoni/nodebestpractices
+* https://geshan.com.np/blog/2021/10/nodejs-sqlite/
+
 
 ## Node setup
 * https://heynode.com/tutorial/what-packagejson/
