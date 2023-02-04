@@ -10,6 +10,7 @@ https://github.com/mhinz/vim-galore
 ### vim plugins
 * [for sysadmin](https://www.redhat.com/sysadmin/five-vim-plugins)
 * [for dev](https://opensource.com/article/19/1/vim-plugins-developers)
+* [Learn vim scripts the hard way](https://learnvimscriptthehardway.stevelosh.com/)
 
 
 ### ctags
