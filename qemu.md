@@ -9,7 +9,6 @@ ctrl-alt-F toggle screen
 ctrl-alt-G toggle between vm and the host
 ```
 
-
 ## image related
 qemu-img  https://dustymabe.com/2015/01/11/qemu-img-backing-files-a-poor-mans-snapshotrollback/
 [overlay image] (https://wiki.archlinux.org/title/QEMU#Overlay_storage_images)
@@ -28,12 +27,24 @@ qemu-img convert -f raw -O qcow2 vm_hdd.img vm_hdd.qcow2
 ### image conversion
 ```
 qemu-img convert -O vdi gnome.qcow2 gnome.vdi
-
-
 #if its a raw image then:
 VBoxManage convertdd opnstk.raw VBox.vdi --format VDI
 ```
 Reference: https://gist.github.com/mamonu/671038b09f5ae9e034e8
+
+### vnc connect
+```
+-vnc :0
+-vnc 192.168.1.5:0
+-vnc 0.0.0.0:5
+-vnc 0.0.0.0:1 -k en-us
+####  Require that password based authentication is used for client connections ####
+-vnc 0.0.0.0:1,password -k en-us
+
+qemu-kvm -S -M rhel5.4.0 -m 1024 -smp 1 -vnc 0.0.0.0:1 -k en-us -name centos1 -monitor pty -boot c -drive file=/var/lib/libvirt/images/centos1.img
+```
+Reference https://www.cyberciti.biz/faq/linux-kvm-vnc-for-guest-machine/
+
 
 ### Questions and Answers.
 * https://stackoverflow.com/questions/6710555/how-to-use-qemu-to-run-a-non-gui-os-on-the-terminal
