@@ -49,16 +49,17 @@ Reference https://www.cyberciti.biz/faq/linux-kvm-vnc-for-guest-machine/
 ### Questions and Answers.
 * https://stackoverflow.com/questions/6710555/how-to-use-qemu-to-run-a-non-gui-os-on-the-terminal
 * https://stackoverflow.com/questions/19565116/redirect-qemu-window-output-to-terminal-running-qemu
-* https://unix.stackexchange.com/questions/124681/how-to-ssh-from-host-to-guest-using-qemu
 * https://unix.stackexchange.com/questions/250938/qemu-usb-passthrough-windows-guest
 * https://unix.stackexchange.com/questions/131942/qemu-2-0-windows-guest-mouse-stops-working-vnc-when-using-usb-passthrough?rq=1
-* https://unix.stackexchange.com/questions/318947/how-to-allow-guest-os-to-access-internet-in-qemu
 * https://unix.stackexchange.com/questions/13590/really-light-weight-linux-for-vm-no-extensions
 * https://unix.stackexchange.com/questions/156816/emulate-raspberrypi-using-qemu
 * https://stackoverflow.com/questions/70351250/is-it-possible-to-copy-files-to-qemu-image-without-running-qemu  copy files using nbd. Useful
 * https://www.reddit.com/r/VFIO/comments/i12uyn/virtiofs_is_amazing_plus_how_i_set_it_up/
 * https://github.com/virtio-win/kvm-guest-drivers-windows/issues/126
 * https://discuss.linuxcontainers.org/t/can-you-use-a-qemu-disk-image-to-boot-an-lxd-vm/8030
+
+
+
 
 ## Windows related
 ### using virtio drivers for Windows VM
@@ -80,6 +81,11 @@ https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addr
 * [kvm networking](https://www.linux-kvm.org/page/Networking)
 * [private network between vm](https://serverfault.com/questions/383208/creating-a-private-network-for-two-vms)
 * [kvm on wireless interface](https://unix.stackexchange.com/questions/159191/setup-kvm-on-a-wireless-interface-on-a-laptop-machine) Good post. Lots of instructions
+* https://unix.stackexchange.com/questions/124681/how-to-ssh-from-host-to-guest-using-qemu
+* https://unix.stackexchange.com/questions/318947/how-to-allow-guest-os-to-access-internet-in-qemu
+* https://people.debian.org/~aurel32/qemu/armhf/
+* https://stackoverflow.com/questions/74986448/how-to-emulate-qemu-to-connect-server-sockets
+
 
 
 ## other virtualization methods
