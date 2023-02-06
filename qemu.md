@@ -85,8 +85,9 @@ https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addr
 * https://unix.stackexchange.com/questions/318947/how-to-allow-guest-os-to-access-internet-in-qemu
 * https://people.debian.org/~aurel32/qemu/armhf/
 * https://stackoverflow.com/questions/74986448/how-to-emulate-qemu-to-connect-server-sockets
-
-
+* https://wiki.gentoo.org/wiki/QEMU/Options
+* https://wiki.qemu.org/Documentation/Networking
+* https://wiki.archlinux.org/title/QEMU
 
 ## other virtualization methods
 
