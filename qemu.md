@@ -121,6 +121,12 @@ https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addr
 * https://wiki.qemu.org/Documentation/Networking
 * https://wiki.archlinux.org/title/QEMU
 
+#### parprouted
+* https://github.com/emagii/parprouted/blob/master/parprouted.pod
+* https://www.hazard.maks.net/parprouted.html main page of pararouted
+* https://hackmd.io/@akiranet/H1gpqUAUO Wireless Ethernet Bridge with Proxy ARP
+
+
 ## other virtualization methods
 
 ### private network for virtualbox
