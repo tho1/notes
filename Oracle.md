@@ -150,6 +150,7 @@ order by col.owner, col.table_name, col.column_id;
 * https://oracle.github.io/learning-library/developer-library/apex/intro-to-javascript/?lab=1-sign-up-apex Apex 
 * https://matthiashoys.wordpress.com/2019/12/12/installation-of-apex-19-2-on-oracle-18c-xe-express-edition/ Oracle 19c installation
 
+
 ### ORDS Rest service ORDS
 Add the following in defaults.xml for debugging purpose.
 ```
@@ -167,6 +168,10 @@ Add the following in defaults.xml for debugging purpose.
 * https://forums.oracle.com/ords/apexds/post/after-installing-ords-22-1-can-t-access-apex-7592
 * https://forums.oracle.com/ords/apexds/post/facing-issue-with-ords-http-https-2652
 * https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/19.4/aelig/troubleshooting-REST.html#GUID-459D10EB-4E62-4D28-92EB-BE1886615E00
+
+* https://oracle-base.com/articles/misc/oracle-rest-data-services-ords-standalone-mode 3.0 to 21.4
+* https://oracle-base.com/articles/misc/oracle-rest-data-services-ords-standalone-mode-22-onward v22 onward
+* https://github.com/oracle/apex
 
 ### Expressjs integration
 * https://matthiashoys.wordpress.com/2020/01/21/using-apex-as-front-end-for-mysql-databases-rest-enabled-with-node-js/
