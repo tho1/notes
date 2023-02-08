@@ -94,6 +94,8 @@ There are many packages out there.  Webpack, Yeoman, Grunt, jsHint, Slush
 #### Gulp
 * http://www.codedigest.com/quick-start/13/what-is-gulp-how-to-use-gulp Gulp intro
 * https://medium.com/@horte/how-to-create-a-slush-generator-part-1-eafece6c1ca8
+* https://mariusschulz.com/blog/introducing-the-gulp-iife-plugin GULP iife plugins
+
 
 #### WebPack
 * https://www.smashingmagazine.com/2017/02/a-detailed-introduction-to-webpack/
