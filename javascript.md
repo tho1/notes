@@ -95,7 +95,11 @@ There are many packages out there.  Webpack, Yeoman, Grunt, jsHint, Slush
 * http://www.codedigest.com/quick-start/13/what-is-gulp-how-to-use-gulp Gulp intro
 * https://medium.com/@horte/how-to-create-a-slush-generator-part-1-eafece6c1ca8
 * https://mariusschulz.com/blog/introducing-the-gulp-iife-plugin GULP iife plugins
+* https://css-tricks.com/gulp-for-beginners/ beginners and useful plugins
+* https://nystudio107.com/blog/a-gulp-workflow-for-frontend-development-automation walkthough annotated.
 
+#### Parcel
+* https://benfrain.com/moving-from-gulp-to-parcel/
 
 #### WebPack
 * https://www.smashingmagazine.com/2017/02/a-detailed-introduction-to-webpack/
@@ -119,3 +123,6 @@ There are many packages out there.  Webpack, Yeoman, Grunt, jsHint, Slush
 ### Lint checker
 There are many.  JsHint, ESLint 
 * https://medium.com/@sheldonled/from-jshint-to-eslint-8a0a135fa2bf
+
+#### transpiling ES6
+* https://css-tricks.com/transpiling-es6/ introduce Babel and Gulp
