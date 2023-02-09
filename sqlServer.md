@@ -8,8 +8,10 @@ SQL server 2017 had multiple versions.
 main page. 
 https://www.microsoft.com/en-ca/sql-server/sql-server-2017
 
-Running on Linux.
-https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-editions-and-components-2017?view=sql-server-ver15
+#### Running SQLServer on Linux.
+* https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-editions-and-components-2017?view=sql-server-ver15
+* https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-ver16
+
 
 Turning on TLS for SQL server.  This provides a bird's eyeview and the terminology used.
 https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/enable-encrypted-connections-to-the-database-engine?view=sql-server-ver15
@@ -223,3 +225,7 @@ And the sql server log.  see https://learn.microsoft.com/en-us/sql/tools/configu
 
 ### UDL file to test connection
 Create a UDL file to test the connection.  https://stackoverflow.com/questions/61783623/how-to-ping-test-connection-to-sql-server-without-software-like-through-cmd
+
+
+#### Azure SQL Managed Instances.
+* https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql
