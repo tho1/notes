@@ -23,6 +23,11 @@ https://www.windowscentral.com/how-use-dism-command-line-utility-repair-windows-
 ### specify start layout for windows 10 pc
 ```reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v SpecialRoamingOverrideAllowed /t REG_DWORD /d 1 /f```
 
+### check storage health
+```
+wmic diskdrive get status
+```
+
 ### extend trial period for windows server
 ```
 slmgr -dlv
