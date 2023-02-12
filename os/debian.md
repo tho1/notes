@@ -23,6 +23,12 @@ sudo docker run hello-world
 
 
 #### hardware related commands
+
+creating new filesystem.
+* https://unix.stackexchange.com/questions/61209/create-and-format-exfat-partition-from-linux
+
+
+storage monitoring
 ```
 sudo smartctl -c /dev/sda 
 sudo smartctl -t long /dev/sda 
