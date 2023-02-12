@@ -20,3 +20,16 @@ sudo apt install docker-ce
 
 sudo docker run hello-world
 ```
+
+
+#### hardware related commands
+```
+sudo smartctl -c /dev/sda 
+sudo smartctl -t long /dev/sda 
+sudo smartctl -a /dev/sda 
+sudo skdump /dev/sda
+```
+
+* https://superuser.com/questions/1037644/samsung-ssd-wear-leveling-count-meaning
+* https://help.ubuntu.com/community/Smartmontools
+
