@@ -23,7 +23,9 @@ docker run hello-world
 dockerd -log info
 ```
 
-
+### Docker troubleshoot
+* https://stackoverflow.com/questions/44942790/docker-error-failed-to-register-layer-symlink
+* https://stackoverflow.com/questions/35325103/docker-error-when-pulling-java-8-image-failed-to-register-layer/35325477#35325477
 
 ### Windows Container
 * https://blog.mdfranz.com/a-windows-container-guide-for-linux-folks-397785f7675e
