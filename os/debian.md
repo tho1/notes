@@ -22,6 +22,25 @@ sudo docker run hello-world
 ```
 
 
+#### copy and paste in clipboard
+```
+Ctrl + Shift + V -> paste contents of my main clipboard (from X)
+Ctrl + Shift + C -> copy current selection to clipboard
+So to restore that functionality here’s the magic thing you need in your .Xresources file in order to achieve it:
+
+! Restore Ctrl+Shift+(c|v)
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+Once you have that just merge settings with:
+
+xrdb -merge .Xresources
+```
+Reference https://www.tomica.net/blog/2019/01/fixing-urxvt-copy-paste/
+
+
+
 #### hardware related commands
 
 creating new filesystem.
