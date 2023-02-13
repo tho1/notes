@@ -36,6 +36,60 @@ dockerd -log info
 * https://medium.com/technopanti/docker-vs-podman-c03359fabf77
 * https://iximiuz.com/en/posts/journey-from-containerization-to-orchestration-and-beyond/
 
+### building 
+```
+package main
+import (
+    "fmt"
+    "io/ioutil"
+    "net/http"
+    "os"
+)
+func main() {
+    resp, err := http.Get("https://google.com")
+    check(err)
+    body, err := ioutil.ReadAll(resp.Body)
+    check(err)
+    fmt.Println(len(body))
+}
+func check(err error) {
+    if err != nil {
+        fmt.Println(err)
+        os.Exit(1)
+    }
+}
+
+
+FROM golang:onbuild
+FROM golang:latest
+RUN mkdir /app
+ADD . /app/
+WORKDIR /app
+RUN go build -o main .
+CMD ["/app/main"]
+
+go build -o main .
+docker build -t example-scratch -f Dockerfile.scratch .
+
+
+Dockerfile.scratch
+FROM scratch
+ADD main /
+CMD ["/main"]
+
+CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o main .
+
+
+update 
+
+FROM scratch
+ADD ca-certificates.crt /etc/ssl/certs/
+ADD main /
+CMD ["/main"]
+```
+
+* https://www.cloudbees.com/blog/building-minimal-docker-containers-for-go-applications make small Go app!
+
 
 ### Podman
 * Redhat market this as the docker replacement
