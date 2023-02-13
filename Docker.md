@@ -13,6 +13,17 @@ Docker is built on top of runC runtime container and uses daemon
 * [install docker from a package](https://docs.docker.com/engine/install/debian/#install-from-a-package)
 * [buster docker repository](https://download.docker.com/linux/debian/dists/buster/pool/stable/amd64/)
 
+```
+
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+docker run hello-world
+
+dockerd -log info
+```
+
+
 
 ### Windows Container
 * https://blog.mdfranz.com/a-windows-container-guide-for-linux-folks-397785f7675e
