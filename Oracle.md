@@ -150,6 +150,7 @@ order by col.owner, col.table_name, col.column_id;
 * https://oracle.github.io/learning-library/developer-library/apex/intro-to-javascript/?lab=1-sign-up-apex Apex 
 * https://matthiashoys.wordpress.com/2019/12/12/installation-of-apex-19-2-on-oracle-18c-xe-express-edition/ Oracle 19c installation
 * https://forums.oracle.com/ords/apexds/post/apex-installation-on-oracle-10g-database-8829 old version
+* https://docs.oracle.com/cd/E17556_01/index.htm APEX 4.0 doc
 
 
 ### Oracle VM
