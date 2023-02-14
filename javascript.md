@@ -58,6 +58,8 @@ console.warn("watch out");
 console.error("you got an error");
 console.table(["apples", "oranges", "bananas"]);
 ```
+* [How to debug Node JS Errors](https://dev.to/jay818/how-to-debug-node-js-errors-3j9i)
+
 
 ## node token
 ```
@@ -76,13 +78,13 @@ console.table(["apples", "oranges", "bananas"]);
 * https://stackoverflow.com/questions/17509669/how-to-install-an-npm-package-from-github-directly?rq=1
 * https://stackoverflow.com/questions/27087483/how-to-resolve-git-pull-fatal-unable-to-access-https-github-com-empty
 * https://github.com/goldbergyoni/nodebestpractices
-* https://geshan.com.np/blog/2021/10/nodejs-sqlite/
-
+* [Express routing with Sqlite](https://geshan.com.np/blog/2021/10/nodejs-sqlite/)
+* [Express web framework from MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
 
 ## Node setup
 * https://heynode.com/tutorial/what-packagejson/
 * https://heynode.com/tutorial/how-use-semantic-versioning-npm/
-* 
+* [Node Hero – Node.js Project Structure Tutorial](https://blog.risingstack.com/node-hero-node-js-project-structure-tutorial/)
 
 ## node alternative
 * deno next version of Node.js by Node founder
