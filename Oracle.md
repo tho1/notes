@@ -152,6 +152,10 @@ order by col.owner, col.table_name, col.column_id;
 * https://forums.oracle.com/ords/apexds/post/apex-installation-on-oracle-10g-database-8829 old version
 
 
+### Oracle VM
+* https://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-161299.html
+
+
 #### Is Apex installed?
 ```
 SELECT STATUS FROM DBA_REGISTRY WHERE COMP_ID = 'APEX'
