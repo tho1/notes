@@ -86,11 +86,3 @@ Design infrastructure solutions (25-30%)
 * 
 * https://www.w3schools.com/python/numpy/default.asp
 * https://www.w3schools.com/python/pandas/default.asp
-
-
-Microsoft event
-https://mktoevents.com/Microsoft+Event/377299/157-GQE-382?wt.mc_id=AID3054224_QSG_625902&ocid_source=AID3054224_QSG_625902  SAP January 12, 2023 | 10:00 AM - 2:00 PM | (GMT-05:00) Eastern Time (US & Canada)
-https://mktoevents.com/Microsoft+Event/377564/157-GQE-382?wt.mc_id=AID3049905_QSG_625916&ocid=AID3049905_QSG_625916  AI January 17, 2023 | 10:00 AM - 2:00 PM |
-
-https://learn.microsoft.com/en-us/certifications/exams/az-305
-
