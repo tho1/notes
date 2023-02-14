@@ -18,6 +18,9 @@ There are so many javascript libraries.  Doesn't mean to be a know it all.  Here
 * https://websitesetup.org/bootstrap-tutorial-for-beginners/
 * https://www.w3schools.com/react/default.asp
 
+### In depth tutorial
+* https://github.com/javascript-society/javascript-path 
+
 ### interview questions 
 * https://github.com/Sathish2905/javascript_interview_questions
 * https://github.com/rohan-paul/Awesome-JavaScript-Interviews
