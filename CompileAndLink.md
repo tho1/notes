@@ -23,8 +23,13 @@ M4 is the macro that used to define the make file and directories.
 Configure --help
 
 #### cmake
+```
 cmake -DLIB_SUFFIX=64 This defines the library should be saved in /usr/local/lib/lib64.  Default is /usr/local
-https://stackoverflow.com/questions/6241922/how-to-use-cmake-install-prefix  change the cmake install prefix
+```
+* [change the cmake install prefix](https://stackoverflow.com/questions/6241922/how-to-use-cmake-install-prefix )
+* [use ccache with cmake](https://stackoverflow.com/questions/1815688/how-to-use-ccache-with-cmake?rq=1)
+* [learn cmake in 15 minutes](https://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes/)
+* [buid a cmake based project](https://preshing.com/20170511/how-to-build-a-cmake-based-project/)
 
 #### cross compiling
 This lets one to compile software from one platform to another platform.
