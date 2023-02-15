@@ -86,8 +86,11 @@ console.table(["apples", "oranges", "bananas"]);
 * https://github.com/goldbergyoni/nodebestpractices
 * [Express routing with Sqlite](https://geshan.com.np/blog/2021/10/nodejs-sqlite/)
 * [Express web framework from MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
+* https://stackoverflow.com/questions/50605219/difference-between-npx-and-npm
 
 ## Node setup
+* https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows
+* https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-beginners-tutorial
 * https://heynode.com/tutorial/what-packagejson/
 * https://heynode.com/tutorial/how-use-semantic-versioning-npm/
 * [Node Hero – Node.js Project Structure Tutorial](https://blog.risingstack.com/node-hero-node-js-project-structure-tutorial/)
