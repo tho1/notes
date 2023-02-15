@@ -11,6 +11,9 @@ There are so many javascript libraries.  Doesn't mean to be a know it all.  Here
 * Redux async - for validation, checking and other
 * 
 
+### Official doc
+* https://nodejs.org/docs/latest-v16.x/api/os.html#ostotalmem
+
 ### basic tutorial
 
 * https://jstutorial.medium.com/how-i-designed-an-animated-book-store-with-javascript-jquery-and-css-86251724ae91
