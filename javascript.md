@@ -96,8 +96,8 @@ console.table(["apples", "oranges", "bananas"]);
 * [Node Hero – Node.js Project Structure Tutorial](https://blog.risingstack.com/node-hero-node-js-project-structure-tutorial/)
 
 ## node alternative
-* deno next version of Node.js by Node founder
-* https://github.com/superfly/flyjs flyJs specific for Edge application. The Fly JavaScript runtime
+* [deno](https://deno.land/api)  Deno
+* [flyjs](https://github.com/superfly/flyjs) flyJs specific for Edge application. The Fly JavaScript runtime
 
 ### Scaffolding in general
 There are many packages out there.  Webpack, Yeoman, Grunt, jsHint, Slush 
