@@ -152,6 +152,7 @@ order by col.owner, col.table_name, col.column_id;
 * https://forums.oracle.com/ords/apexds/post/apex-installation-on-oracle-10g-database-8829 old version
 * https://docs.oracle.com/cd/E17556_01/index.htm APEX 4.0 doc
 * https://www.experts-exchange.com/articles/17646/Upgrading-Oracle-APEX-3-2-1-00-10-to-4-2-6-00-03-version.html install old version 4.2
+* https://www.oracleknowhow.com/download-oracle-apex/
 
 
 ### Oracle VM
