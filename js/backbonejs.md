@@ -35,6 +35,12 @@ cheatsheet from Java to backbone.js
  * https://github.com/kud/marrow grunt, bower, backbone
  * https://github.com/born2net/Backbone-boilerplate-and-StackView Single Page App Skeleton  StackView
   
+  
+### backbone alternatives
+  * [HAPI tut](https://hapi.dev/tutorials/?lang=en_US) selling point is stable.
+  * [restify](http://restify.com/docs/home/)
+  * [koa](https://koajs.com/#introduction)  Expressive middleware for node.js using ES2017 async functions
+  
   Use 
 ```
 ComBroker
