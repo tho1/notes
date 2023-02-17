@@ -158,3 +158,7 @@ There are many.  JsHint, ESLint
 
 #### transpiling ES6
 * https://css-tricks.com/transpiling-es6/ introduce Babel and Gulp
+
+### express
+* express the concept of middleware. Using promise to wait for all async all to come back
+unit testing mocha, chai, sinon, istanbul
