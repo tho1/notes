@@ -66,6 +66,20 @@ console.table(["apples", "oranges", "bananas"]);
 ```
 * [How to debug Node JS Errors](https://dev.to/jay818/how-to-debug-node-js-errors-3j9i)
 
+```
+DEBUG=express* node index.js
+npm install -g node-inspector
+node-debug index.js --debug-brk
+```
+
+node debug app.js 
+c => continue with code execution
+n => execute this line and go to next line
+s => step into this function
+o => finish function execution and step out
+repl => allows code to be evaluated remotely
+
+
 
 ## node token
 ```
