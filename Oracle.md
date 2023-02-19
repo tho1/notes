@@ -153,7 +153,14 @@ order by col.owner, col.table_name, col.column_id;
 * https://docs.oracle.com/cd/E17556_01/index.htm APEX 4.0 doc
 * https://www.experts-exchange.com/articles/17646/Upgrading-Oracle-APEX-3-2-1-00-10-to-4-2-6-00-03-version.html install old version 4.2
 * https://www.oracleknowhow.com/download-oracle-apex/
+
+
+### Oracle APEX with JS libraries
 * https://github.com/OraOpenSource/apex-nitro Javascript integration with Apex. Nice idea!
+* [AngularJS in apex](http://nyoug.org/wp-content/uploads/2014/12/McGhan_AngularJS.pdf)
+* [Using AngularJS in Apex](https://ba6.us/content/dox/KScope14/dmcghan.angularapex.presentation.pdf)
+* [React in Apex](https://www.youtube.com/watch?v=zC4a5kVGTB8)
+
 
 
 ### Oracle VM
