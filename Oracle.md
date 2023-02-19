@@ -153,6 +153,7 @@ order by col.owner, col.table_name, col.column_id;
 * https://docs.oracle.com/cd/E17556_01/index.htm APEX 4.0 doc
 * https://www.experts-exchange.com/articles/17646/Upgrading-Oracle-APEX-3-2-1-00-10-to-4-2-6-00-03-version.html install old version 4.2
 * https://www.oracleknowhow.com/download-oracle-apex/
+* https://github.com/OraOpenSource/apex-nitro Javascript integration with Apex. Nice idea!
 
 
 ### Oracle VM
@@ -188,3 +189,4 @@ Add the following in defaults.xml for debugging purpose.
 
 ### Expressjs integration
 * https://matthiashoys.wordpress.com/2020/01/21/using-apex-as-front-end-for-mysql-databases-rest-enabled-with-node-js/
+
