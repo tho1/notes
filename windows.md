@@ -45,6 +45,12 @@ Reference: https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/wi
 ### windows server core option
 * https://learn.microsoft.com/en-us/windows-server/administration/server-core/what-is-server-core lists the application disabled in a table 
 
+### windows as wifi sharing
+* https://superuser.com/questions/867394/internet-connection-sharing-with-wireless
+* https://4sysops.com/members/michael-pietroforte/
+* https://www.versatek.com/blog/why-4g-lte-gateway-is-still-a-win/
+
+
 
 Reference 
 * https://www.cyberciti.biz/faq/linux-find-windows-10-oem-product-key-command/
