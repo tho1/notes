@@ -162,7 +162,11 @@ There are many.  JsHint, ESLint
 ### express
 * express the concept of middleware. Using promise to wait for all async all to come back
 unit testing mocha, chai, sinon, istanbul
-
+* express-generator to generate the source code.
+* 
+```
+ npm install express-generator -g
+```
 
 ### integration 
 [SalesForce integration](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.js_share_code)
