@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<project name = "JasperReportTest" default = "viewDesignXML" basedir = ".">
+
+   <import file = "baseBuild.xml" />
+   <target name = "viewDesignXML" description = "Design viewer is
+      launched to preview the JXML report design.">
+
+      <java classname = "net.sf.jasperreports.view.JasperDesignViewer" fork = "true">
+         <arg value = "-XML" />
+                 <arg value = "-F${file.name}.jrxml" />
+                 <classpath refid = "classpath" />
+      </java>
+   </target>
+
+   <target name = "compile" description = "Compiles the JXML file and produces the .jasper file.  The tool needs to use Java 1.6 for the code">
+      <taskdef name = "jrc" classname = "net.sf.jasperreports.ant.JRAntCompileTask">
+         <classpath refid = "classpath" />
+      </taskdef>
+
+      <jrc destdir = ".">
+         <src>
+            <fileset dir = ".">
+               <include name = "MySample.jrxml" />
+            </fileset>
+         </src>
+         <classpath refid = "classpath" />
+      </jrc>
+   </target>
+
+   <target name = "cpjrmxl" description = "copy jasper file.">
+                <copy>
+                        <fileset dir="." includes="*.jasper"/>
+                </copy>
+   </target>
+
+   <target name = "cpjasper" description = "copy jasper file.">
+                <delete>
+                        <fileset dir="." includes="*.jasper"/>
+                </delete>
+   </target>
+
+   <target name = "delj" description = "delete jasper file.">
+                <delete>
+                        <fileset dir="." includes="*.jasper"/>
+                </delete>
+   </target>
+</project>
