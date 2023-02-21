@@ -50,6 +50,43 @@ Reference: https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/wi
 * https://4sysops.com/members/michael-pietroforte/
 * https://www.versatek.com/blog/why-4g-lte-gateway-is-still-a-win/
 
+Make sure the wifi drivers support hosted network.
+
+defines the new network
+C:\WINDOWS\system32>netsh wlan set hostednetwork mode=allow ssid=penpen key=123g
+The hosted network mode has been set to allow.
+The SSID of the hosted network has been successfully changed.
+The user key passphrase of the hosted network has been successfully changed.
+
+start the network
+C:\WINDOWS\system32>netsh wlan start hostednetwork
+The hosted network started.
+
+Go to Control Panel > Network and Internet > Network Connections
+There should be a new virtual network.
+
+Now to the Local Area Connection. Click properties.
+IN the Networking tab.  unclick Internet Protocol Version6.
+IN the Networking tab.  check IPv4 is enabled.
+Click the Sharing tab. on the top.
+    deselect Allow other network users to connect through this computer's intern
+    There should be a drop down list.  Select the new one you created.
+    Local Area Network 11.
+
+Now go back to the Local Network Connection 11. Check the general tab.
+check the IPv4 connectivity: Internet
+
+Now ping outside.
+
+
+
+
+
+C:\WINDOWS\system32>netsh wlan stop hostednetwork
+The hosted network started.
+
+
+
 
 
 Reference 
