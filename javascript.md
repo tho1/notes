@@ -99,6 +99,7 @@ repl => allows code to be evaluated remotely
 * https://stackoverflow.com/questions/27087483/how-to-resolve-git-pull-fatal-unable-to-access-https-github-com-empty
 * https://github.com/goldbergyoni/nodebestpractices
 * [Express routing with Sqlite](https://geshan.com.np/blog/2021/10/nodejs-sqlite/)
+* [Turbocharging ETL jobs with SQLite and Nodejs!](https://medium.com/swlh/turbocharging-etl-jobs-with-sqlite-and-nodejs-ae66b049083)
 * [Express web framework from MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
 * https://stackoverflow.com/questions/50605219/difference-between-npx-and-npm
 
