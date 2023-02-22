@@ -123,6 +123,34 @@ order by col.owner, col.table_name, col.column_id;
 * Reference https://dataedo.com/kb/query/oracle/list-table-columns-in-database
 
 
+### split a large table to smaller one.
+```
+CREATE TABLE xy_001 AS
+
+SELECT  *
+
+FROM    (
+
+    SELECT  y.*
+
+          ,CEIL(ROW_NUMBER() OVER (ORDER BY your_date_column) /100000) x
+
+    FROM    y
+
+        )
+
+WHERE  x = 1;
+```
+
+### select certain number of rows in Oracle
+```
+select * from (
+  select a.*, ROWNUM rnum from (
+    <select statement with order by clause>
+  ) a where rownum <= MAX_ROW
+) where rnum >= MIN_ROW
+```
+
 ### installation 
 * https://community.oracle.com/tech/developers/discussion/4308480/18c-express-edition-win-10-pro-no-default-database-ora-12560-ora-12514-what-am-i-missing
 * https://docs.oracle.com/en/database/oracle/oracle-database/21/xeinw/ offcial guide
