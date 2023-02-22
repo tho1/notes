@@ -120,6 +120,57 @@ https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addr
 * https://wiki.gentoo.org/wiki/QEMU/Options
 * https://wiki.qemu.org/Documentation/Networking
 * https://wiki.archlinux.org/title/QEMU
+* https://serverfault.com/questions/704294/qemu-multiple-port-forwarding
+* https://askubuntu.com/questions/952697/rdp-to-kvm-guest  
+* https://groups.google.com/g/linux.debian.user/c/oEQH4LBRZNs?pli=1
+* [using virsh](https://dyiwu.github.io/2020/06/kvm-guest-dhcp-ip/)
+* https://dracocybersecurity.com/assigning-static-ip-address-to-guest-vm-in-a-nested-kvm-ubuntu-20-04/
+
+
+
+
+
+```
+# using bridge network
+sudo qemu-system-aarch64 -nographic -no-reboot \
+-boot n \
+-machine virt,gic-version=max -m 2048 -cpu cortex-a53 -smp 4 \
+-device virtio-net-pci,netdev=vnet,mac=52:54:00:12:xx:xx \
+-netdev user,id=vnet,type=tap \
+-device virtio-blk-pci,drive=hd \
+-drive if=none,file=swap.qcow2,format=qcow2,id=hd \
+-kernel vmlinuz-4.19.0-13-arm64 \
+-initrd initrd.img-4.19.0-13-arm64 \
+-append "root=/dev/nfs rw \
+nfsroot=192.168.xx.xx:/opt/remote/nfsroot/rpi4b-arm64 ip=dhcp"
+``` 
+
+
+
+```
+#RDP redirection.  QEMU needs to set IP address first. 
+redir --lport 3389 --caddr=GuestIP --cport 3389
+```
+
+
+```
+qemu-system-i386 -net nic,model=rtl8139 \
+  -net user,hostfwd=tcp::3389-:3389,hostfwd=tcp::443-:443,hostfwd=tcp::992-:992 \
+  -m 512M -localtime -cpu core2duo,+nx -smp 2 -usbdevice tablet \
+  -k en-us -hda win.img -nographic
+
+```
+
+
+```
+  # legacy redir option
+  qemu-system-i386 -net nic,model=rtl8139 \
+  -net user,hostfwd=tcp::3389-:3389,hostfwd=tcp::443-:443,hostfwd=tcp::992-:992 \
+  -m 512M -localtime -cpu core2duo,+nx -smp 2 -usbdevice tablet \
+  -k en-us -hda win.img -nographic
+
+```
+
 
 #### parprouted
 * https://github.com/emagii/parprouted/blob/master/parprouted.pod
