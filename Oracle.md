@@ -193,6 +193,7 @@ select * from (
 
 ### Oracle VM
 * https://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-161299.html
+* https://www.oracle.com/database/technologies/databaseappdev-vm.html#license-lightbox
 
 
 #### Is Apex installed?
