@@ -11,7 +11,6 @@ It comes with 32 bit and 64 bit versions.  64 bit versions can only be installed
 Registry setup. 
 
 Oracle writes to Windows registry for 32 bit or 64 bit installation.
-
 Here are some common registry values added to registry.  See 
 
 * [Registry setup](https://docs.oracle.com/en/database/oracle/oracle-database/19/ntqrf/about-hkey-local-machine.html#GUID-33BEB17A-6151-4192-B24B-3EABAE5A2482)
@@ -181,7 +180,8 @@ select * from (
 * https://docs.oracle.com/cd/E17556_01/index.htm APEX 4.0 doc
 * https://www.experts-exchange.com/articles/17646/Upgrading-Oracle-APEX-3-2-1-00-10-to-4-2-6-00-03-version.html install old version 4.2
 * https://www.oracleknowhow.com/download-oracle-apex/
-
+* [ORA 24247 error ACL](https://logic.edchen.org/how-to-resolve-ora-24247-network-access-denied-by-access-control-list-acl/#resolve-or-connect-privilege)
+* [Apex developer](http://jastraub.blogspot.com/)
 
 ### Oracle APEX with JS libraries
 * https://github.com/OraOpenSource/apex-nitro Javascript integration with Apex. Nice idea!
