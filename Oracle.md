@@ -184,6 +184,12 @@ select * from (
 * [Apex developer](http://jastraub.blogspot.com/)
 * https://blogs.oracle.com/apex/post/synchronize-parent-child-rest-sources
 
+### Oracle APEX ldap integration
+* https://forums.oracle.com/ords/apexds/post/getting-apex-ords-21-1-connect-to-ldap-active-directory-1901  shared component --> auth schemes
+* https://oracle-base.com/articles/misc/oracle-application-express-apex-ldap-authentication  use DBMS_LDAP modules
+
+
+
 ### Oracle APEX with JS libraries
 * https://github.com/OraOpenSource/apex-nitro Javascript integration with Apex. Nice idea!
 * [AngularJS in apex](http://nyoug.org/wp-content/uploads/2014/12/McGhan_AngularJS.pdf)
