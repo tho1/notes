@@ -182,6 +182,7 @@ select * from (
 * https://www.oracleknowhow.com/download-oracle-apex/
 * [ORA 24247 error ACL](https://logic.edchen.org/how-to-resolve-ora-24247-network-access-denied-by-access-control-list-acl/#resolve-or-connect-privilege)
 * [Apex developer](http://jastraub.blogspot.com/)
+* https://blogs.oracle.com/apex/post/synchronize-parent-child-rest-sources
 
 ### Oracle APEX with JS libraries
 * https://github.com/OraOpenSource/apex-nitro Javascript integration with Apex. Nice idea!
