@@ -31,7 +31,6 @@ See https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
 fastboot oem lock command 
 ```
 
-
 ### sample device-info
 (bootloader) Verity mode: true
 (bootloader) Device unlocked: false
@@ -48,6 +47,11 @@ fastboot oem lock command
 (bootloader) cal_rebootcount: 0x31
 OKAY [  0.001s]
 Finished. Total time: 0.001s
+
+### read battery health
+```
+/sys/class/power_supply/bms/battery_health
+```
 
 
 
