@@ -48,13 +48,6 @@ fastboot oem lock command
 OKAY [  0.001s]
 Finished. Total time: 0.001s
 
-### read battery health
-```
-/sys/class/power_supply/bms/battery_health
-```
-
-
-
 ### android emulator
 https://android.googlesource.com/platform/prebuilts/android-emulator/+/master/linux-x86_64/lib/advancedFeatures.ini
 
@@ -98,6 +91,7 @@ Android code search
 ### battery health
 * ```cat /sys/class/power_supply/battery/charge_full```
 * ```cat /sys/class/power_supply/battery/battery_cycle``` 
+* ```cat /sys/class/power_supply/bms/battery_health```
 
 ### double tap
 * https://www.android-examples.com/detect-double-tap-click-on-screen-in-android-programmatically/
