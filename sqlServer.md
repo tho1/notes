@@ -226,9 +226,6 @@ And the sql server log.  see https://learn.microsoft.com/en-us/sql/tools/configu
 ### UDL file to test connection
 Create a UDL file to test the connection.  https://stackoverflow.com/questions/61783623/how-to-ping-test-connection-to-sql-server-without-software-like-through-cmd
 
-### DLL assembly integration
-[How to call a .Net assembly in SSIS](https://www.dotnetfunda.com/articles/show/1199/how-to-call-a-net-assembly-in-ssis)
-
 
 ### Encryption
 * [SQL Server Encryption](https://www.dotnetfunda.com/articles/show/1339/sql-server-encryption)
@@ -236,3 +233,9 @@ Create a UDL file to test the connection.  https://stackoverflow.com/questions/6
 
 #### Azure SQL Managed Instances.
 * https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql
+
+### SSIS related
+#### LL assembly integration
+* [How to call a .Net assembly in SSIS](https://www.dotnetfunda.com/articles/show/1199/how-to-call-a-net-assembly-in-ssis)
+* [Generate PDF report from SSIS(https://sqlserverrider.com/2013/02/15/generate-pdf-report-from-ssis/)
+
