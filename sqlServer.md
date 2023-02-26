@@ -237,5 +237,5 @@ Create a UDL file to test the connection.  https://stackoverflow.com/questions/6
 ### SSIS related
 #### LL assembly integration
 * [How to call a .Net assembly in SSIS](https://www.dotnetfunda.com/articles/show/1199/how-to-call-a-net-assembly-in-ssis)
-* [Generate PDF report from SSIS(https://sqlserverrider.com/2013/02/15/generate-pdf-report-from-ssis/)
+* [Generate PDF report from SSIS](https://sqlserverrider.com/2013/02/15/generate-pdf-report-from-ssis/)
 
