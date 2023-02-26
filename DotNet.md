@@ -50,6 +50,9 @@ https://docs.servicestack.net/templates-aspnet-empty
 * [Call dll from Excel](https://docs.microsoft.com/en-us/office/client-developer/excel/how-to-access-dlls-in-excel)
 
 
+###
+* [How to convert PDF to Excel and PDF to Word in C#/VB.NET](https://www.dotnetfunda.com/articles/show/4020/how-to-convert-pdf-to-excel-and-pdf-to-word-in-csharpvbnet)
+
 ### ASP code analyzer
 * [ASP Code Analyzer](https://www.codeproject.com/Articles/11010/ASP-Code-Analyzer)
 * [Classic Asp Web Service Problem](https://stackoverflow.com/questions/618621/classic-asp-web-service-problem?rq=1)
