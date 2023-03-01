@@ -45,27 +45,38 @@ Reference: https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/wi
 ### windows server core option
 * https://learn.microsoft.com/en-us/windows-server/administration/server-core/what-is-server-core lists the application disabled in a table 
 
-### windows as wifi sharing
+### Using windows laptop as wifi sharing
 * https://superuser.com/questions/867394/internet-connection-sharing-with-wireless
 * https://4sysops.com/members/michael-pietroforte/
 * https://www.versatek.com/blog/why-4g-lte-gateway-is-still-a-win/
 
-Make sure the wifi drivers support hosted network.
 
-defines the new network
-C:\WINDOWS\system32>netsh wlan set hostednetwork mode=allow ssid=penpen key=123g
+#### Make sure the wifi drivers support hosted network.
+Step 1. Run the follwoing command will lists the properties of the wireless driver.  Look for a line called "Hosted Network support: Yes" 
+
+```
+netsh wlan show drivers
+```
+
+Step 2. defines a new network
 The hosted network mode has been set to allow.
 The SSID of the hosted network has been successfully changed.
 The user key passphrase of the hosted network has been successfully changed.
 
-start the network
-C:\WINDOWS\system32>netsh wlan start hostednetwork
-The hosted network started.
+```
+C:\WINDOWS\system32>netsh wlan set hostednetwork mode=allow ssid=penpen key=123g
+```
 
-Go to Control Panel > Network and Internet > Network Connections
+Step 3. start the new network
+```
+C:\WINDOWS\system32>netsh wlan start hostednetwork
+```
+
+
+Step 4. Go to Control Panel > Network and Internet > Network Connections
 There should be a new virtual network.
 
-Now to the Local Area Connection. Click properties.
+Step 5. Now go to the Local Area Connection. Click properties.
 IN the Networking tab.  unclick Internet Protocol Version6.
 IN the Networking tab.  check IPv4 is enabled.
 Click the Sharing tab. on the top.
@@ -73,20 +84,13 @@ Click the Sharing tab. on the top.
     There should be a drop down list.  Select the new one you created.
     Local Area Network 11.
 
-Now go back to the Local Network Connection 11. Check the general tab.
+Step 6. Now go back to the Local Network Connection recently created. Check the general tab.
 check the IPv4 connectivity: Internet
 
-Now ping outside.
-
-
-
-
+Step 7. Now ping outside.
 
 C:\WINDOWS\system32>netsh wlan stop hostednetwork
 The hosted network started.
-
-
-
 
 
 Reference 
