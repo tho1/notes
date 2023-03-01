@@ -49,9 +49,9 @@ Reference: https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/wi
 * https://superuser.com/questions/867394/internet-connection-sharing-with-wireless
 * https://4sysops.com/members/michael-pietroforte/
 * https://www.versatek.com/blog/why-4g-lte-gateway-is-still-a-win/
+* https://www.pcerror-fix.com/how-to-view-or-change-a-hosted-network-settings-in-windows-10
 
-
-#### Make sure the wifi drivers support hosted network.
+#### laptop as wireless hotspot 
 Step 1. Run the follwoing command will lists the properties of the wireless driver.  Look for a line called "Hosted Network support: Yes" 
 
 ```
