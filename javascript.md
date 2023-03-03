@@ -56,6 +56,7 @@ Virtual DOM is an abstraction of the real DOM.  light weight. recreated after ev
 ### testing
 * https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing
 
+
 ### debugging
 ```
 console.log({name,age,gender});
@@ -80,12 +81,21 @@ o => finish function execution and step out
 repl => allows code to be evaluated remotely
 
 
+* https://peterlyons.com/js-debug/
+* https://developer.chrome.com/blog/preview-javascript-values-inline-while-debugging/
+* https://developer.chrome.com/docs/devtools/#call-stack
+* https://medium.com/the-node-js-collection/debugging-node-js-with-google-chrome-4965b5f910f4
+* https://devdojo.com/posandu/consolelog-alternatives-you-didnt-know
+
 
 ## node token
 ```
  git+https://oauth2:yourtoken@gitlab.com:6443/somegit
  git+https://<token-from-github>:x-oauth-basic@github.com/<user>/<GitRepo>.git
 ```
+
+## refactor
+* https://devdojo.com/posandu/refactoring-javascript-code-efficiently
 
 ## Node in general
 * https://levelup.gitconnected.com/set-up-and-run-a-simple-node-server-project-38b403a3dc09 gentle intro to start a node project
