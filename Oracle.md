@@ -235,4 +235,4 @@ Add the following in defaults.xml for debugging purpose.
 
 ### node integration
 * https://www.techiediaries.com/node-oracle-database-crud/
-
+* https://github.com/oracle/node-oracledb/blob/main/INSTALL.md#which-instructions-to-follow
