@@ -17,7 +17,9 @@ This page contains some of the useful links about Java technology that I had col
 [How to Use Java Streams, Explained](https://medium.com/capital-one-tech/how-to-use-java-streams-explained-a2836e3a75f2)
 
 ### Restful service
-https://happycoding.io/tutorials/java-server/rest-api
-https://www.digitalocean.com/community/tutorials/restful-web-services-tutorial-java
-https://hevodata.com/learn/java-rest-clients-and-api-frameworks/
-https://struts.apache.org/plugins/
+* https://happycoding.io/tutorials/java-server/rest-api
+* https://www.digitalocean.com/community/tutorials/restful-web-services-tutorial-java
+* https://hevodata.com/learn/java-rest-clients-and-api-frameworks/
+* https://struts.apache.org/plugins/
+* https://hevodata.com/learn/java-rest-clients-and-api-frameworks/
+* https://www.digitalocean.com/community/tutorials/restful-web-services-tutorial-java
