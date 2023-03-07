@@ -236,3 +236,4 @@ Add the following in defaults.xml for debugging purpose.
 ### node integration
 * https://www.techiediaries.com/node-oracle-database-crud/
 * https://github.com/oracle/node-oracledb/blob/main/INSTALL.md#which-instructions-to-follow
+* https://docs.oracle.com/en/cloud/paas/autonomous-database/adbsa/connecting-nodejs.html#GUID-AB1E323A-65B9-47C4-840B-EC3453F3AD53
