@@ -233,3 +233,6 @@ Add the following in defaults.xml for debugging purpose.
 ### Expressjs integration
 * https://matthiashoys.wordpress.com/2020/01/21/using-apex-as-front-end-for-mysql-databases-rest-enabled-with-node-js/
 
+### node integration
+* https://www.techiediaries.com/node-oracle-database-crud/
+
