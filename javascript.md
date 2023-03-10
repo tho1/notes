@@ -181,3 +181,11 @@ unit testing mocha, chai, sinon, istanbul
 
 ### integration 
 [SalesForce integration](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.js_share_code)
+
+### file system API
+* https://dojotoolkit.org/documentation/tutorials/1.10/uploader/index.html#:~:text=The%20HTML5%20multi%2Dfile%20uploader,of%20Flash%20or%20an%20iframe.
+* https://developer.chrome.com/articles/file-system-access/
+* Using the HTML5 Filesystem API by by Eric Bidelman
+* https://developer.mozilla.org/en-US/docs/Web/API/FileSystem
+* https://css-tricks.com/getting-started-with-the-file-system-access-api/
+* https://www.w3.org/TR/file-system-api/
