@@ -1,22 +1,19 @@
-References for Assembly language.
-
-* http://www.egr.unlv.edu/~ed/assembly64.pdf   x86-64  Assembly Language Programming with Ubuntu
-* https://www.tutorialspoint.com/assembly_programming/assembly_tutorial.pdf  Assembly language tutorial
-* https://www.ic.unicamp.br/~pannain/mc404/aulas/pdfs/Art%20Of%20Intel%20x86%20Assembly.pdf  The art of assembly language 
-* https://johv.dk/blog/bare-metal-assembly-tutorial.html Getting started with bare-metal assembly
-
-Assembly for DOS
-
-* http://www.asmcommunity.net/forums/board/?id=113 ASM Community
-* http://qzx.com/pc-gpe/  PC Game Programmer's Encyclopedia
+ 
+### References for Assembly language.
+* [x86-64  Assembly Language Programming with Ubuntu](http://www.egr.unlv.edu/~ed/assembly64.pdf)   
+* [Assembly language tutorial](https://www.tutorialspoint.com/assembly_programming/assembly_tutorial.pdf)
+* [The art of assembly language ](https://www.ic.unicamp.br/~pannain/mc404/aulas/pdfs/Art%20Of%20Intel%20x86%20Assembly.pdf)  
+* [Getting started with bare-metal assembly](https://johv.dk/blog/bare-metal-assembly-tutorial.html)
+* [ASM Community](http://www.asmcommunity.net/forums/board/?id=113) 
+* [PC Game Programmer's Encyclopedia](http://qzx.com/pc-gpe/)  
 
 
-Software optimization
+### Software optimization
 * [Software optimization](https://www.agner.org/optimize/?e=0#testp)
 * [AsmUtils](http://asm.sourceforge.net/asmutils.html)  Unix tools written in assembly language.
 
 
-###Assembly syntax.
+### Assembly syntax
 
 There are 2 major one. Intel and AT&T syntax.  Most of the assembler use the Intel syntax for Windows based system,  AT&T syntax used in UNIX environment 
 See https://stackoverflow.com/questions/972602/limitations-of-intel-assembly-syntax-compared-to-att 
