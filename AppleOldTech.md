@@ -16,8 +16,17 @@ Looking back at history is an interesting way to study how certain technology ma
 
 ### 32 bit apps
 ```mdfind "kMDItemExecutableArchitectures == '*i386*' && kMDItemExecutableArchitectures != '*x86*'"```
-
 from https://apple.stackexchange.com/questions/314460/how-to-identify-32bit-applications-on-macos-without-running-each-one
+
+### Apple Sync Photo
+Scenario: There are photos in my personal Pictures directory, and I would like to back it up to an External hard drive.  How would you do it? 
+Pictures directory: /Users/you/Pictures
+Harddrive directory: /Volume/MacBackup/Pictures
+
+```
+rsync -avzh /Users/you/Pictures /Volume/MacBackup/Pictures
+```
+
 
 ### Ipad air ghost type issue
 https://www.ifixit.com/Answers/View/192265/solution+to+phantom-ghost+touches+ipad+air
