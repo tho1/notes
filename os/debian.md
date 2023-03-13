@@ -43,11 +43,23 @@ Reference https://www.tomica.net/blog/2019/01/fixing-urxvt-copy-paste/
 
 #### hardware related commands
 
-creating new filesystem.
+##### creating new filesystem.
 * https://unix.stackexchange.com/questions/61209/create-and-format-exfat-partition-from-linux
 
+##### mkfs related
 
-storage monitoring
+* https://learn.microsoft.com/en-us/troubleshoot/windows-server/backup-and-storage/support-for-hard-disks-exceeding-2-tb
+
+
+```
+mkfs.ext3 /dev/sdXX -O sparse_super,large_file -m 0 -T largefile4
+mkfs.ext4 -O uninit_bg=1 -E lazy_itable_init=1
+mkfs.ntfs -f /dev/sdb1
+
+```
+
+
+##### storage monitoring
 ```
 sudo smartctl -c /dev/sda 
 sudo smartctl -t long /dev/sda 
