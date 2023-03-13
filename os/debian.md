@@ -49,12 +49,16 @@ Reference https://www.tomica.net/blog/2019/01/fixing-urxvt-copy-paste/
 ##### mkfs related
 
 * https://learn.microsoft.com/en-us/troubleshoot/windows-server/backup-and-storage/support-for-hard-disks-exceeding-2-tb
-
+* https://man7.org/linux/man-pages/man5/ext4.5.html
 
 ```
 mkfs.ext3 /dev/sdXX -O sparse_super,large_file -m 0 -T largefile4
 mkfs.ext4 /dev/sdXX -O sparse_super,large_file,uninit_bg -E lazy_itable_init=1 -m 0 -T largefile
 mkfs.ntfs -f /dev/sdb1
+
+# -m reserved-block-percentage
+# -T usage-type
+# -E extended-option
 
 ```
 
