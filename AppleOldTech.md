@@ -27,6 +27,18 @@ Harddrive directory: /Volume/MacBackup/Pictures
 rsync -avzh /Users/you/Pictures /Volume/MacBackup/Pictures
 ```
 
+###
+```
+codesign --remove-signature
+xattr -cr /path/to/your/program.app
+
+hex2bin firmware.hex
+strings firmaware.bin
+
+```
+* https://reverseengineering.stackexchange.com/questions/15006/approach-to-extract-useful-information-from-binary-file?rq=1
+* https://reverseengineering.stackexchange.com/questions/8177/convert-mach-o-vm-address-to-file-offset?rq=1
+* https://reverseengineering.stackexchange.com/questions/17262/binwalk-alternative?noredirect=1&lq=1
 
 ### Ipad air ghost type issue
 https://www.ifixit.com/Answers/View/192265/solution+to+phantom-ghost+touches+ipad+air
