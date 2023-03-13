@@ -53,7 +53,7 @@ Reference https://www.tomica.net/blog/2019/01/fixing-urxvt-copy-paste/
 
 ```
 mkfs.ext3 /dev/sdXX -O sparse_super,large_file -m 0 -T largefile4
-mkfs.ext4 -O uninit_bg=1 -E lazy_itable_init=1
+mkfs.ext4 /dev/sdXX -O sparse_super,large_file,uninit_bg -E lazy_itable_init=1 -m 0 -T largefile
 mkfs.ntfs -f /dev/sdb1
 
 ```
