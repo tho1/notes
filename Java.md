@@ -25,3 +25,23 @@ This page contains some of the useful links about Java technology that I had col
 
 ### 
 * [Connect Node.js and other Scripting Languages (mTLS)](https://docs.oracle.com/en/cloud/paas/autonomous-database/adbsa/connecting-nodejs.html#GUID-AB1E323A-65B9-47C4-840B-EC3453F3AD53)
+
+
+### Spring
+https://github.com/DerekYRC/mini-spring
+https://github.com/linnykoleh/Spring  certifications
+https://www.udemy.com/course/spring-framework-5-beginner-to-guru
+https://github.com/lxy-go/SpringBoot
+
+	https://www.vogella.com/tutorials/EclipseMaven/article.html test maven work correctly.
+	https://github.com/eugenp/tutorials lots of examples.
+	https://www.springboottutorial.com/spring-boot-react-full-stack-crud-maven-application
+	https://www.tutorialspoint.com/spring_boot/spring_boot_quick_guide.htm
+	https://github.com/trending/developers
+	https://www.springboottutorial.com/creating-spring-boot-project-with-eclipse-and-maven
+	https://dzone.com/articles/creating-a-spring-boot-project-with-eclipse-and-ma
+	https://javahungry.blogspot.com/2019/09/spring-boot-hello-world-example-maven-eclipse.html
+	https://developers.perfectomobile.com/display/TT/Working+with+Maven
+
+	https://www.baeldung.com/spring-boot-servlet-containers	
+	https://productive.me/self-hosted-nexus-for-private-scoped-npm-packages/
