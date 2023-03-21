@@ -66,4 +66,30 @@ https://www.openlogic.com/blog/apache-tomcat-clustering#:~:text=Tomcat%20cluster
 https://tomcat.apache.org/tomcat-9.0-doc/cluster-howto.html						    
 						    
 						    
+tomcat6
+	try to do different stuff with it.
+
+	what is tomcat client deployer? purpose?
+	do more checking and packaging.
+
+	Manager. - deployment
+	Realm - ACL control list of info.
+	
+	server side includes
+	
+	clustering - 
+	security - 
+	Connectors - connect to other servers or device?
+	Monitoring and management - JMX remote support to gen report.
+	Logging - apache common logging. a redirection to other system or wrapper.
+	portable runtime - APR - use local OS functionality.
+	virtual hosting - multiple hosting?
+	Advanced IO - non blocking. like nginx? e.g. chat?
+	
+	Architecture
+		catalina - servlet container
+		coyote - connector, JK protocol for external.
+			how about nginx? Yes, and many others.
+		Jasper - JSP engine.
+						    
                                                    
