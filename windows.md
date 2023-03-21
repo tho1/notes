@@ -133,3 +133,7 @@ Design infrastructure solutions (25-30%)
 * 
 * https://www.w3schools.com/python/numpy/default.asp
 * https://www.w3schools.com/python/pandas/default.asp
+
+
+# com programmer's cookbook
+https://learn.microsoft.com/en-us/previous-versions/ms809982(v=msdn.10)
