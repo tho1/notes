@@ -69,6 +69,10 @@ TNSNAME =
 * spool spoolfile.log
 * SQL> set echo on
 * SQL> set serveroutput on form word_wrapped;
+* http://www.dba-oracle.com/art_freeman_portable_ch1.pdf
+* https://gist.github.com/vegaasen/69c1f55c75f2e02559e8
+
+
 
 ### get all the table names and columns of a system.
 ```
