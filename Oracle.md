@@ -191,6 +191,7 @@ select * from (
 
 ### Apex logging
 * [APEX Debug Messages – Standardize error collection, debugging and trace](https://storm-petrel.com/2021/05/19/oracle-apex-standardize-error-and-debugging/)  APEX_DEBUG_MESSAGES
+* [APEX debug info](https://dgielis.blogspot.com/2019/06/see-apex-debug-info-in-plsql-and-sql.html)
 
 ### Oracle APEX ldap integration
 * https://forums.oracle.com/ords/apexds/post/getting-apex-ords-21-1-connect-to-ldap-active-directory-1901  shared component --> auth schemes
