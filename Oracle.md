@@ -189,13 +189,43 @@ select * from (
 * https://blogs.oracle.com/apex/post/synchronize-parent-child-rest-sources
 
 
-### Apex logging
-* [APEX Debug Messages – Standardize error collection, debugging and trace](https://storm-petrel.com/2021/05/19/oracle-apex-standardize-error-and-debugging/)  APEX_DEBUG_MESSAGES
-* [APEX debug info](https://dgielis.blogspot.com/2019/06/see-apex-debug-info-in-plsql-and-sql.html)
+
+### APEX debugging
+```
+f?p=App:Page:Session:Request:Debug:ClearCache:itemNames:itemValues:PrinterFriendly
+apex_application.g_print_success_message := 'message';
+
+wwv_flow.debug ('message');
+apex_debug.message('message');
+```
 
 ### Oracle APEX ldap integration
 * https://forums.oracle.com/ords/apexds/post/getting-apex-ords-21-1-connect-to-ldap-active-directory-1901  shared component --> auth schemes
 * https://oracle-base.com/articles/misc/oracle-application-express-apex-ldap-authentication  use DBMS_LDAP modules
+
+### Oracle Rest
+* https://docs.oracle.com/en/database/oracle/application-express/19.1/htmig/enabling-network-services-in-Oracle-db11g-or-later.html#GUID-DEA26C53-0220-40F1-86FB-482163CA5681
+* 
+```
+  DBMS_NETWORK_ACL_ADMIN package 
+  
+  BEGIN
+    DBMS_NETWORK_ACL_ADMIN.APPEND_HOST_ACE(
+        host => '*',
+        ace => xs$ace_type(privilege_list => xs$name_list('connect'),
+                           principal_name => 'APEX_190100',
+                           principal_type => xs_acl.ptype_db));
+END;
+
+
+SELECT ACL, PRINCIPAL
+  FROM DBA_NETWORK_ACLS NACL, XDS_ACE ACE
+ WHERE HOST = '*' AND LOWER_PORT IS NULL AND UPPER_PORT IS NULL AND
+       NACL.ACLID = ACE.ACLID AND
+       NOT EXISTS (SELECT NULL FROM ALL_USERS WHERE USERNAME = PRINCIPAL);
+
+```
+
 
 
 
