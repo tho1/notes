@@ -188,6 +188,10 @@ select * from (
 * [Apex developer](http://jastraub.blogspot.com/)
 * https://blogs.oracle.com/apex/post/synchronize-parent-child-rest-sources
 
+
+### Apex logging
+* [APEX Debug Messages – Standardize error collection, debugging and trace](https://storm-petrel.com/2021/05/19/oracle-apex-standardize-error-and-debugging/)  APEX_DEBUG_MESSAGES
+
 ### Oracle APEX ldap integration
 * https://forums.oracle.com/ords/apexds/post/getting-apex-ords-21-1-connect-to-ldap-active-directory-1901  shared component --> auth schemes
 * https://oracle-base.com/articles/misc/oracle-application-express-apex-ldap-authentication  use DBMS_LDAP modules
