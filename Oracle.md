@@ -126,6 +126,13 @@ order by col.owner, col.table_name, col.column_id;
 * Reference https://dataedo.com/kb/query/oracle/list-table-columns-in-database
 
 
+```
+select * from user_tab_columns
+select * from user_tab_columns where table_name like '%yourtable% order by column_name
+
+
+```
+
 ### split a large table to smaller one.
 ```
 CREATE TABLE xy_001 AS
