@@ -286,3 +286,11 @@ Add the following in defaults.xml for debugging purpose.
 * https://www.techiediaries.com/node-oracle-database-crud/
 * https://github.com/oracle/node-oracledb/blob/main/INSTALL.md#which-instructions-to-follow
 * https://docs.oracle.com/en/cloud/paas/autonomous-database/adbsa/connecting-nodejs.html#GUID-AB1E323A-65B9-47C4-840B-EC3453F3AD53
+
+### in memory db.
+```
+select * from v$inmemory_area
+alter system set inmemory_size = 100M scope=SPFILE;
+alter system set inmemory_expressions_usage = 'ENABLE';
+```
+* related topics: EXADATA, IMCS, RAC architecture, 
