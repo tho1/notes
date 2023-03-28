@@ -127,6 +127,8 @@ order by col.owner, col.table_name, col.column_id;
 
 
 ```
+
+select * from all_objects where object_type in ('FUNCTION', 'PROCEDURE', 'PACKAGE', 'VIEW')
 select * from user_tab_columns
 select * from user_tab_columns where table_name like '%yourtable% order by column_name
 
