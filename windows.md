@@ -114,6 +114,8 @@ Reference
 
 * https://hackr.io/blog/microsoft-azure-certification-guide
 * https://cloudacademy.com/blog/microsoft-azure-certifications-which-is-right-for-you-and-your-team/
+* https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications
+* 
 
 
 *  AZ104, AZ204, AZ305
@@ -133,6 +135,9 @@ Design infrastructure solutions (25-30%)
 * 
 * https://www.w3schools.com/python/numpy/default.asp
 * https://www.w3schools.com/python/pandas/default.asp
+
+
+
 
 
 # com programmer's cookbook
