@@ -14,3 +14,5 @@
 * https://serverfault.com/questions/1101269/cant-connect-ssh-via-wireless-interface-but-t-works-using-eth0
 * https://superuser.com/questions/1780031/new-outbound-ssh-hangs-after-old-ssh-session-is-terminated  
   
+### git proxy configuration
+* https://gist.github.com/evantoli/f8c23a37eb3558ab8765
