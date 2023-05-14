@@ -8,6 +8,9 @@
 ctrl-alt-F toggle screen
 ctrl-alt-G toggle between vm and the host
 ```
+## Windows host and using Samba to share files.
+# https://www.willhaley.com/blog/access-host-from-qemu-vm/
+
 
 ## image related
 qemu-img  https://dustymabe.com/2015/01/11/qemu-img-backing-files-a-poor-mans-snapshotrollback/
