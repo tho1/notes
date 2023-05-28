@@ -73,6 +73,21 @@ TNSNAME =
 * https://gist.github.com/vegaasen/69c1f55c75f2e02559e8
 
 
+### modifying table.
+```
+alter table table_name set unused (column_name);
+alter table table_name move online;
+```
+* https://oracle-base.com/articles/8i/dropping-columns
+
+
+```
+alter table mytable enable row movement;
+alter table mytable shrink space;
+
+```
+* http://www.dba-oracle.com/t_alter_table_move_shrink_space.htm
+
 
 ### get all the table names and columns of a system.
 ```
