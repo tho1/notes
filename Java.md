@@ -45,3 +45,12 @@ https://github.com/lxy-go/SpringBoot
 
 	https://www.baeldung.com/spring-boot-servlet-containers	
 	https://productive.me/self-hosted-nexus-for-private-scoped-npm-packages/
+
+
+#### RequestRejectedException
+```
+	super.configure(web) 
+	web.httpFirewall( new DefaultHttpFirewall())
+```
+
+#### 
