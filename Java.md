@@ -52,5 +52,6 @@ https://github.com/lxy-go/SpringBoot
 	super.configure(web) 
 	web.httpFirewall( new DefaultHttpFirewall())
 ```
+see https://stackoverflow.com/questions/64824460/is-it-possible-to-configure-springs-httpfirewall-to-be-invoked-only-on-certain
 
 #### 
