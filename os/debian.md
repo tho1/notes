@@ -74,3 +74,8 @@ sudo skdump /dev/sda
 * https://superuser.com/questions/1037644/samsung-ssd-wear-leveling-count-meaning
 * https://help.ubuntu.com/community/Smartmontools
 
+#### codepage language.
+```
+iconv -f gb2312 -t utf-8
+
+```
