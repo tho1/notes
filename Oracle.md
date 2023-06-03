@@ -309,3 +309,8 @@ alter system set inmemory_size = 100M scope=SPFILE;
 alter system set inmemory_expressions_usage = 'ENABLE';
 ```
 * related topics: EXADATA, IMCS, RAC architecture, 
+
+
+### data model related
+* https://www.oracle.com/webfolder/technetwork/tutorials/obe/db/devdays2012/mod1_dm/mod1_dm.html
+* https://holowczak.com/reverse-engineer-a-data-model-oracle-sql-developer/6/ 
