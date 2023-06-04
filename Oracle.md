@@ -314,3 +314,10 @@ alter system set inmemory_expressions_usage = 'ENABLE';
 ### data model related
 * https://www.oracle.com/webfolder/technetwork/tutorials/obe/db/devdays2012/mod1_dm/mod1_dm.html
 * https://holowczak.com/reverse-engineer-a-data-model-oracle-sql-developer/6/ 
+
+
+### PL/SQL developer plugsin
+* https://github.com/utPLSQL
+* https://github.com/ReznichenkoSV/PL-SQL-Developer-monokai
+* https://github.com/aniskop/plsql-developer-plugin-net
+* https://github.com/tnodir/luaplsql
