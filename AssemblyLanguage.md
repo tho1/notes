@@ -41,7 +41,8 @@ A lot of application had dependency in C library. https://stackoverflow.com/ques
 
 #### gas
 * [gas](https://cs.lmu.edu/~ray/notes/gasexamples/)
-* [wc sample](https://github.com/eliben/wcx64)
+* [wc sample in gas](https://github.com/eliben/wcx64)
+*[fast wc](https://github.com/expr-fi/fastlwc/)
 
 ### Linux syscall, it does not use x80
 * [x86 calling convention](https://en.wikipedia.org/wiki/X86_calling_conventions#System_V_AMD64_ABI)
