@@ -137,6 +137,11 @@ Design infrastructure solutions (25-30%)
 * https://www.w3schools.com/python/pandas/default.asp
 
 
+## wifi modem specific
+
+https://communityforums.rogers.com/t5/Internet/How-to-change-UDP-timeout-on-Rogers-CODA-4582U/td-p/495500
+
+https://forums.redflagdeals.com/how-add-router-hitron-coda-4582-2228005/
 
 
 
