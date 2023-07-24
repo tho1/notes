@@ -142,8 +142,10 @@ Design infrastructure solutions (25-30%)
 https://communityforums.rogers.com/t5/Internet/How-to-change-UDP-timeout-on-Rogers-CODA-4582U/td-p/495500
 
 https://forums.redflagdeals.com/how-add-router-hitron-coda-4582-2228005/
+https://communityforums.rogers.com/t5/Internet/How-to-change-UDP-timeout-on-Rogers-CODA-4582U/td-p/495500
 
 
 
 # com programmer's cookbook
 https://learn.microsoft.com/en-us/previous-versions/ms809982(v=msdn.10)
+
