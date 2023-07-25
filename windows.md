@@ -139,11 +139,11 @@ Design infrastructure solutions (25-30%)
 
 ## wifi modem specific
 
-https://communityforums.rogers.com/t5/Internet/How-to-change-UDP-timeout-on-Rogers-CODA-4582U/td-p/495500
+* https://communityforums.rogers.com/t5/Internet/How-to-change-UDP-timeout-on-Rogers-CODA-4582U/td-p/495500
+* https://communityforums.rogers.com/t5/Internet/CODA-4582U-in-bridge-mode-can-t-access-at-192-168-100-1/td-p/448031/page/2
+* https://forums.redflagdeals.com/how-add-router-hitron-coda-4582-2228005/
 
-https://forums.redflagdeals.com/how-add-router-hitron-coda-4582-2228005/
-https://communityforums.rogers.com/t5/Internet/How-to-change-UDP-timeout-on-Rogers-CODA-4582U/td-p/495500
-
+* 
 
 
 # com programmer's cookbook
