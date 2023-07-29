@@ -11,3 +11,4 @@
 
 ### public dns 
 * https://www.lifewire.com/free-and-public-dns-servers-2626062
+* https://www.routersecurity.org/DNS.providers.php
