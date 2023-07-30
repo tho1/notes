@@ -28,6 +28,12 @@ https://www.windowscentral.com/how-use-dism-command-line-utility-repair-windows-
 wmic diskdrive get status
 ```
 
+### backup windows partition as squashfs
+```
+mount -o ro /dev/sda5 /mnt/windows
+mksquashfs /mnt/windows/ ~/windows7.backup.squashfs
+```
+
 ### extend trial period for windows server
 ```
 slmgr -dlv
