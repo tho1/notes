@@ -2,15 +2,13 @@
 * [Runnning ArchLinux in QEMU](https://www.reddit.com/r/archlinux/comments/68jvew/installing_archlinux_in_a_qemu_kvm_vm/)
 * [Running FreeBSD in QEMU](https://stackoverflow.com/questions/49656395/how-to-boot-freebsd-image-under-qemu/64027161#64027161)
 * [Running openwrt in QEMU](https://openwrt.org/docs/guide-user/virtualization/qemu)
+* [Official doc](https://qemu-project.gitlab.io/qemu/system/index.html)
 
 ### Shortcut keys
 ```
 ctrl-alt-F toggle screen
 ctrl-alt-G toggle between vm and the host
 ```
-## Windows host and using Samba to share files.
-# https://www.willhaley.com/blog/access-host-from-qemu-vm/
-
 
 ## image related
 qemu-img  https://dustymabe.com/2015/01/11/qemu-img-backing-files-a-poor-mans-snapshotrollback/
@@ -68,6 +66,15 @@ Reference https://www.cyberciti.biz/faq/linux-kvm-vnc-for-guest-machine/
 * https://smig.tech/blog/tech/server_2019/
 * https://www.dell.com/support/kbdoc/en-us/000132088/third-party-nested-virtualization-in-windows-server-2019
 * https://bugzilla.redhat.com/show_bug.cgi?id=1074455
+* http://lassauge.free.fr/qemu/QEMU_on_Windows.html  qemu 2.6 build on cygwin. 
+* https://www.willhaley.com/blog/access-host-from-qemu-vm/ samba access to host file.
+
+```
+sudo mount.cifs \
+	//10.0.2.2/share \
+	/mnt \
+	-o user=username,pass=password
+```
 
 
 ```
@@ -128,9 +135,6 @@ https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addr
 * https://groups.google.com/g/linux.debian.user/c/oEQH4LBRZNs?pli=1
 * [using virsh](https://dyiwu.github.io/2020/06/kvm-guest-dhcp-ip/)
 * https://dracocybersecurity.com/assigning-static-ip-address-to-guest-vm-in-a-nested-kvm-ubuntu-20-04/
-
-
-
 
 
 ```
