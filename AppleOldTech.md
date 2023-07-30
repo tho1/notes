@@ -27,6 +27,9 @@ Harddrive directory: /Volume/MacBackup/Pictures
 rsync -avzh /Users/you/Pictures /Volume/MacBackup/Pictures
 ```
 
+* https://www.willhaley.com/blog/rsync-filters/ Using rsync filters 
+
+
 ###
 ```
 codesign --remove-signature
