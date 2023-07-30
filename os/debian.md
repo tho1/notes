@@ -1,5 +1,9 @@
 ### debian cheat sheet
 
+#### live manual
+* https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html
+
+
 ####
 ```
 sudo dpkg -i /path/to/deb/file
