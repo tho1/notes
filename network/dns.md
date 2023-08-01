@@ -3,6 +3,8 @@
 * [dnsmasq dhcp/dns server written in C](https://thekelleys.org.uk/dnsmasq/doc.html) 
 * [CoreDNS used in chain plugins , written in GO] (https://github.com/coredns/coredns)
 * [DNS in assembly](https://github.com/psychomario/DNSASM)
+* [D J Berstein DNS](https://cr.yp.to/djbdns.html)
+
 
 ### dnsmasq
 * https://stevessmarthomeguide.com/home-network-dns-dnsmasq/
