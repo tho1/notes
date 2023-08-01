@@ -1,7 +1,7 @@
 ## DNS tools
 
-* dnsmasq
-* CoreDNS
+* dnsmasq dhcp/dns server written in C 
+* CoreDNS used in chain plugins , written in GO
 
 ### dnsmasq
 * https://stevessmarthomeguide.com/home-network-dns-dnsmasq/
