@@ -25,6 +25,8 @@ Another good place for information is the doc directory in the Linux kernel.  It
 Comparison to other operating systems
 Linux Kernel is different from Windows Kernel, Apple MacOS, and the FreeBSD, as all of them had different designs.
 
+## Linux documentation 
+https://linux-kernel-labs.github.io/refs/heads/master/
 
 
 ### Kernel parameters
@@ -42,5 +44,3 @@ This provides some notes on passing the video modes.
 https://courses.cs.washington.edu/courses/cse451/12sp/lectures.html
 
 
-### redirect the port numbers
-redir --lport 3389 --caddr=GuestIP --cport 3389
