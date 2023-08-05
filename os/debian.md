@@ -83,3 +83,7 @@ sudo skdump /dev/sda
 iconv -f gb2312 -t utf-8
 
 ```
+
+#### redirect the port numbers
+redir --lport 3389 --caddr=GuestIP --cport 3389
+
