@@ -1,3 +1,7 @@
+### Why is Apache Kafka fast?
+* sequential I/O instead of random access I/O.  Append only operation.  This reduces the number of arm movement in HDD. 
+* zero copy. see https://en.wikipedia.org/wiki/Zero-copy
+credit from bytebytego video
 
 ### distributed streaming platform
 distributed event requires a different way of thinking to captures messages.  The current way of thinking is we start all the data in the database.  With streaming platform, the process is changed to event driven architecture.  All the incoming messages are stored in topics, ready for further processing.  This means the processing can be done in real time.
