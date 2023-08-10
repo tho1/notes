@@ -214,6 +214,8 @@ select * from (
 * [Apex developer](http://jastraub.blogspot.com/)
 * https://blogs.oracle.com/apex/post/synchronize-parent-child-rest-sources
 
+### Oracle APEX plugins
+* https://apex.world/ords/f?p=100:1:::NO::: 
 
 
 ### APEX debugging
