@@ -87,3 +87,6 @@ iconv -f gb2312 -t utf-8
 #### redirect the port numbers
 redir --lport 3389 --caddr=GuestIP --cport 3389
 
+#### create iso
+dd if=/dev/sr0 of=cdimage.iso bs=10m
+
