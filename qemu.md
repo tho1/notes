@@ -1,4 +1,16 @@
-## QEMU
+**
+### General Info
+* [QEMU gentoo wiki](https://wiki.gentoo.org/wiki/QEMU/Options#Hard_drive)
+* [QEMU arch wiki](https://wiki.archlinux.org/title/QEMU#Creating_a_hard_disk_image)
+* [QEMU debian wiki](https://wiki.debian.org/QEMU))
+* [Enable huge pages](https://wiki.archlinux.org/title/KVM#Enabling_huge_pages)
+
+### Books
+* [KVM Virtualization Cookbook](https://www.packtpub.com/product/kvm-virtualization-cookbook/9781788294676)
+* [Mastering KVM virtualization](https://www.packtpub.com/product/mastering-kvm-virtualization-second-edition/9781838828714)
+
+
+## running guest OS in qemu
 * [Runnning ArchLinux in QEMU](https://www.reddit.com/r/archlinux/comments/68jvew/installing_archlinux_in_a_qemu_kvm_vm/)
 * [Running FreeBSD in QEMU](https://stackoverflow.com/questions/49656395/how-to-boot-freebsd-image-under-qemu/64027161#64027161)
 * [Running openwrt in QEMU](https://openwrt.org/docs/guide-user/virtualization/qemu)
@@ -219,13 +231,4 @@ https://qemu.readthedocs.io/en/latest/system/monitor.html
 
 ### AutoInstall openbsd.
 * https://www.skreutz.com/posts/autoinstall-openbsd-on-qemu/  This is cool!
-
-### General Info
-* [QEMU gentoo wiki](https://wiki.gentoo.org/wiki/QEMU/Options#Hard_drive)
-* [QEMU arch wiki](https://wiki.archlinux.org/title/QEMU#Creating_a_hard_disk_image)
-* [Enable huge pages](https://wiki.archlinux.org/title/KVM#Enabling_huge_pages)
-
-### Books
-* [KVM Virtualization Cookbook](https://www.packtpub.com/product/kvm-virtualization-cookbook/9781788294676)
-* [Mastering KVM virtualization](https://www.packtpub.com/product/mastering-kvm-virtualization-second-edition/9781838828714)
 
