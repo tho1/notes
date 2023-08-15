@@ -134,6 +134,7 @@ $smtp.Send($smtpFrom,$smtpTo,$messagesubject,$messagebody)
 * [User Page: Richard Mueller
 ](https://social.technet.microsoft.com/wiki/contents/articles/31616.user-page-richard-mueller.aspx)
 
+* [Integrate Linux Commands into Windows with PowerShell and the Windows Subsystem for Linux](https://devblogs.microsoft.com/commandline/integrate-linux-commands-into-windows-with-powershell-and-the-windows-subsystem-for-linux/)
 * [powershell](https://gallery.technet.microsoft.com/PowerShell-Script-to-b7c247db)    sample to call winform from powershell
 * [GUI for powershell](https://theitbros.com/powershell-gui-for-scripts/)
 * [powershell winform](https://adamtheautomator.com/powershell-form/)
@@ -148,3 +149,6 @@ $smtp.Send($smtpFrom,$smtpTo,$messagesubject,$messagebody)
 ### sample modules
 
 * [IIS log parser](https://evotec.xyz/powershell-modules/iisparser-powershell-module/)
+
+### Thoughts
+* [PowerShell equivalents for common Linux/bash commands](https://mathieubuisson.github.io/powershell-linux-bash/)
