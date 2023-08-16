@@ -1,5 +1,9 @@
 Windows trick.
 
+### Windows 11
+https://github.com/mikeroyal/Windows-11-Guide
+
+
 ### basic tricks.
 * get the windows hardware info. ```wmic computersystem get model,name,manufacturer,systemtype```
 * locate system service tag ```wmic bios get serialnumber```
