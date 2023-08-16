@@ -28,7 +28,9 @@ Linux Kernel is different from Windows Kernel, Apple MacOS, and the FreeBSD, as 
 ## Linux documentation 
 https://linux-kernel-labs.github.io/refs/heads/master/
 
-
+### 
+* https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/
+* 
 ### Kernel parameters
 This provides some notes on passing the video modes. 
 
