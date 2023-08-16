@@ -6,6 +6,12 @@ This page contains some of the useful links about Java technology that I had col
 * [difference between JTA and plain JDBC in hibernate](https://stackoverflow.com/questions/3903477/difference-between-jta-jpa-and-plain-jdbc-in-hibernate)
 
 
+### Java VM settings. OpenJ9, HotSpot
+* [HotSpot vs OpenJ9](https://bell-sw.com/announcements/2022/06/28/hotspot-vs-openj9-performance-comparison/)
+* [Garbage Collection](https://bell-sw.com/announcements/2022/09/07/garbage-collection-in-java/)
+* [JDK Flight recorder](https://bell-sw.com/announcements/2020/09/02/Hunting-down-memory-issues-with-JDK-Flight-Recorder/)
+
+
 ### JTA
 
 * [Configuring Spring and JTA without full Java EE](https://spring.io/blog/2011/08/15/configuring-spring-and-jta-without-full-java-ee/)
