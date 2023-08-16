@@ -12,6 +12,10 @@ This page contains some of the useful links about Java technology that I had col
 * [JDK Flight recorder](https://bell-sw.com/announcements/2020/09/02/Hunting-down-memory-issues-with-JDK-Flight-Recorder/)
 
 
+### Licensing and alternative
+* [Oracle Java licensing change up to v17](https://bell-sw.com/announcements/2022/02/24/java-licensing-changes-in-2021/)
+* [other distribution](https://bell-sw.com/blog/oracle-java-alternatives-comparison-of-openjdk-distributions/)
+
 ### JTA
 
 * [Configuring Spring and JTA without full Java EE](https://spring.io/blog/2011/08/15/configuring-spring-and-jta-without-full-java-ee/)
