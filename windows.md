@@ -159,3 +159,8 @@ Design infrastructure solutions (25-30%)
 # com programmer's cookbook
 https://learn.microsoft.com/en-us/previous-versions/ms809982(v=msdn.10)
 
+# syscalls
+* https://github.com/ikermit/11Syscalls win 11
+* https://github.com/j00ru/windows-syscalls pre Win 11
+
+
