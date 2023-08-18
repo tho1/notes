@@ -96,6 +96,7 @@ CMD ["/main"]
 * ability to run rootless
 * podman keeps the same commands as docker
 * ```podman run -dt -p 8080:8080/tcp -e```
+* https://github.com/boot2podman/boot2podman/blob/master/custom_kernel.md  using tc linux as a base.  see other md files for information.
 
 
 #### Podman dependencies
