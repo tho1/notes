@@ -15,6 +15,12 @@ autoheader
 #### autoconf
 autoconf generates the configuraition file
 
+* https://www.youtube.com/@DavidAWheeler/playlists
+* https://earthly.dev/blog/series/makefile/
+* https://devmanual.gentoo.org/general-concepts/autotools/index.html
+* https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install
+
+
 #### M4
 M4 is the macro that used to define the make file and directories.
 
