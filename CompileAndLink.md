@@ -53,3 +53,13 @@ make CROSS=x86_64-w64-mingw32-
 * https://www.opengeosys.org/docs/devguide/advanced/compiler-cache/
 * https://stackoverflow.com/questions/45991561/ccache-basedir-doesnt-work-as-expected
 * https://stackoverflow.com/questions/1815688/how-to-use-ccache-with-cmake
+
+### Linux SysCalls.
+
+* https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md
+* https://filippo.io/linux-syscall-table/ links back to kernel code. Good example usage.
+* https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
+* ```
+printf SYS_read | gcc -include sys/syscall.h -E -
+printf SYS_read | gcc -include sys/syscall.h -m32 -E -
+  ```
