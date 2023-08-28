@@ -21,6 +21,9 @@ https://github.com/mikeroyal/Windows-11-Guide
 ### windows image command 
 https://www.windowscentral.com/how-use-dism-command-line-utility-repair-windows-10-image
 
+###
+https://superuser.com/questions/1280141/switch-raid-to-ahci-without-reinstalling-windows-10
+
 ### disable auto update
 ```reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v NoAutoUpdate /t REG_DWORD /d 1 /f```
 
