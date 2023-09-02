@@ -90,3 +90,12 @@ redir --lport 3389 --caddr=GuestIP --cport 3389
 #### create iso
 dd if=/dev/sr0 of=cdimage.iso bs=10M
 
+#### multiple glibc setting
+```
+./patchelf --set-interpreter /path/to/newglibc/ld-linux.so.2 --set-rpath /path/to/newglibc/ myapp
+```
+* http://chenweixiang.github.io/2015/12/18/linux-series-05-libraries.html
+* https://stackoverflow.com/questions/847179/multiple-glibc-libraries-on-a-single-host
+* https://packages.debian.org/en/bookworm/amd64/libc6/download
+* https://packages.debian.org/bookworm/amd64/libc-bin/download
+* https://packages.debian.org/bookworm/amd64/libstdc++6/download
