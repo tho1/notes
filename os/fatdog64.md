@@ -7,3 +7,6 @@
 * /var/slapt-get
 * skopkg since Fatdog 900
 * https://www.slackbuilds.org/
+
+# menu itmes. 
+* see /etc/xdg 
