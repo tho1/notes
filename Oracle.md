@@ -264,6 +264,11 @@ SELECT ACL, PRINCIPAL
 * [React in Apex](https://www.youtube.com/watch?v=zC4a5kVGTB8)
 * https://tunahuntress.files.wordpress.com/2008/09/apex_cheatsheet_k08.pdf
 
+#### Oracle Apex Javascript integration
+* Take advantage of custom attributes and Execute when Page Loads to utilize javascript snippets
+* https://stackoverflow.com/questions/51770342/applying-a-phone-number-format-mask-in-oracle-apex
+
+
 
 
 ### Oracle VM
