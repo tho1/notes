@@ -120,6 +120,7 @@ Android code search
 * [Restore Bricked OnePlus 6T on Linux](https://forums.ubports.com/topic/5715/restore-bricked-oneplus-6t-on-linux)
 * [fajita factory flash](https://github.com/Intrinsically-Sublime/fajita-factory-flash-bash-scripts)
 * [list of phones using same 845 SOC](https://www.techwalls.com/qualcomm-snapdragon-845-smartphones/)
+* [Oneplus debloater](https://gist.github.com/bruvv/f2adc0492ddc00348ca961390453f218)
 
 ### Oneplus 7
 * https://forums.oneplus.com/threads/how-to-roll-back-to-android-10-on-oneplus-7-pro-from-oos11-open-beta-4.1413325/
