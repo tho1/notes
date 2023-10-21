@@ -60,14 +60,14 @@ Android platform is based on Linux kernel, but it does not use glibc library due
 * https://stackoverflow.com/questions/36331048/compiling-gentoo-bionic-on-a-x86-64-linux-machine
 * https://github.com/krisk0/pc-linux-android
 
-Notes on building AOSP
+### Notes on building AOSP
 * https://www.raywenderlich.com/10197539-building-the-android-open-source-project
 * https://www.android-x86.org/source.html
 * https://stackoverflow.com/questions/57863059/aosp-build-both-x86-and-x64-for-aosp-x86-64-eng
 * https://stackoverflow.com/questions/35838183/compiling-ndk-library?rq=1
 
 
-Android tools in Ubuntu
+### Android tools in Ubuntu
 * [Android development tools for Debian] (https://wiki.debian.org/AndroidTools)
 
 Android code search
@@ -121,6 +121,13 @@ Android code search
 * [fajita factory flash](https://github.com/Intrinsically-Sublime/fajita-factory-flash-bash-scripts)
 * [list of phones using same 845 SOC](https://www.techwalls.com/qualcomm-snapdragon-845-smartphones/)
 * [Oneplus debloater](https://gist.github.com/bruvv/f2adc0492ddc00348ca961390453f218)
+
+#### Oneplus 6t
+* [dialer codes](https://oneplus.gadgethacks.com/how-to/100-secret-dialer-codes-for-oneplus-phones-0185738/)
+* [factory mode unlock without root](https://www.xda-developers.com/oneplus-factory-mode-unlock-without-root/)
+* [Factory mode](https://one.andro.plus/)
+* []()
+
 
 ### Oneplus 7
 * https://forums.oneplus.com/threads/how-to-roll-back-to-android-10-on-oneplus-7-pro-from-oos11-open-beta-4.1413325/
