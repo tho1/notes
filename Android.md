@@ -126,7 +126,7 @@ Android code search
 * [dialer codes](https://oneplus.gadgethacks.com/how-to/100-secret-dialer-codes-for-oneplus-phones-0185738/)
 * [factory mode unlock without root](https://www.xda-developers.com/oneplus-factory-mode-unlock-without-root/)
 * [Factory mode](https://one.andro.plus/)
-* []()
+* [6t codes](https://www.hardreset.info/devices/oneplus/oneplus-6t/codes/)
 
 
 ### Oneplus 7
