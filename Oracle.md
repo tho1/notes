@@ -213,13 +213,19 @@ select * from (
 * [ORA 24247 error ACL](https://logic.edchen.org/how-to-resolve-ora-24247-network-access-denied-by-access-control-list-acl/#resolve-or-connect-privilege)
 * [Apex developer](http://jastraub.blogspot.com/)
 * https://blogs.oracle.com/apex/post/synchronize-parent-child-rest-sources
+  
 
 ### Oracle APEX plugins
 * https://apex.world/ords/f?p=100:1:::NO::: 
 
 
 ### APEX debugging
+* https://blogs.infomentum.com/tip-oracle-apex-log-system-search-and-detailed-view
+
 ```
+select * from APEX_WORKSPACE_ACTIVITY_LOG
+select * from APEX_DEBUG_MESSAGES
+
 f?p=App:Page:Session:Request:Debug:ClearCache:itemNames:itemValues:PrinterFriendly
 apex_application.g_print_success_message := 'message';
 
