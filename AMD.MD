@@ -41,7 +41,11 @@ https://lnkd.in/dUZvViZ]
 
 https://lnkd.in/djykmXE
 
-Jan 7, 2020
-
 AMD launches ThreadRipper 3990X, Renoir APU.
 8 Zen 2 cores and 16 threads with a new 7nm Vega graphics engine
+
+Data Center relationships to DataCenter
+https://www.nextplatform.com/2023/10/12/nvidia-picks-up-the-pace-for-datacenter-roadmaps/
+https://www.nextplatform.com/2023/10/16/debunking-datacenter-compute-myths-part-one/
+https://www.nextplatform.com/2023/10/19/debunking-datacenter-compute-myths-part-two/
+
