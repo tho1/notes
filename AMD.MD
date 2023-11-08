@@ -1,8 +1,14 @@
-AMD
+#AMD
 
-http://ir.amd.com/news-releases  The official news release from the company
+## Data Center related 
+* [Datacenter roadmap](https://www.nextplatform.com/2023/10/12/nvidia-picks-up-the-pace-for-datacenter-roadmaps/)
+* [Datacenter myth part 1](https://www.nextplatform.com/2023/10/16/debunking-datacenter-compute-myths-part-one/)
+* [Datacenter myth part 2](https://www.nextplatform.com/2023/10/19/debunking-datacenter-compute-myths-part-two/)
 
-https://seekingalpha.com/symbol/AMD  Information for investor perspective
+
+## official
+* [The official news release from the company](http://ir.amd.com/news-releases)
+* [Information for investor perspective](https://seekingalpha.com/symbol/AMD)  
 
 
 
@@ -44,8 +50,4 @@ https://lnkd.in/djykmXE
 AMD launches ThreadRipper 3990X, Renoir APU.
 8 Zen 2 cores and 16 threads with a new 7nm Vega graphics engine
 
-Data Center relationships to DataCenter
-https://www.nextplatform.com/2023/10/12/nvidia-picks-up-the-pace-for-datacenter-roadmaps/
-https://www.nextplatform.com/2023/10/16/debunking-datacenter-compute-myths-part-one/
-https://www.nextplatform.com/2023/10/19/debunking-datacenter-compute-myths-part-two/
 
