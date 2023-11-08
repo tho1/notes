@@ -1,4 +1,4 @@
-#AMD
+# AMD
 
 ## Data Center related 
 * [Datacenter roadmap](https://www.nextplatform.com/2023/10/12/nvidia-picks-up-the-pace-for-datacenter-roadmaps/)
@@ -6,7 +6,7 @@
 * [Datacenter myth part 2](https://www.nextplatform.com/2023/10/19/debunking-datacenter-compute-myths-part-two/)
 
 
-## official
+## Official
 * [The official news release from the company](http://ir.amd.com/news-releases)
 * [Information for investor perspective](https://seekingalpha.com/symbol/AMD)  
 
