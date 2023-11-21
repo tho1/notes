@@ -9,13 +9,12 @@ This stores the notes about the Android platform.
 ./adb shell pm enable com.oneplus.opbackup
 ./fastboot getvar current-slot 
 ./adb shell "pm list packages"  list the packages.
+```
 
-
-#downgrade the oneplus version back to 10 from 11
+### downgrade the oneplus version back to 10 from 11
 curl https://oxygenos.oneplus.net/OnePlus6TOxygen_34.J.54_OTA_054_all_2105112238_downgrade_708a3306f3904ad4.zip
 adb push OnePlus6TOxygen_34.J.54_OTA_054_all_2105112238_downgrade_708a3306f3904ad4.zip /sdcard
 
-```
 
 See https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
 
@@ -53,7 +52,9 @@ Finished. Total time: 0.001s
 ### android emulator
 https://android.googlesource.com/platform/prebuilts/android-emulator/+/master/linux-x86_64/lib/advancedFeatures.ini
 
-
+### access data file and backup 
+https://stackoverflow.com/questions/13006315/how-to-access-data-data-folder-in-android-device
+https://stackoverflow.com/questions/18533567/how-to-extract-or-unpack-an-ab-file-android-backup-file
 
 Android platform is based on Linux kernel, but it does not use glibc library due to GNU license issue.  It uses the bionic C library instead of glibc library.
 
