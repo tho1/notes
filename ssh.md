@@ -249,3 +249,4 @@ see [SSL man pages](https://linux.die.net/man/1/openssl)
 * https://www.cyberciti.biz/faq/how-to-set-up-ssh-keys-on-linux-unix/
 * https://kb.iu.edu/d/aews
 * https://linuxhandbook.com/add-ssh-public-key-to-server/
+* https://askubuntu.com/questions/46930/how-can-i-set-up-password-less-ssh-login/46935#46935 sample to add keys using puttygen
