@@ -250,3 +250,5 @@ see [SSL man pages](https://linux.die.net/man/1/openssl)
 * https://kb.iu.edu/d/aews
 * https://linuxhandbook.com/add-ssh-public-key-to-server/
 * https://askubuntu.com/questions/46930/how-can-i-set-up-password-less-ssh-login/46935#46935 sample to add keys using puttygen
+* https://www.strongdm.com/blog/ssh-passwordless-login
+* https://linuxize.com/post/how-to-setup-passwordless-ssh-login/ setting paraphrawse for key.
