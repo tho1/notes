@@ -82,7 +82,8 @@ ssh -i id_rsa_openssh 0.0.0.0.
 * https://linuxconfig.org/how-to-install-and-configure-dropbear-on-linux
 * https://openwrt.org/docs/guide-user/base-system/dropbear
 * https://www.snbforums.com/threads/dropbear-ssh-without-remote-password.21070/
-
+* https://gist.github.com/mad4j/7983719
+* 
 
 
 ## sshfs
