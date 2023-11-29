@@ -267,3 +267,6 @@ Run the command with -vvv to check the output.  ssh -vvv username@hostname
 ```
 sshd -T  # view the sshd setup
 ```
+
+### sshd lockdown ideas.
+https://www.thegeekstuff.com/2011/05/openssh-options/
