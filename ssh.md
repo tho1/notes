@@ -248,7 +248,6 @@ see [SSL man pages](https://linux.die.net/man/1/openssl)
 1. [Exchange Server TLS guidance Part 3: Turning Off TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-server-tls-guidance-part-3-turning-off-tls-1-0-1-1/ba-p/607898)
 2. [Exchange Server TLS guidance, part 1: Getting Ready for TLS 1.2](https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/ba-p/607649)
 
-
 ### Add ssh public key authentiction.
 * https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
 * https://www.cyberciti.biz/faq/how-to-set-up-ssh-keys-on-linux-unix/
@@ -260,3 +259,11 @@ see [SSL man pages](https://linux.die.net/man/1/openssl)
 
 ### bind command to ssh
 * https://linuxconfig.org/how-to-bind-an-ssh-public-key-to-a-specific-command
+
+
+### Debugging
+Run the command with -vvv to check the output.  ssh -vvv username@hostname
+
+```
+sshd -T  # view the sshd setup
+```
