@@ -55,9 +55,7 @@ user@no-internet$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs \
 ### wireguard 
 alternative to openvpn
 
-setting up dropbear server and client
-https://linuxconfig.org/how-to-install-and-configure-dropbear-on-linux
-
+### dropbear
 dropbear had its own client called dbclient
 
 To generate the private host key
@@ -78,8 +76,13 @@ dropbearconvert dropbear openssh id_rsa id_rsa_openssh
 dbclient -i id_rsa 0.0.0.0
 ssh -i id_rsa_openssh 0.0.0.0.
 ```
-Reference
-https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=220463
+
+#### Reference
+* https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=220463
+* https://linuxconfig.org/how-to-install-and-configure-dropbear-on-linux
+* https://openwrt.org/docs/guide-user/base-system/dropbear
+* https://www.snbforums.com/threads/dropbear-ssh-without-remote-password.21070/
+
 
 
 ## sshfs
@@ -244,6 +247,7 @@ see [SSL man pages](https://linux.die.net/man/1/openssl)
 1. [Exchange Server TLS guidance Part 3: Turning Off TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-server-tls-guidance-part-3-turning-off-tls-1-0-1-1/ba-p/607898)
 2. [Exchange Server TLS guidance, part 1: Getting Ready for TLS 1.2](https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/ba-p/607649)
 
+
 ### Add ssh public key authentiction.
 * https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
 * https://www.cyberciti.biz/faq/how-to-set-up-ssh-keys-on-linux-unix/
@@ -252,3 +256,6 @@ see [SSL man pages](https://linux.die.net/man/1/openssl)
 * https://askubuntu.com/questions/46930/how-can-i-set-up-password-less-ssh-login/46935#46935 sample to add keys using puttygen
 * https://www.strongdm.com/blog/ssh-passwordless-login
 * https://linuxize.com/post/how-to-setup-passwordless-ssh-login/ setting paraphrawse for key.
+
+### bind command to ssh
+* https://linuxconfig.org/how-to-bind-an-ssh-public-key-to-a-specific-command
