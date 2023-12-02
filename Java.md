@@ -64,4 +64,8 @@ https://github.com/lxy-go/SpringBoot
 ```
 see https://stackoverflow.com/questions/64824460/is-it-possible-to-configure-springs-httpfirewall-to-be-invoked-only-on-certain
 
-#### 
+#### NetBeans
+nb-javac plugin.
+https://stackoverflow.com/questions/75244372/netbeans-11-3-is-unable-to-download-plugins-or-connect-to-the-network
+https://stackoverflow.com/questions/21076179/pkix-path-building-failed-and-unable-to-find-valid-certification-path-to-requ/66889979#66889979
+https://plugins.netbeans.apache.org/catalogue/?id=20
