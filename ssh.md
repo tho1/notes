@@ -270,3 +270,7 @@ sshd -T  # view the sshd setup
 
 ### sshd lockdown ideas.
 https://www.thegeekstuff.com/2011/05/openssh-options/
+
+
+#### expected permission level.
+https://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder
