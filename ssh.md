@@ -274,3 +274,6 @@ https://www.thegeekstuff.com/2011/05/openssh-options/
 
 #### expected permission level.
 https://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder
+
+#### district host key check
+https://askubuntu.com/questions/87449/how-to-disable-strict-host-key-checking-in-ssh
