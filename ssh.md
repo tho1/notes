@@ -60,11 +60,13 @@ dropbear had its own client called dbclient
 
 To generate the private host key
 ```
-$ dropbearkey -t rsa -s 4096 -f key
+mkdir -p /etc/dropbear
+  dropbearkey -t rsa -s 4096 -f /etc/dropbear/dropbear_rsa_host_key
+  dropbearkey -t dss -s 4096 -f /etc/dropbear/dropbear_dss_host_key
 ```
 To create your own key
 ```
-dropbearkey -y -f id_rsa | grep "^ssh-rsa " >> authorized_keys
+dropbearkey -y -s 4096-f id_rsa | grep "^ssh-rsa " >> authorized_keys
 ```
 
 To convert the key for openssh
