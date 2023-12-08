@@ -230,7 +230,23 @@ https://stackoverflow.com/questions/21833732/configure-truststore-in-tomcat
 https://stackoverflow.com/questions/7885785/using-openssl-to-get-the-certificate-from-a-server
 
 ###  SSL certification generation
+```
 openssl req -utf8 -new -key [key file name] -x509 -days [cert lifespan] -out [cert file name] -set_serial [num]
+
+openssl req -newkey rsa:4096  -x509  -sha512  -days 365 -nodes -out certificate.pem -keyout privatekey.pem
+openssl list --digest-commands
+
+# read cert content
+openssl x509 -noout -in certificate.pem -text
+
+# extract public key
+openssl x509 -pubkey -noout -in certificate.pem
+
+
+```
+
+* [Self signed certificate](https://linuxconfig.org/how-to-generate-a-self-signed-ssl-certificate-on-linux)
+
 
 #### options used.
 ```
