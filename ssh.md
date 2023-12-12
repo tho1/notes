@@ -147,8 +147,13 @@ openssl s_client -connect localhost:8443 -tls1_2
 
 https://medium.com/the-new-control-plane/generating-self-signed-certificates-on-windows-7812a600c2d8
 https://stackoverflow.com/questions/19441155/how-to-create-a-self-signed-certificate-for-a-domain-name-for-development?noredirect=1&lq=1  good example on multiple wildcard domain.
-
 https://stackoverflow.com/questions/7580508/getting-chrome-to-accept-self-signed-localhost-certificate?noredirect=1&lq=1
+
+
+Setting up certificate in Java.  This uses the keytool.
+
+* ["PKIX path building failed" and "unable to find valid certification path to requested target"](https://stackoverflow.com/questions/21076179/pkix-path-building-failed-and-unable-to-find-valid-certification-path-to-requ)
+
 
 become your own CA. another good example.
 
