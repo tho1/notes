@@ -59,13 +59,22 @@ make CROSS=x86_64-w64-mingw32-
 * https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md
 * https://filippo.io/linux-syscall-table/ links back to kernel code. Good example usage.
 * https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
-
-
 * The following print the syscall installed in the system
   ```
 printf SYS_read | gcc -include sys/syscall.h -E -
 printf SYS_read | gcc -include sys/syscall.h -m32 -E -
   ```
 
+### Clang
+```
+clang -std=c99 -pedantic -Wall -Wextra -Wno-import -lobjc -framework Foundation \
+ -I MYHEADERSDIR \
+ ALLMYMFILES \
+ -o main
+ ```
+
 ### C/C++ libraries
 * http://chenweixiang.github.io/2015/12/18/linux-series-05-libraries.html
+
+
+####
