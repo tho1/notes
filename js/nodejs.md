@@ -37,3 +37,18 @@ import sock
 
 
 ### db sharding
+
+
+### config.
+npm config get prefix
+Default Path is : %USERPROFILE%\AppData\Roaming\npm
+
+npm config get cache
+Default Path is : %USERPROFILE%\AppData\Roaming\npm-cache
+
+npm config set prefix \npm
+example npm config set prefix C:\\dev\\node\\npm
+
+
+npm config set cache \npm-cache
+example npm config set cache C:\\dev\\node\\npm-cache
