@@ -148,6 +148,8 @@ https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addr
 * [using virsh](https://dyiwu.github.io/2020/06/kvm-guest-dhcp-ip/)
 * https://dracocybersecurity.com/assigning-static-ip-address-to-guest-vm-in-a-nested-kvm-ubuntu-20-04/
 * https://www.spad.uk/posts/really-simple-network-bridging-with-qemu/
+* https://serverfault.com/questions/1106884/bridged-wireless-with-parprouted-is-there-a-way-to-do-the-same-with-ipv6
+* https://serverfault.com/questions/197156/set-tap0-using-virt-manager-for-bridged-wireless
 
 
 ```
