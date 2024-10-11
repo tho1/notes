@@ -147,6 +147,7 @@ https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addr
 * https://groups.google.com/g/linux.debian.user/c/oEQH4LBRZNs?pli=1
 * [using virsh](https://dyiwu.github.io/2020/06/kvm-guest-dhcp-ip/)
 * https://dracocybersecurity.com/assigning-static-ip-address-to-guest-vm-in-a-nested-kvm-ubuntu-20-04/
+* https://www.spad.uk/posts/really-simple-network-bridging-with-qemu/
 
 
 ```
