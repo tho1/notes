@@ -30,10 +30,13 @@ initrd /initrd.gz
 * /root/my-applications/bin shell scripts that I'm likely to edit often
 * use symlink to keep the files outside of the pupsave, and you can share the settings outside and make it portable.
 * https://forum.puppylinux.com/viewtopic.php?t=6257
-* https://forum.puppylinux.com/viewtopic.php?t=6257
 
 #### see /usr/bin/google-chrome-spot
 * reset the --user-data-dir. pay attention to the location.
 ```
 exec /usr/bin/run-as-spot /opt/google/chrome/google-chrome --user-data-dir="$SPOT_HOME/.config/chrome" "$@"
 ```
+
+#### ISO builder
+* [Intro to Woof-CE](https://oldforum.puppylinux.com/viewtopic.php?t=93904&start=20)
+* [Fatdog iso builder](https://oldforum.puppylinux.com/viewtopic.php?t=105329)
