@@ -10,6 +10,9 @@
 * [Mastering KVM virtualization](https://www.packtpub.com/product/mastering-kvm-virtualization-second-edition/9781838828714)
 
 
+### Blog
+* [block devices](https://kashyapc.wordpress.com/tag/virtualization/page/2/)
+
 ## running guest OS in qemu
 * [Runnning ArchLinux in QEMU](https://www.reddit.com/r/archlinux/comments/68jvew/installing_archlinux_in_a_qemu_kvm_vm/)
 * [Running FreeBSD in QEMU](https://stackoverflow.com/questions/49656395/how-to-boot-freebsd-image-under-qemu/64027161#64027161)
@@ -206,15 +209,7 @@ qemu-system-i386 -net nic,model=rtl8139 \
 * [virtualbox to emulate a network](https://www.brianlinkletter.com/2016/07/how-to-use-virtualbox-to-emulate-a-network/)
 
 
-### OS
-https://www.ics.uci.edu/~aburtsev/238P/
-https://pdos.csail.mit.edu/6.828/2020/schedule.html
 
-### publication
-https://pdos.csail.mit.edu/publications/
-
-### xv6
-https://pdos.csail.mit.edu/6.828/2020/xv6.html
 
 ### compile qmeu and virsh
 https://developer.ibm.com/tutorials/compiling-libvirt-and-qemu/
@@ -234,4 +229,14 @@ https://qemu.readthedocs.io/en/latest/system/monitor.html
 
 ### AutoInstall openbsd.
 * https://www.skreutz.com/posts/autoinstall-openbsd-on-qemu/  This is cool!
+
+### OS in general
+* https://www.ics.uci.edu/~aburtsev/238P/
+* https://pdos.csail.mit.edu/6.828/2020/schedule.html
+
+### publication
+* https://pdos.csail.mit.edu/publications/
+
+### xv6
+* https://pdos.csail.mit.edu/6.828/2020/xv6.html
 
