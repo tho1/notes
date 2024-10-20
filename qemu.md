@@ -210,17 +210,14 @@ qemu-system-i386 -net nic,model=rtl8139 \
 * [virtualbox to emulate a network](https://www.brianlinkletter.com/2016/07/how-to-use-virtualbox-to-emulate-a-network/)
 
 
-
-
-### compile qmeu and virsh
-https://developer.ibm.com/tutorials/compiling-libvirt-and-qemu/
-
-
 ### qemu monitor
 https://kashyapc.wordpress.com/tag/qemu/
 https://en.wikibooks.org/wiki/QEMU/Monitor#:~:text=The%20monitor%20is%20accessed%20from,back%20to%20the%20guest%20OS.
 https://qemu.readthedocs.io/en/latest/system/monitor.html
 
+
+### wireguard
+https://stty.io/2019/05/13/qemu-vm-wireguard-vpn-tun-tap-networking/
 
 ### libvirt
 https://serverfault.com/questions/289979/libvirt-how-can-i-make-a-domain-start-when-the-host-starts
@@ -230,6 +227,9 @@ https://serverfault.com/questions/289979/libvirt-how-can-i-make-a-domain-start-w
 * blockcommit commits the change to the backing file
 * blockpull commits the backing file.
 * blockcommit is faster than blockpull
+
+### compile qmeu and virsh
+https://developer.ibm.com/tutorials/compiling-libvirt-and-qemu/
 
 ### AutoInstall openbsd.
 * https://www.skreutz.com/posts/autoinstall-openbsd-on-qemu/  This is cool!
