@@ -153,6 +153,7 @@ https://unix.stackexchange.com/questions/50201/how-to-configure-external-ip-addr
 * https://www.spad.uk/posts/really-simple-network-bridging-with-qemu/
 * https://serverfault.com/questions/1106884/bridged-wireless-with-parprouted-is-there-a-way-to-do-the-same-with-ipv6
 * https://serverfault.com/questions/197156/set-tap0-using-virt-manager-for-bridged-wireless
+* https://serverfault.com/questions/1159969/connect-two-qemu-vms
 
 
 ```
@@ -220,6 +221,9 @@ https://kashyapc.wordpress.com/tag/qemu/
 https://en.wikibooks.org/wiki/QEMU/Monitor#:~:text=The%20monitor%20is%20accessed%20from,back%20to%20the%20guest%20OS.
 https://qemu.readthedocs.io/en/latest/system/monitor.html
 
+
+### libvirt
+https://serverfault.com/questions/289979/libvirt-how-can-i-make-a-domain-start-when-the-host-starts
 
 ### virsh
 #### provide blockpull and blockcommit.
