@@ -71,9 +71,25 @@ TNSNAME =
 * spool spoolfile.log
 * SQL> set echo on
 * SQL> set serveroutput on form word_wrapped;
+* SQL> set serveroutput on form word_wrapped
 * http://www.dba-oracle.com/art_freeman_portable_ch1.pdf
 * https://gist.github.com/vegaasen/69c1f55c75f2e02559e8
 
+### debug
+* https://www.youtube.com/watch?v=b7Q55YvrcgA
+* https://stackoverflow.com/questions/65541172/network-access-denied-at-sys-dbms-debug-jdwp
+* dbms_debug() deprecated since 12.2
+* dbms_output.putline()
+
+* use dbms_debug_jdwp instead
+```
+GRANT DEBUG ANY PROCEDURE TO hr;
+GRANT DEBUG CONNECT SESSION TO hr;
+GRANT EXECUTE ON DBMS_DEBUG_JDWP To hr;
+COMMIT;
+
+alter session plsql_optimize_level = 1
+```
 
 ### modifying table.
 ```
