@@ -356,3 +356,7 @@ alter system set inmemory_expressions_usage = 'ENABLE';
 ### Oracle upgrade
 * [Oracle upgrade videos](https://mikedietrichde.com/videos/)
 * https://mikedietrichde.com/2022/04/06/why-you-cant-stay-on-oracle-database-11g-forever/
+
+
+### PDF geneartion
+* [APEX PDF generation](https://blogs.oracle.com/apex/post/seamless-pdf-generation-with-oracle-apex-and-oci-document-generator)
