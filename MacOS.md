@@ -40,9 +40,12 @@ strings firmaware.bin
 https://beetstech.com/blog/apple-proprietary-ssd-ultimate-guide-to-specs-and-upgrades#hdr-7
 https://beetstech.com/blog/replacing-thermal-paste
 
+### Airdrop for older mac
+defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1 see https://www.funkyspacemonkey.com/airdrop-work-older-macs
+
+
 ### XCode
 https://smallhacks.wordpress.com/2018/11/11/how-to-support-old-osx-version-with-a-recent-xcode/
-
 
 ### Credits
 * https://superuser.com/questions/334597/enable-disable-startup-programs-script-services-on-a-mac
