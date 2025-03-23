@@ -36,6 +36,14 @@ strings firmaware.bin
 * https://reverseengineering.stackexchange.com/questions/17262/binwalk-alternative?noredirect=1&lq=1
 
 
+### menu
+defaults write com.apple.dt.Xcode ShowDVTDebugMenu -bool YES
+sudo mkdir -p /Applications/Xcode.app/Contents/Developer/AppleInternal/Library/Xcode
+sudo touch /Applications/Xcode.app/Contents/Developer/AppleInternal/Library/Xcode/AppleInternal.plist
+
+# Don't forget to restart Xcode
+
+
 ### Macbook maintainence
 https://beetstech.com/blog/apple-proprietary-ssd-ultimate-guide-to-specs-and-upgrades#hdr-7
 https://beetstech.com/blog/replacing-thermal-paste
