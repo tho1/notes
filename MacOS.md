@@ -41,6 +41,10 @@ defaults write com.apple.dt.Xcode ShowDVTDebugMenu -bool YES
 sudo mkdir -p /Applications/Xcode.app/Contents/Developer/AppleInternal/Library/Xcode
 sudo touch /Applications/Xcode.app/Contents/Developer/AppleInternal/Library/Xcode/AppleInternal.plist
 
+
+### 
+https://trac.macports.org/ticket/62426   libc++: using a newer libc++ to build software on older macos systems
+
 # Don't forget to restart Xcode
 
 
