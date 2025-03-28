@@ -35,6 +35,49 @@ nodemon
 ### socket.io
 import sock
 
+var http=require('http');
+	var server = http.createServer()
+
+    server.listen( 98)
+    
+    var io = require('socket.io')
+    socket = io.listen(server)
+    
+    var fs =  require('fs')
+    socket.on('open' , function (client) {
+		client.on (
+			fs.appendFile('mytxt.txt',
+				'(' + data + ')',
+				
+				function(err) {
+					if (err) throw err;
+				}
+			
+    };
+    
+    
+    
+    var cli : function () {
+		this.serverAvailable = true
+		
+		try {
+			this.socket = new io.connect( ' ')
+			
+		}
+		catch (err) {}
+		this.socket.emit ('event', func() )
+    }
+    
+    
+    String prototype.splitcsv =
+		function () {
+			var regex = /C\s*'[^']+'|\S*[^,]+)(?=,$)/g;
+			return this.match(regex);
+		}
+		
+	var data1 = data.splitcsv();
+	
+
 
 ### db sharding
 
