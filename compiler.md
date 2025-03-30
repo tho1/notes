@@ -96,3 +96,29 @@ https://iamsorush.com/posts/build-gcc11/
 * https://www.incredibuild.com/blog/a-step-by-step-crash-course-in-c-debugging-without-ide#TUI
 * https://stackoverflow.com/questions/6637448/how-to-find-the-address-of-a-string-in-memory-using-gdb/38298343#38298343
 
+### GDB sample command
+```
+gdb -ex=r --args test --version
+set args
+
+
+p /x /d /t  <-- print values 
+x /b $register  <-- b=byte, h=half-word, w=word, g=giant
+where
+info frame
+info register
+info trace
+info proc
+info command
+
+disas
+disas <addr>
+disas <func> 
+
+```
+one can check possible commands using apropos
+
+### other useful commands.
+```
+strings -d -t x test >string.txt
+```
