@@ -7,3 +7,5 @@ keytool -export -keystore local_ssl.p12 -alias local_ssl -file local-cert.crt
 
 ```
 Install th local-cert.crt in windows
+
+https://www.youtube.com/watch?v=eBEq0Kv7vsw
