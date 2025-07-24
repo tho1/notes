@@ -18,6 +18,9 @@ Most are not getting a lot of updates.  Not enough users?
 ### migrate openbsd userland to Linux
 https://github.com/leahneukirchen/outils interesting to study the commands and the tools source code.  the coding style.
 
+### make openbsd smaller
+https://unix.stackexchange.com/questions/272881/openbsd-reduce-the-base-install-size-for-smaller-systems
+
 
 ### Conversion between Unix and Dos format
 
