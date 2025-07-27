@@ -18,3 +18,9 @@
 ### reading
 * https://useyourloaf.com/categories/objective-c/
 * https://github.com/lapcat
+
+### strong, weak, assign, copy reference.
+* strong is default for object.
+* weak does not increase object's ref count, and avoid retain cycles.
+* retain and copy is for properties.
+* see http://developer.apple.com/library/ios/#documentation/Cocoa/Conceptual/MemoryMgmt/Articles/mmPractical.html
