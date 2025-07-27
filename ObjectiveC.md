@@ -19,8 +19,14 @@
 * https://useyourloaf.com/categories/objective-c/
 * https://github.com/lapcat
 
-### strong, weak, assign, copy reference.
+### strong, weak, assign, copy, atomic nonatomic
 * strong is default for object.
 * weak does not increase object's ref count, and avoid retain cycles.
 * retain and copy is for properties.
 * see http://developer.apple.com/library/ios/#documentation/Cocoa/Conceptual/MemoryMgmt/Articles/mmPractical.html
+
+* https://stackoverflow.com/questions/588866/whats-the-difference-between-the-atomic-and-nonatomic-attributes?rq=1
+
+* https://stackoverflow.com/questions/4510913/objective-c-assign-copy-retain
+* https://stackoverflow.com/questions/387959/nsstring-property-copy-or-retain?rq=1
+* 
