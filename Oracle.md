@@ -249,7 +249,7 @@ very basic
 * Oracle Apex 5.1 requires an Oracle Database release 11.2.0.4 or later
 * https://docs.oracle.com/database/apex-5.1/HTMIG/Oracle-AE-installation-requirements.htm
 * Oracle APEX 18.1 requires an Oracle Database release 11.2.0.4 or later, and a web listener like Oracle REST Data Services (ORDS) 17.3 or later for certain features. For installation, the specific file sizes are around 310 MB to 705 MB for the software,
-* 
+* [Apex roadmap](https://www.sotful.com/sandroferreira-blog/oracle-apex-history-and-directions-by-michael-hichwa)
 
 
 
