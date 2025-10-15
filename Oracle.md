@@ -375,10 +375,20 @@ alter system set inmemory_expressions_usage = 'ENABLE';
 * https://github.com/aniskop/plsql-developer-plugin-net
 * https://github.com/tnodir/luaplsql
 
-### Oracle upgrade
+### Oracle upgrade 
 * [Oracle upgrade videos](https://mikedietrichde.com/videos/)
 * https://mikedietrichde.com/2022/04/06/why-you-cant-stay-on-oracle-database-11g-forever/
 
+#### Oracle version 11g patches to 11.2.04
+* p13390677_112040_platform_1of7.zip Oracle Database (includes Oracle Database and Oracle RAC)
+* p13390677_112040_platform_2of7.zip Oracle Database (includes Oracle Database and Oracle RAC)
+* p13390677_112040_platform_3of7.zip Oracle Grid Infrastructure (includes Oracle ASM, Oracle Clusterware, and Oracle Restart)
+* p13390677_112040_platform_4of7.zip Oracle Database Client
+* p13390677_112040_platform_5of7.zip Oracle Gateways
+* p13390677_112040_platform_6of7.zip Oracle Examples
+* p13390677_112040_platform_7of7.zip Deinstall
+* [Oracle Linux install](https://snapdba.com/2013/03/oracle-linux-6-4-installation-64-bit)
+* [Oracle Apex install](https://snapdba.com/2014/01/oracle-database-11gr2-11-2-0-4-installation-on-oracle-linux-6-4/)
 
 ### PDF geneartion
 * [APEX PDF generation](https://blogs.oracle.com/apex/post/seamless-pdf-generation-with-oracle-apex-and-oci-document-generator)
