@@ -20,6 +20,7 @@ Here are some common registry values added to registry.  See
 
 ### ODBC clients setup
 * Oracle also provide a driver for Windows application. see https://docs.oracle.com/database/121/ADFNS/adfns_odbc.htm#ADFNS1118
+* There are steps to add ODBC driver and connect ODBC db (e.g. SQLServer) from SQLDeveloper.
 
 ### check the oracle database is up
 ```
@@ -240,6 +241,9 @@ very basic
 * [Apex developer](http://jastraub.blogspot.com/)
 * https://blogs.oracle.com/apex/post/synchronize-parent-child-rest-sources
 * https://hashnode.com/@lufcmattylad
+
+### Oracle APEX blog
+* https://apps.cloudnueva.com/ords/r/apps/apex_blogs/home
 
 ### Oracle APEX version
 
