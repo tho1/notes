@@ -51,6 +51,9 @@ Finished. Total time: 0.001s
 
 ### android emulator
 https://android.googlesource.com/platform/prebuilts/android-emulator/+/master/linux-x86_64/lib/advancedFeatures.ini
+[waydroid on debian x64 and armbian focal pine64](https://gist.github.com/diyism/70ae5719d42db173e0da0742f2728cda)
+[Waydroid in WSL2 with sound](https://gist.github.com/onomatopellan/c5220c0efddaff69aaff77cca80b7b8e)
+
 
 ### access data file and backup 
 https://stackoverflow.com/questions/13006315/how-to-access-data-data-folder-in-android-device
