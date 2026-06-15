@@ -9,6 +9,10 @@
 #### Docker feature
 Docker is built on top of runC runtime container and uses daemon
 
+#### combine 2 docker images
+* http://abdelrahmanhosny.com/2015/07/11/how-to-merge-two-docker-images/
+* https://gist.github.com/dublado/2c700bcf1b2119fc4296cba8f9f09a09
+
 ### Docker installation Debian based.
 * [install docker from a package](https://docs.docker.com/engine/install/debian/#install-from-a-package)
 * [buster docker repository](https://download.docker.com/linux/debian/dists/buster/pool/stable/amd64/)
