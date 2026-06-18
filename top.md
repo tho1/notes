@@ -183,3 +183,24 @@ https://www.quora.com/What-companies-have-the-most-project-followers-on-GitHub
 
 a easy way to get a person's starred project.
 https://api.github.com/users/ddavison/starred
+
+
+## SASS
+NOTION  Appflowy
+zoom    Jitsi
+jira     plane
+airtable   nocodb
+vercel     coolify
+heroku    dokku
+firebase   pocketbase/convex/supabase/appwrite
+shopify    prestashop
+gitlab
+slack    mattermost
+salesforce erpnext
+dropbox nextcloud
+mailchimp mautic
+trello  wekan
+docusign docuseal
+calendly cal dot com
+datadog prometheus
+asana  open project
