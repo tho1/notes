@@ -55,6 +55,10 @@ https://beetstech.com/blog/replacing-thermal-paste
 ### Airdrop for older mac
 defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1 see https://www.funkyspacemonkey.com/airdrop-work-older-macs
 
+### disable discrete card
+https://discussions.apple.com/thread/8161951?sortBy=rank
+https://gist.github.com/cdleon/ae1542279598fe80f527400cc354a956?permalink_comment_id=4902254
+sudo pmset -a gpuswitch 0 
 
 ### XCode
 https://smallhacks.wordpress.com/2018/11/11/how-to-support-old-osx-version-with-a-recent-xcode/
