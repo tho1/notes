@@ -47,6 +47,9 @@ https://trac.macports.org/ticket/62426   libc++: using a newer libc++ to build s
 
 # Don't forget to restart Xcode
 
+### Mavericks 10.9
+https://apple.stackexchange.com/questions/402726/how-can-i-attempt-to-boot-an-older-version-of-macos-than-my-hardware-supports/402727#402727
+
 
 ### Macbook maintainence
 https://beetstech.com/blog/apple-proprietary-ssd-ultimate-guide-to-specs-and-upgrades#hdr-7
