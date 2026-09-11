@@ -8,3 +8,5 @@ Linksys WUSB6100M linux driver.
 ## patches
 * https://github.com/erstrom/ath10k-firmware
 * https://github.com/ajaybhatia/Qualcomm-Atheros-QCA9377-Wifi-Linux
+* https://github.com/marcost2/ath10k
+* https://github.com/crismatters/QualcommAtheros-QCA9377-WiFi-Driver
