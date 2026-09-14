@@ -1,3 +1,7 @@
+# wireless client mode.
+https://wiki.freshtomato.org/doku.php/advanced_scenarios
+
+
 # old router using aftermarket firmware.
 
 https://openwrt.org/toh/hwdata/linksys/linksys_wrt54g
