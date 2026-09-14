@@ -279,6 +279,11 @@ apex_debug.message('message');
 * https://forums.oracle.com/ords/apexds/post/getting-apex-ords-21-1-connect-to-ldap-active-directory-1901  shared component --> auth schemes
 * https://oracle-base.com/articles/misc/oracle-application-express-apex-ldap-authentication  use DBMS_LDAP modules
 
+### Apex universal theme
+shared components- refresh universal theme - reset to vita
+reapply theme roller - dev tool - customize theme roller - select previous theme roller - save
+
+
 ### Oracle Rest
 * https://docs.oracle.com/en/database/oracle/application-express/19.1/htmig/enabling-network-services-in-Oracle-db11g-or-later.html#GUID-DEA26C53-0220-40F1-86FB-482163CA5681
 * 
