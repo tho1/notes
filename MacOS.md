@@ -49,11 +49,12 @@ https://trac.macports.org/ticket/62426   libc++: using a newer libc++ to build s
 
 ### Mavericks 10.9
 https://apple.stackexchange.com/questions/402726/how-can-i-attempt-to-boot-an-older-version-of-macos-than-my-hardware-supports/402727#402727
+https://gist.github.com/kimmobrunfeldt/350f4898d1b82cf10bce [Install web development tools to Mavericks (OS X 10.9)]
 
 
 ### Macbook maintainence
 https://beetstech.com/blog/apple-proprietary-ssd-ultimate-guide-to-specs-and-upgrades#hdr-7
-https://beetstech.com/blog/replacing-thermal-paste
+https://beetstech.com/blog/replacing-thermal-paste   
 
 ### Airdrop for older mac
 defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1 see https://www.funkyspacemonkey.com/airdrop-work-older-macs
@@ -66,5 +67,12 @@ sudo pmset -a gpuswitch 0
 ### XCode
 https://smallhacks.wordpress.com/2018/11/11/how-to-support-old-osx-version-with-a-recent-xcode/
 
+### syscall related info
+https://stackoverflow.com/questions/14370328/where-is-syscall-sw-h-in-mac-os-x
+
+### M1 Mac OS X assembly sample
+https://gist.github.com/zeusdeux/bb5b5b0aac1a39d4f9cec0d4f9a44ffb
+
 ### Credits
 * https://superuser.com/questions/334597/enable-disable-startup-programs-script-services-on-a-mac
+
