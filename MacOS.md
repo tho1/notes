@@ -64,6 +64,10 @@ https://discussions.apple.com/thread/8161951?sortBy=rank
 https://gist.github.com/cdleon/ae1542279598fe80f527400cc354a956?permalink_comment_id=4902254
 sudo pmset -a gpuswitch 0 
 
+### Metal 
+https://eclecticlight.co/2022/01/15/explainer-metal/
+https://developer.apple.com/metal/Metal-Feature-Set-Tables.pdf
+
 ### XCode
 https://smallhacks.wordpress.com/2018/11/11/how-to-support-old-osx-version-with-a-recent-xcode/
 
