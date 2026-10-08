@@ -15,3 +15,6 @@ https://www.ifixit.com/Answers/View/192265/solution+to+phantom-ghost+touches+ipa
 https://www.ifixit.com/Answers/View/137418/Digitizer+freaks+out+when+laid+flat+on+the+frame
 https://imgur.com/a/mwTJa
 
+### QuickDraw replaced by Metal in Mac OS X
+https://eclecticlight.co/2024/09/21/a-brief-history-of-quickdraw-and-picts/
+https://developer.apple.com/library/archive/documentation/mac/pdf/ImagingWithQuickDraw.pdf
