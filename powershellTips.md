@@ -130,6 +130,7 @@ $smtp = New-Object Net.Mail.SmtpClient($smtpServer)
 $smtp.Send($smtpFrom,$smtpTo,$messagesubject,$messagebody)
 ```
 
+* [Automate with powershell](https://www.xda-developers.com/automating-windows-workflow-powershell-scripts-saves-hours-week/)
 
 * [User Page: Richard Mueller
 ](https://social.technet.microsoft.com/wiki/contents/articles/31616.user-page-richard-mueller.aspx)
