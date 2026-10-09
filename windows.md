@@ -35,6 +35,9 @@ https://superuser.com/questions/1280141/switch-raid-to-ahci-without-reinstalling
 wmic diskdrive get status
 ```
 
+### memory compressions
+https://www.majorgeeks.com/content/page/memory_compression.html
+
 ### backup windows partition as squashfs
 ```
 mount -o ro /dev/sda5 /mnt/windows
