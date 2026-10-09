@@ -38,6 +38,11 @@ wmic diskdrive get status
 ### memory compressions
 https://www.majorgeeks.com/content/page/memory_compression.html
 
+### security
+https://www.xda-developers.com/things-on-new-windows-pc-tighten-security/
+
+
+
 ### backup windows partition as squashfs
 ```
 mount -o ro /dev/sda5 /mnt/windows
