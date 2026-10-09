@@ -174,4 +174,7 @@ https://learn.microsoft.com/en-us/previous-versions/ms809982(v=msdn.10)
 * https://github.com/ikermit/11Syscalls win 11
 * https://github.com/j00ru/windows-syscalls pre Win 11
 
+# speculative decoding.
+* https://www.xda-developers.com/speculative-decoding-made-local-llm-usable/
+
 
